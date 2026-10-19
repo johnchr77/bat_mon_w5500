@@ -1,0 +1,1668 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K42 ]
+[d frameptr 16353 ]
+"96 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[e E16571 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"39 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\adc\src\adc.c
+[e E40 . `uc
+ADC_CHANNEL_VSS 59
+ADC_CHANNEL_TEMP 60
+ADC_CHANNEL_DAC1 61
+ADC_CHANNEL_FVR_BUFFER1 62
+ADC_CHANNEL_FVR_BUFFER2 63
+ADC_CHANNEL_ANA0 0
+]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"193 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"942
+[v _stoa stoa `(i  1 s 2 stoa ]
+"1001
+[v _utoa utoa `(i  1 s 2 utoa ]
+"1055
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+"1158
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lodiv.c
+[v ___lodiv __lodiv `(uo  1 e 8 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lomod.c
+[v ___lomod __lomod `(uo  1 e 8 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul24.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"70 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _soc_from_mv soc_from_mv `(uc  1 s 1 soc_from_mv ]
+"91
+[v _adc_get_average adc_get_average `(us  1 s 2 adc_get_average ]
+"105
+[v _Leds_Set Leds_Set `(v  1 s 1 Leds_Set ]
+"184
+[v _UART2_Print UART2_Print `(v  1 s 1 UART2_Print ]
+"215
+[v _CopyText CopyText `(v  1 s 1 CopyText ]
+"226
+[v _W5500_Write W5500_Write `(v  1 s 1 W5500_Write ]
+"238
+[v _W5500_Read W5500_Read `(v  1 s 1 W5500_Read ]
+"250
+[v _W5500_Write8 W5500_Write8 `(v  1 s 1 W5500_Write8 ]
+"255
+[v _W5500_Read8 W5500_Read8 `(uc  1 s 1 W5500_Read8 ]
+"262
+[v _W5500_Write16 W5500_Write16 `(v  1 s 1 W5500_Write16 ]
+"270
+[v _W5500_Read16 W5500_Read16 `(us  1 s 2 W5500_Read16 ]
+"277
+[v _W5500_Read16Stable W5500_Read16Stable `(us  1 s 2 W5500_Read16Stable ]
+"289
+[v _W5500_Command W5500_Command `(a  1 s 1 W5500_Command ]
+"299
+[v _W5500_Compare W5500_Compare `(a  1 s 1 W5500_Compare ]
+"306
+[v _W5500_StartHttpServer W5500_StartHttpServer `(a  1 s 1 W5500_StartHttpServer ]
+"340
+[v _TxAppend TxAppend `(v  1 s 1 TxAppend ]
+"347
+[v _TxPrint TxPrint `(v  1 s 1 TxPrint ]
+"388
+[v _BuildPage BuildPage `(v  1 s 1 BuildPage ]
+"487
+[v _W5500_SendPage W5500_SendPage `(a  1 s 1 W5500_SendPage ]
+"540
+[v _W5500_HardReset W5500_HardReset `(a  1 s 1 W5500_HardReset ]
+"565
+[v _W5500_InitializeAndConfigure W5500_InitializeAndConfigure `(v  1 s 1 W5500_InitializeAndConfigure ]
+"609
+[v _W5500_WebServerTask W5500_WebServerTask `(v  1 s 1 W5500_WebServerTask ]
+"685
+[v _main main `(v  1 e 1 0 ]
+"12 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"39
+[v _ADC_ChannelSelect ADC_ChannelSelect `(v  1 e 1 0 ]
+"44
+[v _ADC_ConversionStart ADC_ConversionStart `(v  1 e 1 0 ]
+"49
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+"59
+[v _ADC_ConversionResultGet ADC_ConversionResultGet `(s  1 e 2 0 ]
+"64
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"69
+[v _ADC_ThresholdISR ADC_ThresholdISR `(v  1 e 1 0 ]
+"71 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\spi\src\spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"119
+[v _SPI1_Deinitialize SPI1_Deinitialize `(v  1 e 1 0 ]
+"134
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"155
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"163
+[v _SPI1_Transfer SPI1_Transfer `(v  1 e 1 0 ]
+"195
+[v _SPI1_BufferExchange SPI1_BufferExchange `(v  1 e 1 0 ]
+"226
+[v _SPI1_BufferWrite SPI1_BufferWrite `(v  1 e 1 0 ]
+"255
+[v _SPI1_BufferRead SPI1_BufferRead `(v  1 e 1 0 ]
+"284
+[v _SPI1_ByteExchange SPI1_ByteExchange `(uc  1 e 1 0 ]
+"307
+[v _SPI1_ByteWrite SPI1_ByteWrite `(v  1 e 1 0 ]
+"319
+[v _SPI1_ByteRead SPI1_ByteRead `(uc  1 e 1 0 ]
+"331
+[v _SPI1_IsTxReady SPI1_IsTxReady `(a  1 e 1 0 ]
+"345
+[v _SPI1_IsRxReady SPI1_IsRxReady `(a  1 e 1 0 ]
+"39 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"80
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"106
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"115
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"119
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"132
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"141
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"145
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"158
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"167
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"171
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"69 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\uart\src\uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+"197
+[v _UART2_IsRxReady UART2_IsRxReady `(a  1 e 1 0 ]
+"202
+[v _UART2_IsTxReady UART2_IsTxReady `(a  1 e 1 0 ]
+"244
+[v _UART2_Read UART2_Read `(uc  1 e 1 0 ]
+"250
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+"265
+[v _putch putch `(v  1 e 1 0 ]
+"278
+[v _UART2_DefaultFramingErrorCallback UART2_DefaultFramingErrorCallback `(v  1 s 1 UART2_DefaultFramingErrorCallback ]
+"283
+[v _UART2_DefaultOverrunErrorCallback UART2_DefaultOverrunErrorCallback `(v  1 s 1 UART2_DefaultOverrunErrorCallback ]
+"288
+[v _UART2_DefaultParityErrorCallback UART2_DefaultParityErrorCallback `(v  1 s 1 UART2_DefaultParityErrorCallback ]
+"293
+[v _UART2_FramingErrorCallbackRegister UART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"301
+[v _UART2_OverrunErrorCallbackRegister UART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"309
+[v _UART2_ParityErrorCallbackRegister UART2_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+[s S1290 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 ZCDIE 1 0 :1:1 
+`uc 1 ADIE 1 0 :1:2 
+`uc 1 ADTIE 1 0 :1:3 
+`uc 1 C1IE 1 0 :1:4 
+`uc 1 SMT1IE 1 0 :1:5 
+`uc 1 SMT1PRAIE 1 0 :1:6 
+`uc 1 SMT1PWAIE 1 0 :1:7 
+]
+"3337 C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\pic\include\proc/pic18f47k42.h
+[u S1299 . 1 `S1290 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1299  1 e 1 @14737 ]
+[s S911 . 1 `uc 1 DMA1SCNTIE 1 0 :1:0 
+`uc 1 DMA1DCNTIE 1 0 :1:1 
+`uc 1 DMA1ORIE 1 0 :1:2 
+`uc 1 DMA1AIE 1 0 :1:3 
+`uc 1 SPI1RXIE 1 0 :1:4 
+`uc 1 SPI1TXIE 1 0 :1:5 
+`uc 1 SPI1IE 1 0 :1:6 
+`uc 1 I2C1RXIE 1 0 :1:7 
+]
+"3399
+[u S920 . 1 `S911 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES920  1 e 1 @14738 ]
+[s S695 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ADTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"3902
+[u S704 . 1 `S695 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES704  1 e 1 @14753 ]
+[s S1045 . 1 `uc 1 DMA1SCNTIF 1 0 :1:0 
+`uc 1 DMA1DCNTIF 1 0 :1:1 
+`uc 1 DMA1ORIF 1 0 :1:2 
+`uc 1 DMA1AIF 1 0 :1:3 
+`uc 1 SPI1RXIF 1 0 :1:4 
+`uc 1 SPI1TXIF 1 0 :1:5 
+`uc 1 SPI1IF 1 0 :1:6 
+`uc 1 I2C1RXIF 1 0 :1:7 
+]
+"3964
+[u S1054 . 1 `S1045 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES1054  1 e 1 @14754 ]
+[s S1232 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 C2IF 1 0 :1:1 
+`uc 1 DMA2SCNTIF 1 0 :1:2 
+`uc 1 DMA2DCNTIF 1 0 :1:3 
+`uc 1 DMA2ORIF 1 0 :1:4 
+`uc 1 DMA2AIF 1 0 :1:5 
+`uc 1 I2C2RXIF 1 0 :1:6 
+`uc 1 I2C2TXIF 1 0 :1:7 
+]
+"4145
+[u S1241 . 1 `S1232 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES1241  1 e 1 @14757 ]
+[s S1263 . 1 `uc 1 TMR4IF 1 0 :1:0 
+`uc 1 CCP2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 CWG2IF 1 0 :1:3 
+`uc 1 CLC2IF 1 0 :1:4 
+`uc 1 INT2IF 1 0 :1:5 
+]
+"4267
+[u S1270 . 1 `S1263 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES1270  1 e 1 @14759 ]
+"4886
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @14809 ]
+"5026
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @14811 ]
+"5178
+[v _OSCEN OSCEN `VEuc  1 e 1 @14813 ]
+"5229
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @14814 ]
+"5333
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @14815 ]
+"7195
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @14868 ]
+"7295
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @14870 ]
+"7395
+[v _RD0PPS RD0PPS `VEuc  1 e 1 @14872 ]
+"7945
+[v _ANSELA ANSELA `VEuc  1 e 1 @14912 ]
+"8007
+[v _WPUA WPUA `VEuc  1 e 1 @14913 ]
+"8069
+[v _ODCONA ODCONA `VEuc  1 e 1 @14914 ]
+"8131
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @14915 ]
+"8193
+[v _INLVLA INLVLA `VEuc  1 e 1 @14916 ]
+"8255
+[v _IOCAP IOCAP `VEuc  1 e 1 @14917 ]
+"8317
+[v _IOCAN IOCAN `VEuc  1 e 1 @14918 ]
+"8379
+[v _IOCAF IOCAF `VEuc  1 e 1 @14919 ]
+"8441
+[v _ANSELB ANSELB `VEuc  1 e 1 @14928 ]
+[s S126 . 1 `uc 1 ANSELB0 1 0 :1:0 
+`uc 1 ANSELB1 1 0 :1:1 
+`uc 1 ANSELB2 1 0 :1:2 
+`uc 1 ANSELB3 1 0 :1:3 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"8458
+[u S135 . 1 `S126 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES135  1 e 1 @14928 ]
+"8503
+[v _WPUB WPUB `VEuc  1 e 1 @14929 ]
+"8565
+[v _ODCONB ODCONB `VEuc  1 e 1 @14930 ]
+"8627
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @14931 ]
+"8689
+[v _INLVLB INLVLB `VEuc  1 e 1 @14932 ]
+"8751
+[v _IOCBP IOCBP `VEuc  1 e 1 @14933 ]
+"8813
+[v _IOCBN IOCBN `VEuc  1 e 1 @14934 ]
+"8875
+[v _IOCBF IOCBF `VEuc  1 e 1 @14935 ]
+"8937
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @14938 ]
+"9045
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @14939 ]
+"9153
+[v _ANSELC ANSELC `VEuc  1 e 1 @14944 ]
+"9215
+[v _WPUC WPUC `VEuc  1 e 1 @14945 ]
+"9277
+[v _ODCONC ODCONC `VEuc  1 e 1 @14946 ]
+"9339
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @14947 ]
+"9401
+[v _INLVLC INLVLC `VEuc  1 e 1 @14948 ]
+"9463
+[v _IOCCP IOCCP `VEuc  1 e 1 @14949 ]
+"9525
+[v _IOCCN IOCCN `VEuc  1 e 1 @14950 ]
+"9587
+[v _IOCCF IOCCF `VEuc  1 e 1 @14951 ]
+"9649
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @14954 ]
+"9757
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @14955 ]
+"9865
+[v _ANSELD ANSELD `VEuc  1 e 1 @14960 ]
+[s S208 . 1 `uc 1 ANSELD0 1 0 :1:0 
+`uc 1 ANSELD1 1 0 :1:1 
+`uc 1 ANSELD2 1 0 :1:2 
+`uc 1 ANSELD3 1 0 :1:3 
+`uc 1 ANSELD4 1 0 :1:4 
+`uc 1 ANSELD5 1 0 :1:5 
+`uc 1 ANSELD6 1 0 :1:6 
+`uc 1 ANSELD7 1 0 :1:7 
+]
+"9882
+[u S217 . 1 `S208 1 . 1 0 ]
+[v _ANSELDbits ANSELDbits `VES217  1 e 1 @14960 ]
+"9927
+[v _WPUD WPUD `VEuc  1 e 1 @14961 ]
+"9989
+[v _ODCOND ODCOND `VEuc  1 e 1 @14962 ]
+"10051
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @14963 ]
+"10113
+[v _INLVLD INLVLD `VEuc  1 e 1 @14964 ]
+"10175
+[v _RD0I2C RD0I2C `VEuc  1 e 1 @14970 ]
+"10283
+[v _RD1I2C RD1I2C `VEuc  1 e 1 @14971 ]
+"10391
+[v _ANSELE ANSELE `VEuc  1 e 1 @14976 ]
+"10423
+[v _WPUE WPUE `VEuc  1 e 1 @14977 ]
+"10461
+[v _ODCONE ODCONE `VEuc  1 e 1 @14978 ]
+"10493
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @14979 ]
+"10525
+[v _INLVLE INLVLE `VEuc  1 e 1 @14980 ]
+"10563
+[v _IOCEP IOCEP `VEuc  1 e 1 @14981 ]
+"10584
+[v _IOCEN IOCEN `VEuc  1 e 1 @14982 ]
+"10605
+[v _IOCEF IOCEF `VEuc  1 e 1 @14983 ]
+"11246
+[v _SPI1SCKPPS SPI1SCKPPS `VEuc  1 e 1 @15070 ]
+"11266
+[v _SPI1SDIPPS SPI1SDIPPS `VEuc  1 e 1 @15071 ]
+"11426
+[v _U2RXPPS U2RXPPS `VEuc  1 e 1 @15080 ]
+"21960
+[v _SPI1RXB SPI1RXB `VEuc  1 e 1 @15632 ]
+"22030
+[v _SPI1TXB SPI1TXB `VEuc  1 e 1 @15633 ]
+"22107
+[v _SPI1TCNTL SPI1TCNTL `VEuc  1 e 1 @15634 ]
+"22127
+[v _SPI1TCNTH SPI1TCNTH `VEuc  1 e 1 @15635 ]
+"22147
+[v _SPI1CON0 SPI1CON0 `VEuc  1 e 1 @15636 ]
+[s S883 . 1 `uc 1 BMODE 1 0 :1:0 
+`uc 1 MST 1 0 :1:1 
+`uc 1 LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 EN 1 0 :1:7 
+]
+"22168
+[s S889 . 1 `uc 1 SPI1BMODE 1 0 :1:0 
+`uc 1 SPI1MST 1 0 :1:1 
+`uc 1 SPI1LSBF 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 SPI1SPIEN 1 0 :1:7 
+]
+[u S895 . 1 `S883 1 . 1 0 `S889 1 . 1 0 ]
+[v _SPI1CON0bits SPI1CON0bits `VES895  1 e 1 @15636 ]
+"22213
+[v _SPI1CON1 SPI1CON1 `VEuc  1 e 1 @15637 ]
+"22315
+[v _SPI1CON2 SPI1CON2 `VEuc  1 e 1 @15638 ]
+"22393
+[v _SPI1STATUS SPI1STATUS `VEuc  1 e 1 @15639 ]
+[s S942 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"22420
+[s S951 . 1 `uc 1 SPI1RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 SPI1CLRBF 1 0 :1:2 
+`uc 1 SPI1RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 SPI1TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 SPI1TXWE 1 0 :1:7 
+]
+[u S960 . 1 `S942 1 . 1 0 `S951 1 . 1 0 ]
+[v _SPI1STATUSbits SPI1STATUSbits `VES960  1 e 1 @15639 ]
+"22475
+[v _SPI1TWIDTH SPI1TWIDTH `VEuc  1 e 1 @15640 ]
+"22515
+[v _SPI1BAUD SPI1BAUD `VEuc  1 e 1 @15641 ]
+"22585
+[v _SPI1INTF SPI1INTF `VEuc  1 e 1 @15642 ]
+[s S1004 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TXUIF 1 0 :1:1 
+`uc 1 RXOIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 EOSIF 1 0 :1:4 
+`uc 1 SOSIF 1 0 :1:5 
+`uc 1 TCZIF 1 0 :1:6 
+`uc 1 SRMTIF 1 0 :1:7 
+]
+"22612
+[s S1013 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SPI1TXUIF 1 0 :1:1 
+`uc 1 SPI1RXOIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SPI1EOSIF 1 0 :1:4 
+`uc 1 SPI1SOSIF 1 0 :1:5 
+`uc 1 SPI1TCZIF 1 0 :1:6 
+`uc 1 SPI1SRMTIF 1 0 :1:7 
+]
+[u S1022 . 1 `S1004 1 . 1 0 `S1013 1 . 1 0 ]
+[v _SPI1INTFbits SPI1INTFbits `VES1022  1 e 1 @15642 ]
+"22677
+[v _SPI1INTE SPI1INTE `VEuc  1 e 1 @15643 ]
+"22769
+[v _SPI1CLK SPI1CLK `VEuc  1 e 1 @15644 ]
+"24891
+[v _U2RXB U2RXB `VEuc  1 e 1 @15824 ]
+"24929
+[v _U2TXB U2TXB `VEuc  1 e 1 @15826 ]
+"24974
+[v _U2P1L U2P1L `VEuc  1 e 1 @15828 ]
+"25001
+[v _U2P2L U2P2L `VEuc  1 e 1 @15830 ]
+"25028
+[v _U2P3L U2P3L `VEuc  1 e 1 @15832 ]
+"25048
+[v _U2CON0 U2CON0 `VEuc  1 e 1 @15834 ]
+[s S1558 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+]
+"25079
+[s S1562 . 1 `uc 1 U2MODE 1 0 :4:0 
+`uc 1 U2RXEN 1 0 :1:4 
+`uc 1 U2TXEN 1 0 :1:5 
+`uc 1 U2ABDEN 1 0 :1:6 
+`uc 1 U2BRGS 1 0 :1:7 
+]
+[s S1568 . 1 `uc 1 U2MODE0 1 0 :1:0 
+`uc 1 U2MODE1 1 0 :1:1 
+`uc 1 U2MODE2 1 0 :1:2 
+]
+[s S1572 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S1578 . 1 `S1558 1 . 1 0 `S1562 1 . 1 0 `S1568 1 . 1 0 `S1572 1 . 1 0 ]
+[v _U2CON0bits U2CON0bits `VES1578  1 e 1 @15834 ]
+"25164
+[v _U2CON1 U2CON1 `VEuc  1 e 1 @15835 ]
+[s S1522 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"25189
+[s S1530 . 1 `uc 1 U2SENDB 1 0 :1:0 
+`uc 1 U2BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U2RXBIMD 1 0 :1:3 
+`uc 1 U2WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U2ON 1 0 :1:7 
+]
+[u S1538 . 1 `S1522 1 . 1 0 `S1530 1 . 1 0 ]
+[v _U2CON1bits U2CON1bits `VES1538  1 e 1 @15835 ]
+"25244
+[v _U2CON2 U2CON2 `VEuc  1 e 1 @15836 ]
+"25383
+[v _U2BRGL U2BRGL `VEuc  1 e 1 @15837 ]
+"25403
+[v _U2BRGH U2BRGH `VEuc  1 e 1 @15838 ]
+"25423
+[v _U2FIFO U2FIFO `VEuc  1 e 1 @15839 ]
+[s S1672 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"25458
+[s S1681 . 1 `uc 1 U2RXBF 1 0 :1:0 
+`uc 1 U2RXBE 1 0 :1:1 
+`uc 1 U2XON 1 0 :1:2 
+`uc 1 U2RXIDL 1 0 :1:3 
+`uc 1 U2TXBF 1 0 :1:4 
+`uc 1 U2TXBE 1 0 :1:5 
+`uc 1 U2STPMD 1 0 :1:6 
+`uc 1 U2TXWRE 1 0 :1:7 
+]
+[s S1690 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U2RCIDL 1 0 :1:3 
+]
+[s S1693 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+[u S1696 . 1 `S1672 1 . 1 0 `S1681 1 . 1 0 `S1690 1 . 1 0 `S1693 1 . 1 0 ]
+[v _U2FIFObits U2FIFObits `VES1696  1 e 1 @15839 ]
+"25553
+[v _U2UIR U2UIR `VEuc  1 e 1 @15840 ]
+[s S1604 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"25574
+[s S1610 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U2ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U2ABDIF 1 0 :1:6 
+`uc 1 U2WUIF 1 0 :1:7 
+]
+[u S1616 . 1 `S1604 1 . 1 0 `S1610 1 . 1 0 ]
+[v _U2UIRbits U2UIRbits `VES1616  1 e 1 @15840 ]
+"25609
+[v _U2ERRIR U2ERRIR `VEuc  1 e 1 @15841 ]
+[s S1632 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"25636
+[s S1641 . 1 `uc 1 U2TXCIF 1 0 :1:0 
+`uc 1 U2RXFOIF 1 0 :1:1 
+`uc 1 U2RXBKIF 1 0 :1:2 
+`uc 1 U2FERIF 1 0 :1:3 
+`uc 1 U2CERIF 1 0 :1:4 
+`uc 1 U2ABDOVF 1 0 :1:5 
+`uc 1 U2PERIF 1 0 :1:6 
+`uc 1 U2TXMTIF 1 0 :1:7 
+]
+[u S1650 . 1 `S1632 1 . 1 0 `S1641 1 . 1 0 ]
+[v _U2ERRIRbits U2ERRIRbits `VES1650  1 e 1 @15841 ]
+"25721
+[v _U2ERRIE U2ERRIE `VEuc  1 e 1 @15842 ]
+"30170
+[v _ADRESL ADRESL `VEuc  1 e 1 @16111 ]
+"30298
+[v _ADRESH ADRESH `VEuc  1 e 1 @16112 ]
+"30418
+[v _ADPCH ADPCH `VEuc  1 e 1 @16113 ]
+"30522
+[v _ADACQ ADACQ `VEus  1 e 2 @16115 ]
+"31068
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @16120 ]
+[s S627 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM 1 0 :2:2 
+`uc 1 CS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CONT 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"31106
+[s S635 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+[s S643 . 1 `uc 1 DONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FM0 1 0 :1:2 
+]
+[s S647 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S649 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[u S653 . 1 `S627 1 . 1 0 `S635 1 . 1 0 `S643 1 . 1 0 `S647 1 . 1 0 `S649 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES653  1 e 1 @16120 ]
+"31186
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @16121 ]
+"31252
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @16122 ]
+"31685
+[v _ADREF ADREF `VEuc  1 e 1 @16125 ]
+"31859
+[v _ADCLK ADCLK `VEuc  1 e 1 @16127 ]
+"45904
+[v _LATA LATA `VEuc  1 e 1 @16314 ]
+"46016
+[v _LATB LATB `VEuc  1 e 1 @16315 ]
+[s S168 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"46043
+[s S177 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+"46043
+[u S186 . 1 `S168 1 . 1 0 `S177 1 . 1 0 ]
+"46043
+"46043
+[v _LATBbits LATBbits `VES186  1 e 1 @16315 ]
+"46128
+[v _LATC LATC `VEuc  1 e 1 @16316 ]
+"46240
+[v _LATD LATD `VEuc  1 e 1 @16317 ]
+[s S58 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"46267
+[s S67 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+"46267
+[u S76 . 1 `S58 1 . 1 0 `S67 1 . 1 0 ]
+"46267
+"46267
+[v _LATDbits LATDbits `VES76  1 e 1 @16317 ]
+"46352
+[v _LATE LATE `VEuc  1 e 1 @16318 ]
+"46404
+[v _TRISA TRISA `VEuc  1 e 1 @16322 ]
+"46466
+[v _TRISB TRISB `VEuc  1 e 1 @16323 ]
+[s S147 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"46483
+[u S156 . 1 `S147 1 . 1 0 ]
+"46483
+"46483
+[v _TRISBbits TRISBbits `VES156  1 e 1 @16323 ]
+"46528
+[v _TRISC TRISC `VEuc  1 e 1 @16324 ]
+[s S983 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"46545
+[u S992 . 1 `S983 1 . 1 0 ]
+"46545
+"46545
+[v _TRISCbits TRISCbits `VES992  1 e 1 @16324 ]
+"46590
+[v _TRISD TRISD `VEuc  1 e 1 @16325 ]
+[s S229 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"46607
+[u S238 . 1 `S229 1 . 1 0 ]
+"46607
+"46607
+[v _TRISDbits TRISDbits `VES238  1 e 1 @16325 ]
+"46652
+[v _TRISE TRISE `VEuc  1 e 1 @16326 ]
+[s S1184 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"46990
+[s S1192 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"46990
+[u S1195 . 1 `S1184 1 . 1 0 `S1192 1 . 1 0 ]
+"46990
+"46990
+[v _INTCON0bits INTCON0bits `VES1195  1 e 1 @16338 ]
+"153 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"189
+[v _nout nout `i  1 s 2 nout ]
+"161 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _cfg_mac cfg_mac `C[6]uc  1 s 6 cfg_mac ]
+"162
+[v _cfg_ip cfg_ip `C[4]uc  1 s 4 cfg_ip ]
+"163
+[v _cfg_sub cfg_sub `C[4]uc  1 s 4 cfg_sub ]
+"164
+[v _cfg_gw cfg_gw `C[4]uc  1 s 4 cfg_gw ]
+"166
+[v _w5500_version w5500_version `VEuc  1 e 1 0 ]
+"167
+[v _w5500_ok w5500_ok `VEa  1 e 1 0 ]
+"168
+[v _cfg_ok cfg_ok `VEa  1 e 1 0 ]
+"169
+[v _phycfgr phycfgr `VEuc  1 e 1 0 ]
+"170
+[v _link_up link_up `VEa  1 e 1 0 ]
+"171
+[v _socket_status socket_status `VEuc  1 e 1 0 ]
+"172
+[v _server_ready server_ready `VEa  1 e 1 0 ]
+"173
+[v _http_request_seen http_request_seen `VEa  1 e 1 0 ]
+"174
+[v _send_ok send_ok `VEa  1 e 1 0 ]
+"175
+[v _http_response_sent http_response_sent `VEa  1 e 1 0 ]
+"176
+[v _read_ip read_ip `VE[4]uc  1 e 4 0 ]
+"177
+[v _received_size received_size `VEus  1 e 2 0 ]
+"178
+[v _last_response_length last_response_length `VEus  1 e 2 0 ]
+"179
+[v _last_tx_free last_tx_free `VEus  1 e 2 0 ]
+"180
+[v _send_stage send_stage `VEuc  1 e 1 0 ]
+"182
+[v _diagnostic diagnostic `[112]uc  1 s 112 diagnostic ]
+"193
+[v _web_vbat_mv web_vbat_mv `VEus  1 s 2 web_vbat_mv ]
+"194
+[v _web_soc web_soc `VEuc  1 s 1 web_soc ]
+"195
+[v _web_charging web_charging `VEuc  1 s 1 web_charging ]
+"196
+[v _web_full web_full `VEuc  1 s 1 web_full ]
+"197
+[v _web_fault web_fault `VEuc  1 s 1 web_fault ]
+"198
+[v _web_no_charger web_no_charger `VEuc  1 s 1 web_no_charger ]
+"199
+[v _web_led1 web_led1 `VEuc  1 s 1 web_led1 ]
+"200
+[v _web_led2 web_led2 `VEuc  1 s 1 web_led2 ]
+"201
+[v _web_state web_state `[24]uc  1 s 24 web_state ]
+"202
+[v _web_chg web_chg `[32]uc  1 s 32 web_chg ]
+"203
+[v _web_trend web_trend `[8]uc  1 s 8 web_trend ]
+"206
+[v _hist hist `[120]us  1 s 240 hist ]
+"207
+[v _hist_head hist_head `uc  1 s 1 hist_head ]
+"208
+[v _hist_count hist_count `uc  1 s 1 hist_count ]
+"211
+[v _tx_ptr tx_ptr `us  1 s 2 tx_ptr ]
+"212
+[v _tx_len tx_len `us  1 s 2 tx_len ]
+"213
+[v _page_buf page_buf `[700]uc  1 s 700 page_buf ]
+"355
+[v _P_HEAD P_HEAD `C[1674]uc  1 s 1674 P_HEAD ]
+"373
+[v _P_CHART P_CHART `C[395]uc  1 s 395 P_CHART ]
+"381
+[v _P_NODATA P_NODATA `C[98]uc  1 s 98 P_NODATA ]
+"384
+[v _P_TAIL P_TAIL `C[81]uc  1 s 81 P_TAIL ]
+[s S877 . 5 `uc 1 con0 1 0 `uc 1 con1 1 1 `uc 1 con2 1 2 `uc 1 baud 1 3 `uc 1 clksel 1 4 ]
+"66 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\spi\src\spi1.c
+[v _spi1_configuration spi1_configuration `C[2]S877  1 s 10 spi1_configuration ]
+"38 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S1467 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"51 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\uart\src\uart2.c
+[u S1472 . 2 `S1467 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart2RxLastError uart2RxLastError `VES1472  1 s 2 uart2RxLastError ]
+"57
+[v _UART2_FramingErrorHandler UART2_FramingErrorHandler `*.38(v  1 s 3 UART2_FramingErrorHandler ]
+"58
+[v _UART2_OverrunErrorHandler UART2_OverrunErrorHandler `*.38(v  1 s 3 UART2_OverrunErrorHandler ]
+"59
+[v _UART2_ParityErrorHandler UART2_ParityErrorHandler `*.38(v  1 s 3 UART2_ParityErrorHandler ]
+"685 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"824
+[v main@d d `s  1 a 2 71 ]
+"754
+[v main@v_mv v_mv `l  1 a 4 75 ]
+"753
+[v main@pin_mv pin_mv `ul  1 a 4 32 ]
+"755
+[v main@vbat vbat `us  1 a 2 111 ]
+"752
+[v main@fres fres `us  1 a 2 99 ]
+"751
+[v main@raw raw `us  1 a 2 91 ]
+"760
+[v main@state state `*.32Cuc  1 a 2 85 ]
+"752
+[v main@result result `us  1 a 2 81 ]
+[v main@diff diff `us  1 a 2 48 ]
+"761
+[v main@trend_txt trend_txt `*.34Cuc  1 a 2 40 ]
+"756
+[v main@nosense nosense `uc  1 a 1 105 ]
+"759
+[v main@soc soc `uc  1 a 1 98 ]
+"763
+[v main@led1_mode led1_mode `uc  1 a 1 84 ]
+"762
+[v main@ra1 ra1 `uc  1 a 1 83 ]
+"763
+[v main@led2_mode led2_mode `uc  1 a 1 74 ]
+"762
+[v main@ra2 ra2 `uc  1 a 1 73 ]
+"758
+[v main@on_charger on_charger `uc  1 a 1 43 ]
+"757
+[v main@allowed allowed `uc  1 a 1 42 ]
+"687
+[v main@chg chg `[32]uc  1 a 32 0 ]
+"692
+[v main@filt filt `ul  1 a 4 94 ]
+"703
+[v main@charge_ticks charge_ticks `ul  1 a 4 56 ]
+"694
+[v main@shown shown `us  1 a 2 102 ]
+"704
+[v main@on_ticks on_ticks `us  1 a 2 87 ]
+"698
+[v main@startup startup `us  1 a 2 79 ]
+"708
+[v main@trend_ref trend_ref `us  1 a 2 69 ]
+"699
+[v main@off_hold off_hold `us  1 a 2 67 ]
+"714
+[v main@hist_timer hist_timer `us  1 a 2 46 ]
+"707
+[v main@trend_timer trend_timer `us  1 a 2 44 ]
+"696
+[v main@charging charging `uc  1 a 1 110 ]
+"712
+[v main@trend trend `c  1 a 1 109 ]
+"705
+[v main@no_charger no_charger `uc  1 a 1 108 ]
+"697
+[v main@full full `uc  1 a 1 107 ]
+"713
+[v main@blink blink `uc  1 a 1 106 ]
+"701
+[v main@ov_latched ov_latched `uc  1 a 1 104 ]
+"702
+[v main@nofull_latched nofull_latched `uc  1 a 1 101 ]
+"710
+[v main@full_windows full_windows `uc  1 a 1 93 ]
+"711
+[v main@fall_windows fall_windows `uc  1 a 1 90 ]
+"700
+[v main@ov_count ov_count `uc  1 a 1 89 ]
+"715
+[v main@w5500_retry w5500_retry `uc  1 a 1 62 ]
+"709
+[v main@trend_init trend_init `uc  1 a 1 61 ]
+"693
+[v main@primed primed `uc  1 a 1 60 ]
+"967
+} 0
+"70
+[v _soc_from_mv soc_from_mv `(uc  1 s 1 soc_from_mv ]
+{
+"83
+[v soc_from_mv@span_pc span_pc `us  1 a 2 43 ]
+"82
+[v soc_from_mv@span_mv span_mv `us  1 a 2 41 ]
+"75
+[v soc_from_mv@pt_mv pt_mv `*.32Cus  1 a 2 45 ]
+"76
+[v soc_from_mv@i i `uc  1 a 1 47 ]
+"70
+[v soc_from_mv@v v `us  1 p 2 25 ]
+[v soc_from_mv@on_charger on_charger `uc  1 p 1 27 ]
+"72
+[v soc_from_mv@rest_mv rest_mv `C[5]us  1 s 10 rest_mv ]
+"73
+[v soc_from_mv@charge_mv charge_mv `C[5]us  1 s 10 charge_mv ]
+"74
+[v soc_from_mv@pt_pc pt_pc `C[5]uc  1 s 5 pt_pc ]
+"89
+} 0
+"91
+[v _adc_get_average adc_get_average `(us  1 s 2 adc_get_average ]
+{
+"93
+[v adc_get_average@sum sum `ul  1 a 4 10 ]
+"94
+[v adc_get_average@i i `uc  1 a 1 14 ]
+"102
+} 0
+"49 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_IsConversionDone ADC_IsConversionDone `(a  1 e 1 0 ]
+{
+"52
+} 0
+"44
+[v _ADC_ConversionStart ADC_ConversionStart `(v  1 e 1 0 ]
+{
+"47
+} 0
+"59
+[v _ADC_ConversionResultGet ADC_ConversionResultGet `(s  1 e 2 0 ]
+{
+"62
+} 0
+"39
+[v _ADC_ChannelSelect ADC_ChannelSelect `(v  1 e 1 0 ]
+{
+[v ADC_ChannelSelect@channel channel `E40  1 p 1 wreg ]
+[v ADC_ChannelSelect@channel channel `E40  1 p 1 wreg ]
+"41
+[v ADC_ChannelSelect@channel channel `E40  1 p 1 0 ]
+"42
+} 1
+"609 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _W5500_WebServerTask W5500_WebServerTask `(v  1 s 1 W5500_WebServerTask ]
+{
+"622
+[v W5500_WebServerTask@ip ip `[4]uc  1 a 4 63 ]
+"612
+[v W5500_WebServerTask@rx_size rx_size `us  1 a 2 70 ]
+[v W5500_WebServerTask@rx_rd rx_rd `us  1 a 2 67 ]
+"613
+[v W5500_WebServerTask@status status `uc  1 a 1 72 ]
+"611
+[v W5500_WebServerTask@rb rb `[1]uc  1 a 1 69 ]
+"682
+} 0
+"306
+[v _W5500_StartHttpServer W5500_StartHttpServer `(a  1 s 1 W5500_StartHttpServer ]
+{
+"309
+[v W5500_StartHttpServer@timeout timeout `ul  1 a 4 24 ]
+"308
+[v W5500_StartHttpServer@port port `[2]uc  1 a 2 22 ]
+"307
+[v W5500_StartHttpServer@F16905 F16905 `[2]uc  1 s 2 F16905 ]
+"337
+} 0
+"487
+[v _W5500_SendPage W5500_SendPage `(a  1 s 1 W5500_SendPage ]
+{
+"490
+[v W5500_SendPage@timeout timeout `ul  1 a 4 59 ]
+"489
+[v W5500_SendPage@tx_free tx_free `us  1 a 2 57 ]
+"491
+[v W5500_SendPage@interrupt_status interrupt_status `uc  1 a 1 56 ]
+"536
+} 0
+"262
+[v _W5500_Write16 W5500_Write16 `(v  1 s 1 W5500_Write16 ]
+{
+"264
+[v W5500_Write16@data data `[2]uc  1 a 2 18 ]
+"262
+[v W5500_Write16@addr addr `us  1 p 2 13 ]
+[v W5500_Write16@bsb bsb `uc  1 p 1 15 ]
+[v W5500_Write16@value value `us  1 p 2 16 ]
+"268
+} 0
+"277
+[v _W5500_Read16Stable W5500_Read16Stable `(us  1 s 2 W5500_Read16Stable ]
+{
+"279
+[v W5500_Read16Stable@second second `us  1 a 2 23 ]
+[v W5500_Read16Stable@first first `us  1 a 2 20 ]
+"280
+[v W5500_Read16Stable@tries tries `uc  1 a 1 22 ]
+"277
+[v W5500_Read16Stable@addr addr `us  1 p 2 17 ]
+[v W5500_Read16Stable@bsb bsb `uc  1 p 1 19 ]
+"287
+} 0
+"270
+[v _W5500_Read16 W5500_Read16 `(us  1 s 2 W5500_Read16 ]
+{
+"272
+[v W5500_Read16@data data `[2]uc  1 a 2 15 ]
+"270
+[v W5500_Read16@addr addr `us  1 p 2 10 ]
+[v W5500_Read16@bsb bsb `uc  1 p 1 12 ]
+"275
+} 0
+"289
+[v _W5500_Command W5500_Command `(a  1 s 1 W5500_Command ]
+{
+[v W5500_Command@command command `uc  1 p 1 wreg ]
+"291
+[v W5500_Command@timeout timeout `ul  1 a 4 18 ]
+"289
+[v W5500_Command@command command `uc  1 p 1 wreg ]
+"292
+[v W5500_Command@command command `uc  1 p 1 17 ]
+"297
+} 1
+"255
+[v _W5500_Read8 W5500_Read8 `(uc  1 s 1 W5500_Read8 ]
+{
+"257
+[v W5500_Read8@value value `uc  1 a 1 13 ]
+"255
+[v W5500_Read8@addr addr `us  1 p 2 10 ]
+[v W5500_Read8@bsb bsb `uc  1 p 1 12 ]
+"260
+} 0
+"388
+[v _BuildPage BuildPage `(v  1 s 1 BuildPage ]
+{
+"472
+[v BuildPage@y y `l  1 a 4 47 ]
+"473
+[v BuildPage@x x `us  1 a 2 14 ]
+"396
+[v BuildPage@n n `i  1 a 2 54 ]
+"392
+[v BuildPage@soc soc `ui  1 a 2 52 ]
+"390
+[v BuildPage@badge badge `*.32Cuc  1 a 2 45 ]
+"391
+[v BuildPage@r1txt r1txt `*.32Cuc  1 a 2 43 ]
+[v BuildPage@r1cls r1cls `*.32Cuc  1 a 2 41 ]
+"393
+[v BuildPage@b10 b10 `us  1 a 2 39 ]
+"391
+[v BuildPage@r2txt r2txt `*.32Cuc  1 a 2 37 ]
+[v BuildPage@r2cls r2cls `*.32Cuc  1 a 2 35 ]
+"390
+[v BuildPage@arrow arrow `*.32Cuc  1 a 2 33 ]
+"394
+[v BuildPage@dash dash `us  1 a 2 12 ]
+"390
+[v BuildPage@safe_txt safe_txt `*.32Cuc  1 a 2 10 ]
+[v BuildPage@safe_col safe_col `*.32Cuc  1 a 2 8 ]
+[v BuildPage@ring ring `*.34Cuc  1 a 2 6 ]
+"395
+[v BuildPage@i i `uc  1 a 1 51 ]
+[v BuildPage@idx idx `uc  1 a 1 20 ]
+"485
+} 0
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S2413 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+"13
+[s S2416 _IO_FILE 11 `S2413 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S2416  1 a 11 76 ]
+"11
+[v sprintf@ret ret `i  1 a 2 73 ]
+"12
+[v sprintf@ap ap `[1]*.30v  1 a 1 75 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 55 ]
+[v sprintf@fmt fmt `*.32Cuc  1 p 2 57 ]
+"23
+} 0
+"1817 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 53 ]
+[s S2448 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.30S2448  1 p 1 49 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 50 ]
+[v vfprintf@ap ap `*.30*.30v  1 p 1 52 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+[u S2472 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S2472  1 a 4 42 ]
+"1179
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 47 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 46 ]
+[s S2448 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.30S2448  1 p 1 36 ]
+[v vfpfcnvrt@fmt fmt `*.30*.32uc  1 p 1 37 ]
+[v vfpfcnvrt@ap ap `*.39*.30v  1 p 2 38 ]
+"1814
+} 0
+"1055
+[v _xtoa xtoa `(i  1 s 2 xtoa ]
+{
+"1063
+[v xtoa@i i `i  1 a 2 34 ]
+[v xtoa@w w `i  1 a 2 31 ]
+"1059
+[v xtoa@c c `uc  1 a 1 33 ]
+"1067
+[v xtoa@p p `a  1 a 1 30 ]
+[s S2448 _IO_FILE 0 ]
+"1055
+[v xtoa@fp fp `*.30S2448  1 p 1 24 ]
+[v xtoa@d d `ui  1 p 2 25 ]
+"1153
+} 0
+"1001
+[v _utoa utoa `(i  1 s 2 utoa ]
+{
+"1003
+[v utoa@i i `i  1 a 2 30 ]
+[v utoa@w w `i  1 a 2 28 ]
+"1007
+[v utoa@p p `a  1 a 1 27 ]
+[s S2448 _IO_FILE 0 ]
+"1001
+[v utoa@fp fp `*.30S2448  1 p 1 24 ]
+[v utoa@d d `ui  1 p 2 25 ]
+"1047
+} 0
+"193
+[v _pad pad `(i  1 s 2 pad ]
+{
+"195
+[v pad@i i `i  1 a 2 22 ]
+[s S2448 _IO_FILE 0 ]
+"193
+[v pad@fp fp `*.30S2448  1 p 1 16 ]
+[v pad@buf buf `*.39uc  1 p 2 17 ]
+[v pad@p p `i  1 p 2 19 ]
+"226
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.39Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"12
+} 0
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 10 ]
+[u S2413 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S2416 _IO_FILE 11 `S2413 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.30S2416  1 p 1 12 ]
+"19
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"942 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _stoa stoa `(i  1 s 2 stoa ]
+{
+"945
+[v stoa@l l `i  1 a 2 21 ]
+"944
+[v stoa@cp cp `*.34uc  1 a 2 19 ]
+"947
+[v stoa@w w `i  1 a 2 17 ]
+"945
+[v stoa@p p `i  1 a 2 15 ]
+[s S2448 _IO_FILE 0 ]
+"942
+[v stoa@fp fp `*.30S2448  1 p 1 10 ]
+[v stoa@s s `*.34uc  1 p 2 11 ]
+"997
+} 0
+"8 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 2 ]
+[u S2413 . 2 `*.39uc 1 buffer 2 0 `*.39Cuc 1 source 2 0 ]
+[s S2416 _IO_FILE 11 `S2413 1 . 2 0 `i 1 count 2 2 `[3]uc 1 ungetbuf 3 4 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.30S2416  1 p 1 4 ]
+"24
+} 0
+"265 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\uart\src\uart2.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 wreg ]
+[v putch@txData txData `uc  1 p 1 1 ]
+"272
+} 1
+"1158 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\doprnt.c
+[v _read_prec_or_width read_prec_or_width `(i  1 s 2 read_prec_or_width ]
+{
+"1164
+[v read_prec_or_width@c c `uc  1 a 1 4 ]
+"1159
+[v read_prec_or_width@n n `i  1 a 2 5 ]
+"1158
+[v read_prec_or_width@fmt fmt `*.30*.32Cuc  1 p 1 0 ]
+[v read_prec_or_width@ap ap `*.30[1]*.30v  1 p 1 1 ]
+"1171
+} 0
+"15 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"17
+[v ___lmul@product product `ul  1 a 4 8 ]
+"15
+[v ___lmul@multiplier multiplier `ul  1 p 4 0 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 4 ]
+"129
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 20 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 24 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 12 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 16 ]
+"30
+} 0
+"7 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\sources\c99\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"10
+[v ___aldiv@quotient quotient `l  1 a 4 22 ]
+"11
+[v ___aldiv@sign sign `uc  1 a 1 21 ]
+[v ___aldiv@counter counter `uc  1 a 1 20 ]
+"7
+[v ___aldiv@dividend dividend `l  1 p 4 12 ]
+[v ___aldiv@divisor divisor `l  1 p 4 16 ]
+"41
+} 0
+"347 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _TxPrint TxPrint `(v  1 s 1 TxPrint ]
+{
+"349
+[v TxPrint@n n `us  1 a 2 21 ]
+"347
+[v TxPrint@s s `*.32Cuc  1 p 2 17 ]
+"352
+} 0
+"340
+[v _TxAppend TxAppend `(v  1 s 1 TxAppend ]
+{
+[v TxAppend@data data `*.34Cuc  1 p 2 13 ]
+[v TxAppend@len len `us  1 p 2 15 ]
+"345
+} 0
+"565
+[v _W5500_InitializeAndConfigure W5500_InitializeAndConfigure `(v  1 s 1 W5500_InitializeAndConfigure ]
+{
+[v W5500_InitializeAndConfigure@tries tries `uc  1 p 1 wreg ]
+"582
+[v W5500_InitializeAndConfigure@bsb bsb `uc  1 a 1 28 ]
+"567
+[v W5500_InitializeAndConfigure@rb rb `[6]uc  1 a 6 22 ]
+"568
+[v W5500_InitializeAndConfigure@ok ok `a  1 a 1 30 ]
+"569
+[v W5500_InitializeAndConfigure@n n `uc  1 a 1 29 ]
+"565
+[v W5500_InitializeAndConfigure@tries tries `uc  1 p 1 wreg ]
+"571
+[v W5500_InitializeAndConfigure@tries tries `uc  1 p 1 17 ]
+"606
+} 1
+"250
+[v _W5500_Write8 W5500_Write8 `(v  1 s 1 W5500_Write8 ]
+{
+[v W5500_Write8@addr addr `us  1 p 2 13 ]
+[v W5500_Write8@bsb bsb `uc  1 p 1 15 ]
+[v W5500_Write8@value value `uc  1 p 1 16 ]
+"253
+} 0
+"226
+[v _W5500_Write W5500_Write `(v  1 s 1 W5500_Write ]
+{
+"229
+[v W5500_Write@i i `us  1 a 2 11 ]
+"226
+[v W5500_Write@addr addr `us  1 p 2 2 ]
+[v W5500_Write@bsb bsb `uc  1 p 1 4 ]
+"227
+[v W5500_Write@data data `*.34Cuc  1 p 2 5 ]
+[v W5500_Write@len len `us  1 p 2 7 ]
+"236
+} 0
+"540
+[v _W5500_HardReset W5500_HardReset `(a  1 s 1 W5500_HardReset ]
+{
+[v W5500_HardReset@tries tries `uc  1 p 1 wreg ]
+"543
+[v W5500_HardReset@v v `uc  1 a 1 14 ]
+"544
+[v W5500_HardReset@t t `uc  1 a 1 13 ]
+"540
+[v W5500_HardReset@tries tries `uc  1 p 1 wreg ]
+"542
+[v W5500_HardReset@spi_open spi_open `a  1 s 1 spi_open ]
+[v W5500_HardReset@tries tries `uc  1 p 1 12 ]
+"563
+} 1
+"238
+[v _W5500_Read W5500_Read `(v  1 s 1 W5500_Read ]
+{
+"241
+[v W5500_Read@i i `us  1 a 2 8 ]
+"238
+[v W5500_Read@addr addr `us  1 p 2 2 ]
+[v W5500_Read@bsb bsb `uc  1 p 1 4 ]
+"239
+[v W5500_Read@data data `*.30uc  1 p 1 5 ]
+[v W5500_Read@len len `us  1 p 2 6 ]
+"248
+} 0
+"284 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\spi\src\spi1.c
+[v _SPI1_ByteExchange SPI1_ByteExchange `(uc  1 e 1 0 ]
+{
+"286
+[v SPI1_ByteExchange@returnValue returnValue `uc  1 a 1 1 ]
+"284
+[v SPI1_ByteExchange@byteData byteData `uc  1 p 1 0 ]
+"305
+} 0
+"134
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spiConfigIndex spiConfigIndex `uc  1 p 1 0 ]
+"153
+} 0
+"299 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _W5500_Compare W5500_Compare `(a  1 s 1 W5500_Compare ]
+{
+"301
+[v W5500_Compare@i i `uc  1 a 1 7 ]
+"299
+[v W5500_Compare@a a `*.30Cuc  1 p 1 0 ]
+[v W5500_Compare@b b `*.32Cuc  1 p 2 1 ]
+[v W5500_Compare@len len `uc  1 p 1 3 ]
+"304
+} 0
+"184
+[v _UART2_Print UART2_Print `(v  1 s 1 UART2_Print ]
+{
+[v UART2_Print@text text `*.34Cuc  1 p 2 1 ]
+"190
+} 0
+"250 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\uart\src\uart2.c
+[v _UART2_Write UART2_Write `(v  1 e 1 0 ]
+{
+[v UART2_Write@txData txData `uc  1 p 1 wreg ]
+[v UART2_Write@txData txData `uc  1 p 1 wreg ]
+"252
+[v UART2_Write@txData txData `uc  1 p 1 0 ]
+"253
+} 1
+"202
+[v _UART2_IsTxReady UART2_IsTxReady `(a  1 e 1 0 ]
+{
+"205
+} 0
+"40 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"69 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\uart\src\uart2.c
+[v _UART2_Initialize UART2_Initialize `(v  1 e 1 0 ]
+{
+"104
+} 0
+"309
+[v _UART2_ParityErrorCallbackRegister UART2_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"315
+} 0
+"301
+[v _UART2_OverrunErrorCallbackRegister UART2_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"307
+} 0
+"293
+[v _UART2_FramingErrorCallbackRegister UART2_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART2_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 0 ]
+"299
+} 0
+"71 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\spi\src\spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"117
+} 0
+"38 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"139
+} 0
+"42 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"167
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"169
+} 0
+"141
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"143
+} 0
+"115
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 0 ]
+"117
+} 0
+"39 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"12 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"22
+} 0
+"105 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _Leds_Set Leds_Set `(v  1 s 1 Leds_Set ]
+{
+[v Leds_Set@a1 a1 `uc  1 p 1 wreg ]
+"107
+[v Leds_Set@bits bits `uc  1 a 1 6 ]
+"105
+[v Leds_Set@a1 a1 `uc  1 p 1 wreg ]
+[v Leds_Set@a2 a2 `uc  1 p 1 0 ]
+"107
+[v Leds_Set@a1 a1 `uc  1 p 1 1 ]
+"113
+} 1
+"215
+[v _CopyText CopyText `(v  1 s 1 CopyText ]
+{
+"217
+[v CopyText@i i `uc  1 a 1 7 ]
+"215
+[v CopyText@dst dst `*.39uc  1 p 2 0 ]
+[v CopyText@dst_size dst_size `uc  1 p 1 2 ]
+[v CopyText@src src `*.34Cuc  1 p 2 3 ]
+"224
+} 0
+"80 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\system\src\interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"95
+} 0
+"69 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\mcc_generated_files\adc\src\adc.c
+[v _ADC_ThresholdISR ADC_ThresholdISR `(v  1 e 1 0 ]
+{
+"72
+} 0
+"64
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"67
+} 0

@@ -1,0 +1,8 @@
+
+18F47K42 Memory Summary:
+    Program space        used  4856h ( 18518) of 20000h bytes   ( 14.1%)
+    Data space           used   5DFh (  1503) of  2000h bytes   ( 18.3%)
+    Configuration bits   used     5h (     5) of     5h words   (100.0%)
+    EEPROM space         used     0h (     0) of   400h bytes   (  0.0%)
+    ID Location space    used     0h (     0) of    10h bytes   (  0.0%)
+

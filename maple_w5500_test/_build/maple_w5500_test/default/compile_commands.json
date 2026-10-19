@@ -1,0 +1,56 @@
+[
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\C_\\Users\\John_Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\main.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\main.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/main.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/C_/Users/John_Christie/MPLABProjects/maple_w5500_test/config.mcc/main.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\C_\\Users\\John_Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\adc\\src\\adc.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\adc\\src\\adc.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/adc/src/adc.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/C_/Users/John_Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/adc/src/adc.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\C_\\Users\\John_Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\spi\\src\\spi1.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\spi\\src\\spi1.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/spi/src/spi1.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/C_/Users/John_Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/spi/src/spi1.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\6d5be18e00c09db6eca97eb5490dd482\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\clock.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\clock.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/system/src/clock.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/6d5be18e00c09db6eca97eb5490dd482/maple_w5500_test/config.mcc/mcc_generated_files/system/src/clock.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\74b7fd27d49dc854252fc9bba80622cf\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\config_bits.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/system/src/config_bits.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/74b7fd27d49dc854252fc9bba80622cf/config.mcc/mcc_generated_files/system/src/config_bits.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\74b7fd27d49dc854252fc9bba80622cf\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\interrupt.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/system/src/interrupt.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/74b7fd27d49dc854252fc9bba80622cf/config.mcc/mcc_generated_files/system/src/interrupt.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\6d5be18e00c09db6eca97eb5490dd482\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\pins.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\pins.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/system/src/pins.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/6d5be18e00c09db6eca97eb5490dd482/maple_w5500_test/config.mcc/mcc_generated_files/system/src/pins.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\74b7fd27d49dc854252fc9bba80622cf\\config.mcc\\mcc_generated_files\\system\\src\\system.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\system\\src\\system.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/system/src/system.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/74b7fd27d49dc854252fc9bba80622cf/config.mcc/mcc_generated_files/system/src/system.c.p1"
+},
+{
+  "directory": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.10\\bin\\xc8-cc.exe -DXPRJ_default=default -D__18F47K42__ -c -mcpu=18F47K42 \"-mdfp=C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\" -fno-short-double -fno-short-float -memi=wordwrite -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\maple_w5500_test_default_default_XC8_compile.dir\\6d5be18e00c09db6eca97eb5490dd482\\maple_w5500_test\\config.mcc\\mcc_generated_files\\uart\\src\\uart2.c.p1 -c \"C:\\Users\\John Christie\\MPLABProjects\\maple_w5500_test\\config.mcc\\mcc_generated_files\\uart\\src\\uart2.c\"",
+  "file": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/config.mcc/mcc_generated_files/uart/src/uart2.c",
+  "output": "C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir/6d5be18e00c09db6eca97eb5490dd482/maple_w5500_test/config.mcc/mcc_generated_files/uart/src/uart2.c.p1"
+}
+]

@@ -1,0 +1,4 @@
+C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_default_XC8_compile.dir
+C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/maple_w5500_test_default_image_vixPuhmv.dir
+C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/edit_cache.dir
+C:/Users/John Christie/MPLABProjects/maple_w5500_test/_build/maple_w5500_test/default/CMakeFiles/rebuild_cache.dir

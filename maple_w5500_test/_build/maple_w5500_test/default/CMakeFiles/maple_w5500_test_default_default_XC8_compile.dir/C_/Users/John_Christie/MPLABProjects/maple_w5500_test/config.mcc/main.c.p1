@@ -1,0 +1,6085 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"96 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[c E16571 59 60 61 62 63 0 .. ]
+[n E16571 . ADC_CHANNEL_VSS ADC_CHANNEL_TEMP ADC_CHANNEL_DAC1 ADC_CHANNEL_FVR_BUFFER1 ADC_CHANNEL_FVR_BUFFER2 ADC_CHANNEL_ANA0  ]
+"88 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc/mcc_generated_files/system/../adc/adc.h
+[v _ADC_ChannelSelect `(v ~T0 @X0 0 ef1`E16571 ]
+"98
+[v _ADC_ConversionStart `(v ~T0 @X0 0 ef ]
+"108
+[v _ADC_IsConversionDone `(a ~T0 @X0 0 ef ]
+"125
+[v _ADC_ConversionResultGet `(s ~T0 @X0 0 ef ]
+"45904 C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\pic\include\proc/pic18f47k42.h
+[v _LATA `Vuc ~T0 @X0 0 e@16314 ]
+"216 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc/mcc_generated_files/system/../uart/uart2.h
+[v _UART2_IsTxReady `(a ~T0 @X0 0 ef ]
+"255
+[v _UART2_Write `(v ~T0 @X0 0 ef1`uc ]
+"46246 C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\pic\include\proc/pic18f47k42.h
+[s S2112 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2112 . LATD0 LATD1 LATD2 LATD3 LATD4 LATD5 LATD6 LATD7 ]
+"46256
+[s S2113 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2113 . LD0 LD1 LD2 LD3 LD4 LD5 LD6 LD7 ]
+"46245
+[u S2111 `S2112 1 `S2113 1 ]
+[n S2111 . . . ]
+"46267
+[v _LATDbits `VS2111 ~T0 @X0 0 e@16317 ]
+"210 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc/mcc_generated_files/system/../spi/spi1.h
+[v _SPI1_ByteExchange `(uc ~T0 @X0 0 ef1`uc ]
+"121 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\include\c99/stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"157 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc/mcc_generated_files/system/../spi/spi1.h
+[v _SPI1_Open `(a ~T0 @X0 0 ef1`uc ]
+[v F205 `(v ~T0 @X0 1 tf1`ul ]
+"20 c:\PROGRA~1\MICROC~1\xc8\v3.10\pic\include/builtins.h
+[v __delay `JF205 ~T0 @X0 0 e ]
+[p i __delay ]
+[p mainexit ]
+"55 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc/mcc_generated_files/system/system.h
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+"7945 C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\pic\include\proc/pic18f47k42.h
+[v _ANSELA `Vuc ~T0 @X0 0 e@14912 ]
+"46404
+[v _TRISA `Vuc ~T0 @X0 0 e@16322 ]
+"8447
+[s S376 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S376 . ANSELB0 ANSELB1 ANSELB2 ANSELB3 ANSELB4 ANSELB5 ANSELB6 ANSELB7 ]
+"8446
+[u S375 `S376 1 ]
+[n S375 . . ]
+"8458
+[v _ANSELBbits `VS375 ~T0 @X0 0 e@14928 ]
+"46472
+[s S2120 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2120 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"46471
+[u S2119 `S2120 1 ]
+[n S2119 . . ]
+"46483
+[v _TRISBbits `VS2119 ~T0 @X0 0 e@16323 ]
+"46022
+[s S2106 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2106 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"46032
+[s S2107 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2107 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"46021
+[u S2105 `S2106 1 `S2107 1 ]
+[n S2105 . . . ]
+"46043
+[v _LATBbits `VS2105 ~T0 @X0 0 e@16315 ]
+"9871
+[s S428 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S428 . ANSELD0 ANSELD1 ANSELD2 ANSELD3 ANSELD4 ANSELD5 ANSELD6 ANSELD7 ]
+"9870
+[u S427 `S428 1 ]
+[n S427 . . ]
+"9882
+[v _ANSELDbits `VS427 ~T0 @X0 0 e@14960 ]
+"46596
+[s S2124 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S2124 . TRISD0 TRISD1 TRISD2 TRISD3 TRISD4 TRISD5 TRISD6 TRISD7 ]
+"46595
+[u S2123 `S2124 1 ]
+[n S2123 . . ]
+"46607
+[v _TRISDbits `VS2123 ~T0 @X0 0 e@16325 ]
+"178 C:/Users/John Christie/.mchp_packs/Microchip/PIC18F-K_DFP/1.17.312/xc8\pic\include\proc/pic18f47k42.h
+[; <" STATUS_CSHAD equ 03880h ;# ">
+"267
+[; <" WREG_CSHAD equ 03881h ;# ">
+"287
+[; <" BSR_CSHAD equ 03882h ;# ">
+"294
+[; <" SHADCON equ 03883h ;# ">
+"314
+[; <" STATUS_SHAD equ 03884h ;# ">
+"403
+[; <" WREG_SHAD equ 03885h ;# ">
+"423
+[; <" BSR_SHAD equ 03886h ;# ">
+"430
+[; <" PCLATH_SHAD equ 03887h ;# ">
+"450
+[; <" PCLATU_SHAD equ 03888h ;# ">
+"470
+[; <" FSR0SH equ 03889h ;# ">
+"477
+[; <" FSR0L_SHAD equ 03889h ;# ">
+"497
+[; <" FSR0H_SHAD equ 0388Ah ;# ">
+"517
+[; <" FSR1SH equ 0388Bh ;# ">
+"524
+[; <" FSR1L_SHAD equ 0388Bh ;# ">
+"544
+[; <" FSR1H_SHAD equ 0388Ch ;# ">
+"564
+[; <" FSR2SH equ 0388Dh ;# ">
+"571
+[; <" FSR2L_SHAD equ 0388Dh ;# ">
+"591
+[; <" FSR2H_SHAD equ 0388Eh ;# ">
+"611
+[; <" PRODSH equ 0388Fh ;# ">
+"618
+[; <" PRODL_SHAD equ 0388Fh ;# ">
+"638
+[; <" PRODH_SHAD equ 03890h ;# ">
+"658
+[; <" IVTADL equ 0389Dh ;# ">
+"678
+[; <" IVTADH equ 0389Eh ;# ">
+"698
+[; <" IVTADU equ 0389Fh ;# ">
+"718
+[; <" WDTCON0 equ 0395Bh ;# ">
+"793
+[; <" WDTCON1 equ 0395Ch ;# ">
+"887
+[; <" WDTPSL equ 0395Dh ;# ">
+"1015
+[; <" WDTPSH equ 0395Eh ;# ">
+"1143
+[; <" WDTTMR equ 0395Fh ;# ">
+"1231
+[; <" CRCDATA equ 03960h ;# ">
+"1238
+[; <" CRCDATL equ 03960h ;# ">
+"1300
+[; <" CRCDATH equ 03961h ;# ">
+"1362
+[; <" CRCACC equ 03962h ;# ">
+"1369
+[; <" CRCACCL equ 03962h ;# ">
+"1431
+[; <" CRCACCH equ 03963h ;# ">
+"1493
+[; <" CRCSHFT equ 03964h ;# ">
+"1500
+[; <" CRCSHIFTL equ 03964h ;# ">
+"1562
+[; <" CRCSHIFTH equ 03965h ;# ">
+"1624
+[; <" CRCXOR equ 03966h ;# ">
+"1631
+[; <" CRCXORL equ 03966h ;# ">
+"1688
+[; <" CRCXORH equ 03967h ;# ">
+"1750
+[; <" CRCCON0 equ 03968h ;# ">
+"1810
+[; <" CRCCON1 equ 03969h ;# ">
+"1888
+[; <" SCANLADR equ 03976h ;# ">
+"1895
+[; <" SCANLADRL equ 03976h ;# ">
+"2023
+[; <" SCANLADRH equ 03977h ;# ">
+"2151
+[; <" SCANLADRU equ 03978h ;# ">
+"2257
+[; <" SCANHADR equ 03979h ;# ">
+"2264
+[; <" SCANHADRL equ 03979h ;# ">
+"2392
+[; <" SCANHADRH equ 0397Ah ;# ">
+"2520
+[; <" SCANHADRU equ 0397Bh ;# ">
+"2624
+[; <" SCANCON0 equ 0397Ch ;# ">
+"2675
+[; <" SCANTRIG equ 0397Dh ;# ">
+"2695
+[; <" IPR0 equ 03980h ;# ">
+"2757
+[; <" IPR1 equ 03981h ;# ">
+"2819
+[; <" IPR2 equ 03982h ;# ">
+"2881
+[; <" IPR3 equ 03983h ;# ">
+"2943
+[; <" IPR4 equ 03984h ;# ">
+"3000
+[; <" IPR5 equ 03985h ;# ">
+"3062
+[; <" IPR6 equ 03986h ;# ">
+"3124
+[; <" IPR7 equ 03987h ;# ">
+"3169
+[; <" IPR8 equ 03988h ;# ">
+"3196
+[; <" IPR9 equ 03989h ;# ">
+"3234
+[; <" IPR10 equ 0398Ah ;# ">
+"3260
+[; <" PIE0 equ 03990h ;# ">
+"3322
+[; <" PIE1 equ 03991h ;# ">
+"3384
+[; <" PIE2 equ 03992h ;# ">
+"3446
+[; <" PIE3 equ 03993h ;# ">
+"3508
+[; <" PIE4 equ 03994h ;# ">
+"3565
+[; <" PIE5 equ 03995h ;# ">
+"3627
+[; <" PIE6 equ 03996h ;# ">
+"3689
+[; <" PIE7 equ 03997h ;# ">
+"3734
+[; <" PIE8 equ 03998h ;# ">
+"3761
+[; <" PIE9 equ 03999h ;# ">
+"3799
+[; <" PIE10 equ 0399Ah ;# ">
+"3825
+[; <" PIR0 equ 039A0h ;# ">
+"3887
+[; <" PIR1 equ 039A1h ;# ">
+"3949
+[; <" PIR2 equ 039A2h ;# ">
+"4011
+[; <" PIR3 equ 039A3h ;# ">
+"4073
+[; <" PIR4 equ 039A4h ;# ">
+"4130
+[; <" PIR5 equ 039A5h ;# ">
+"4192
+[; <" PIR6 equ 039A6h ;# ">
+"4254
+[; <" PIR7 equ 039A7h ;# ">
+"4299
+[; <" PIR8 equ 039A8h ;# ">
+"4326
+[; <" PIR9 equ 039A9h ;# ">
+"4364
+[; <" PIR10 equ 039AAh ;# ">
+"4390
+[; <" PMD0 equ 039C0h ;# ">
+"4452
+[; <" PMD1 equ 039C1h ;# ">
+"4514
+[; <" PMD2 equ 039C2h ;# ">
+"4559
+[; <" PMD3 equ 039C3h ;# ">
+"4621
+[; <" PMD4 equ 039C4h ;# ">
+"4654
+[; <" PMD5 equ 039C5h ;# ">
+"4699
+[; <" PMD6 equ 039C6h ;# ">
+"4749
+[; <" PMD7 equ 039C7h ;# ">
+"4775
+[; <" BORCON equ 039D0h ;# ">
+"4802
+[; <" VREGCON equ 039D1h ;# ">
+"4823
+[; <" CPUDOZE equ 039D8h ;# ">
+"4888
+[; <" OSCCON1 equ 039D9h ;# ">
+"4958
+[; <" OSCCON2 equ 039DAh ;# ">
+"5028
+[; <" OSCCON3 equ 039DBh ;# ">
+"5068
+[; <" OSCSTAT equ 039DCh ;# ">
+"5073
+[; <" OSCSTAT1 equ 039DCh ;# ">
+"5180
+[; <" OSCEN equ 039DDh ;# ">
+"5231
+[; <" OSCTUNE equ 039DEh ;# ">
+"5335
+[; <" OSCFRQ equ 039DFh ;# ">
+"5415
+[; <" NVMADRL equ 039E0h ;# ">
+"5543
+[; <" NVMADRH equ 039E1h ;# ">
+"5599
+[; <" NVMDAT equ 039E3h ;# ">
+"5727
+[; <" NVMCON1 equ 039E5h ;# ">
+"5817
+[; <" NVMCON2 equ 039E6h ;# ">
+"5837
+[; <" PRLOCK equ 039EFh ;# ">
+"5857
+[; <" ISRPR equ 039F1h ;# ">
+"5925
+[; <" MAINPR equ 039F2h ;# ">
+"5993
+[; <" DMA1PR equ 039F3h ;# ">
+"6061
+[; <" DMA2PR equ 039F4h ;# ">
+"6129
+[; <" SCANPR equ 039F7h ;# ">
+"6197
+[; <" RA0PPS equ 03A00h ;# ">
+"6247
+[; <" RA1PPS equ 03A01h ;# ">
+"6297
+[; <" RA2PPS equ 03A02h ;# ">
+"6347
+[; <" RA3PPS equ 03A03h ;# ">
+"6397
+[; <" RA4PPS equ 03A04h ;# ">
+"6447
+[; <" RA5PPS equ 03A05h ;# ">
+"6497
+[; <" RA6PPS equ 03A06h ;# ">
+"6547
+[; <" RA7PPS equ 03A07h ;# ">
+"6597
+[; <" RB0PPS equ 03A08h ;# ">
+"6647
+[; <" RB1PPS equ 03A09h ;# ">
+"6697
+[; <" RB2PPS equ 03A0Ah ;# ">
+"6747
+[; <" RB3PPS equ 03A0Bh ;# ">
+"6797
+[; <" RB4PPS equ 03A0Ch ;# ">
+"6847
+[; <" RB5PPS equ 03A0Dh ;# ">
+"6897
+[; <" RB6PPS equ 03A0Eh ;# ">
+"6947
+[; <" RB7PPS equ 03A0Fh ;# ">
+"6997
+[; <" RC0PPS equ 03A10h ;# ">
+"7047
+[; <" RC1PPS equ 03A11h ;# ">
+"7097
+[; <" RC2PPS equ 03A12h ;# ">
+"7147
+[; <" RC3PPS equ 03A13h ;# ">
+"7197
+[; <" RC4PPS equ 03A14h ;# ">
+"7247
+[; <" RC5PPS equ 03A15h ;# ">
+"7297
+[; <" RC6PPS equ 03A16h ;# ">
+"7347
+[; <" RC7PPS equ 03A17h ;# ">
+"7397
+[; <" RD0PPS equ 03A18h ;# ">
+"7447
+[; <" RD1PPS equ 03A19h ;# ">
+"7497
+[; <" RD2PPS equ 03A1Ah ;# ">
+"7547
+[; <" RD3PPS equ 03A1Bh ;# ">
+"7597
+[; <" RD4PPS equ 03A1Ch ;# ">
+"7647
+[; <" RD5PPS equ 03A1Dh ;# ">
+"7697
+[; <" RD6PPS equ 03A1Eh ;# ">
+"7747
+[; <" RD7PPS equ 03A1Fh ;# ">
+"7797
+[; <" RE0PPS equ 03A20h ;# ">
+"7847
+[; <" RE1PPS equ 03A21h ;# ">
+"7897
+[; <" RE2PPS equ 03A22h ;# ">
+"7947
+[; <" ANSELA equ 03A40h ;# ">
+"8009
+[; <" WPUA equ 03A41h ;# ">
+"8071
+[; <" ODCONA equ 03A42h ;# ">
+"8133
+[; <" SLRCONA equ 03A43h ;# ">
+"8195
+[; <" INLVLA equ 03A44h ;# ">
+"8257
+[; <" IOCAP equ 03A45h ;# ">
+"8319
+[; <" IOCAN equ 03A46h ;# ">
+"8381
+[; <" IOCAF equ 03A47h ;# ">
+"8443
+[; <" ANSELB equ 03A50h ;# ">
+"8505
+[; <" WPUB equ 03A51h ;# ">
+"8567
+[; <" ODCONB equ 03A52h ;# ">
+"8629
+[; <" SLRCONB equ 03A53h ;# ">
+"8691
+[; <" INLVLB equ 03A54h ;# ">
+"8753
+[; <" IOCBP equ 03A55h ;# ">
+"8815
+[; <" IOCBN equ 03A56h ;# ">
+"8877
+[; <" IOCBF equ 03A57h ;# ">
+"8939
+[; <" RB1I2C equ 03A5Ah ;# ">
+"9047
+[; <" RB2I2C equ 03A5Bh ;# ">
+"9155
+[; <" ANSELC equ 03A60h ;# ">
+"9217
+[; <" WPUC equ 03A61h ;# ">
+"9279
+[; <" ODCONC equ 03A62h ;# ">
+"9341
+[; <" SLRCONC equ 03A63h ;# ">
+"9403
+[; <" INLVLC equ 03A64h ;# ">
+"9465
+[; <" IOCCP equ 03A65h ;# ">
+"9527
+[; <" IOCCN equ 03A66h ;# ">
+"9589
+[; <" IOCCF equ 03A67h ;# ">
+"9651
+[; <" RC3I2C equ 03A6Ah ;# ">
+"9759
+[; <" RC4I2C equ 03A6Bh ;# ">
+"9867
+[; <" ANSELD equ 03A70h ;# ">
+"9929
+[; <" WPUD equ 03A71h ;# ">
+"9991
+[; <" ODCOND equ 03A72h ;# ">
+"10053
+[; <" SLRCOND equ 03A73h ;# ">
+"10115
+[; <" INLVLD equ 03A74h ;# ">
+"10177
+[; <" RD0I2C equ 03A7Ah ;# ">
+"10285
+[; <" RD1I2C equ 03A7Bh ;# ">
+"10393
+[; <" ANSELE equ 03A80h ;# ">
+"10425
+[; <" WPUE equ 03A81h ;# ">
+"10463
+[; <" ODCONE equ 03A82h ;# ">
+"10495
+[; <" SLRCONE equ 03A83h ;# ">
+"10527
+[; <" INLVLE equ 03A84h ;# ">
+"10565
+[; <" IOCEP equ 03A85h ;# ">
+"10586
+[; <" IOCEN equ 03A86h ;# ">
+"10607
+[; <" IOCEF equ 03A87h ;# ">
+"10628
+[; <" PPSLOCK equ 03ABFh ;# ">
+"10648
+[; <" INT0PPS equ 03AC0h ;# ">
+"10668
+[; <" INT1PPS equ 03AC1h ;# ">
+"10688
+[; <" INT2PPS equ 03AC2h ;# ">
+"10708
+[; <" T0CKIPPS equ 03AC3h ;# ">
+"10728
+[; <" T1CKIPPS equ 03AC4h ;# ">
+"10748
+[; <" T1GPPS equ 03AC5h ;# ">
+"10768
+[; <" T3CKIPPS equ 03AC6h ;# ">
+"10788
+[; <" T3GPPS equ 03AC7h ;# ">
+"10808
+[; <" T5CKIPPS equ 03AC8h ;# ">
+"10828
+[; <" T5GPPS equ 03AC9h ;# ">
+"10848
+[; <" T2INPPS equ 03ACAh ;# ">
+"10868
+[; <" T4INPPS equ 03ACBh ;# ">
+"10888
+[; <" T6INPPS equ 03ACCh ;# ">
+"10908
+[; <" CCP1PPS equ 03ACDh ;# ">
+"10928
+[; <" CCP2PPS equ 03ACEh ;# ">
+"10948
+[; <" CCP3PPS equ 03ACFh ;# ">
+"10968
+[; <" CCP4PPS equ 03AD0h ;# ">
+"10988
+[; <" SMT1WINPPS equ 03AD1h ;# ">
+"11008
+[; <" SMT1SIGPPS equ 03AD2h ;# ">
+"11028
+[; <" CWG1INPPS equ 03AD3h ;# ">
+"11048
+[; <" CWG2INPPS equ 03AD4h ;# ">
+"11068
+[; <" CWG3INPPS equ 03AD5h ;# ">
+"11088
+[; <" MD1CARLPPS equ 03AD6h ;# ">
+"11108
+[; <" MD1CARHPPS equ 03AD7h ;# ">
+"11128
+[; <" MD1SRCPPS equ 03AD8h ;# ">
+"11148
+[; <" CLCIN0PPS equ 03AD9h ;# ">
+"11168
+[; <" CLCIN1PPS equ 03ADAh ;# ">
+"11188
+[; <" CLCIN2PPS equ 03ADBh ;# ">
+"11208
+[; <" CLCIN3PPS equ 03ADCh ;# ">
+"11228
+[; <" ADACTPPS equ 03ADDh ;# ">
+"11248
+[; <" SPI1SCKPPS equ 03ADEh ;# ">
+"11268
+[; <" SPI1SDIPPS equ 03ADFh ;# ">
+"11288
+[; <" SPI1SSPPS equ 03AE0h ;# ">
+"11308
+[; <" I2C1SCLPPS equ 03AE1h ;# ">
+"11328
+[; <" I2C1SDAPPS equ 03AE2h ;# ">
+"11348
+[; <" I2C2SCLPPS equ 03AE3h ;# ">
+"11368
+[; <" I2C2SDAPPS equ 03AE4h ;# ">
+"11388
+[; <" U1RXPPS equ 03AE5h ;# ">
+"11408
+[; <" U1CTSPPS equ 03AE6h ;# ">
+"11428
+[; <" U2RXPPS equ 03AE8h ;# ">
+"11448
+[; <" U2CTSPPS equ 03AE9h ;# ">
+"11468
+[; <" DMA2BUF equ 03BC9h ;# ">
+"11596
+[; <" DMA2DCNT equ 03BCAh ;# ">
+"11603
+[; <" DMA2DCNTL equ 03BCAh ;# ">
+"11731
+[; <" DMA2DCNTH equ 03BCBh ;# ">
+"11811
+[; <" DMA2DPTR equ 03BCCh ;# ">
+"11818
+[; <" DMA2DPTRL equ 03BCCh ;# ">
+"11946
+[; <" DMA2DPTRH equ 03BCDh ;# ">
+"12074
+[; <" DMA2DSZ equ 03BCEh ;# ">
+"12081
+[; <" DMA2DSZL equ 03BCEh ;# ">
+"12209
+[; <" DMA2DSZH equ 03BCFh ;# ">
+"12289
+[; <" DMA2DSA equ 03BD0h ;# ">
+"12296
+[; <" DMA2DSAL equ 03BD0h ;# ">
+"12424
+[; <" DMA2DSAH equ 03BD1h ;# ">
+"12552
+[; <" DMA2SCNT equ 03BD2h ;# ">
+"12559
+[; <" DMA2SCNTL equ 03BD2h ;# ">
+"12687
+[; <" DMA2SCNTH equ 03BD3h ;# ">
+"12769
+[; <" DMA2SPTR equ 03BD4h ;# ">
+"12776
+[; <" DMA2SPTRL equ 03BD4h ;# ">
+"12904
+[; <" DMA2SPTRH equ 03BD5h ;# ">
+"13032
+[; <" DMA2SPTRU equ 03BD6h ;# ">
+"13136
+[; <" DMA2SSZ equ 03BD7h ;# ">
+"13143
+[; <" DMA2SSZL equ 03BD7h ;# ">
+"13271
+[; <" DMA2SSZH equ 03BD8h ;# ">
+"13353
+[; <" DMA2SSA equ 03BD9h ;# ">
+"13360
+[; <" DMA2SSAL equ 03BD9h ;# ">
+"13488
+[; <" DMA2SSAH equ 03BDAh ;# ">
+"13616
+[; <" DMA2SSAU equ 03BDBh ;# ">
+"13720
+[; <" DMA2CON0 equ 03BDCh ;# ">
+"13800
+[; <" DMA2CON1 equ 03BDDh ;# ">
+"13844
+[; <" DMA2AIRQ equ 03BDEh ;# ">
+"13960
+[; <" DMA2SIRQ equ 03BDFh ;# ">
+"14076
+[; <" DMA1BUF equ 03BE9h ;# ">
+"14204
+[; <" DMA1DCNT equ 03BEAh ;# ">
+"14211
+[; <" DMA1DCNTL equ 03BEAh ;# ">
+"14339
+[; <" DMA1DCNTH equ 03BEBh ;# ">
+"14419
+[; <" DMA1DPTR equ 03BECh ;# ">
+"14426
+[; <" DMA1DPTRL equ 03BECh ;# ">
+"14554
+[; <" DMA1DPTRH equ 03BEDh ;# ">
+"14682
+[; <" DMA1DSZ equ 03BEEh ;# ">
+"14689
+[; <" DMA1DSZL equ 03BEEh ;# ">
+"14817
+[; <" DMA1DSZH equ 03BEFh ;# ">
+"14897
+[; <" DMA1DSA equ 03BF0h ;# ">
+"14904
+[; <" DMA1DSAL equ 03BF0h ;# ">
+"15032
+[; <" DMA1DSAH equ 03BF1h ;# ">
+"15160
+[; <" DMA1SCNT equ 03BF2h ;# ">
+"15167
+[; <" DMA1SCNTL equ 03BF2h ;# ">
+"15295
+[; <" DMA1SCNTH equ 03BF3h ;# ">
+"15377
+[; <" DMA1SPTR equ 03BF4h ;# ">
+"15384
+[; <" DMA1SPTRL equ 03BF4h ;# ">
+"15512
+[; <" DMA1SPTRH equ 03BF5h ;# ">
+"15640
+[; <" DMA1SPTRU equ 03BF6h ;# ">
+"15744
+[; <" DMA1SSZ equ 03BF7h ;# ">
+"15751
+[; <" DMA1SSZL equ 03BF7h ;# ">
+"15879
+[; <" DMA1SSZH equ 03BF8h ;# ">
+"15961
+[; <" DMA1SSA equ 03BF9h ;# ">
+"15968
+[; <" DMA1SSAL equ 03BF9h ;# ">
+"16096
+[; <" DMA1SSAH equ 03BFAh ;# ">
+"16224
+[; <" DMA1SSAU equ 03BFBh ;# ">
+"16328
+[; <" DMA1CON0 equ 03BFCh ;# ">
+"16408
+[; <" DMA1CON1 equ 03BFDh ;# ">
+"16452
+[; <" DMA1AIRQ equ 03BFEh ;# ">
+"16568
+[; <" DMA1SIRQ equ 03BFFh ;# ">
+"16684
+[; <" CLC4CON equ 03C56h ;# ">
+"16812
+[; <" CLC4POL equ 03C57h ;# ">
+"16890
+[; <" CLC4SEL0 equ 03C58h ;# ">
+"17018
+[; <" CLC4SEL1 equ 03C59h ;# ">
+"17146
+[; <" CLC4SEL2 equ 03C5Ah ;# ">
+"17274
+[; <" CLC4SEL3 equ 03C5Bh ;# ">
+"17402
+[; <" CLC4GLS0 equ 03C5Ch ;# ">
+"17514
+[; <" CLC4GLS1 equ 03C5Dh ;# ">
+"17626
+[; <" CLC4GLS2 equ 03C5Eh ;# ">
+"17738
+[; <" CLC4GLS3 equ 03C5Fh ;# ">
+"17850
+[; <" CLC3CON equ 03C60h ;# ">
+"17978
+[; <" CLC3POL equ 03C61h ;# ">
+"18056
+[; <" CLC3SEL0 equ 03C62h ;# ">
+"18184
+[; <" CLC3SEL1 equ 03C63h ;# ">
+"18312
+[; <" CLC3SEL2 equ 03C64h ;# ">
+"18440
+[; <" CLC3SEL3 equ 03C65h ;# ">
+"18568
+[; <" CLC3GLS0 equ 03C66h ;# ">
+"18680
+[; <" CLC3GLS1 equ 03C67h ;# ">
+"18792
+[; <" CLC3GLS2 equ 03C68h ;# ">
+"18904
+[; <" CLC3GLS3 equ 03C69h ;# ">
+"19016
+[; <" CLC2CON equ 03C6Ah ;# ">
+"19144
+[; <" CLC2POL equ 03C6Bh ;# ">
+"19222
+[; <" CLC2SEL0 equ 03C6Ch ;# ">
+"19350
+[; <" CLC2SEL1 equ 03C6Dh ;# ">
+"19478
+[; <" CLC2SEL2 equ 03C6Eh ;# ">
+"19606
+[; <" CLC2SEL3 equ 03C6Fh ;# ">
+"19734
+[; <" CLC2GLS0 equ 03C70h ;# ">
+"19846
+[; <" CLC2GLS1 equ 03C71h ;# ">
+"19958
+[; <" CLC2GLS2 equ 03C72h ;# ">
+"20070
+[; <" CLC2GLS3 equ 03C73h ;# ">
+"20182
+[; <" CLC1CON equ 03C74h ;# ">
+"20310
+[; <" CLC1POL equ 03C75h ;# ">
+"20388
+[; <" CLC1SEL0 equ 03C76h ;# ">
+"20516
+[; <" CLC1SEL1 equ 03C77h ;# ">
+"20644
+[; <" CLC1SEL2 equ 03C78h ;# ">
+"20772
+[; <" CLC1SEL3 equ 03C79h ;# ">
+"20900
+[; <" CLC1GLS0 equ 03C7Ah ;# ">
+"21012
+[; <" CLC1GLS1 equ 03C7Bh ;# ">
+"21124
+[; <" CLC1GLS2 equ 03C7Ch ;# ">
+"21236
+[; <" CLC1GLS3 equ 03C7Dh ;# ">
+"21348
+[; <" CLCDATA0 equ 03C7Eh ;# ">
+"21386
+[; <" CLKRCON equ 03CE5h ;# ">
+"21472
+[; <" CLKRCLK equ 03CE6h ;# ">
+"21552
+[; <" MD1CON0 equ 03CFAh ;# ">
+"21620
+[; <" MD1CON1 equ 03CFBh ;# ">
+"21686
+[; <" MD1SRC equ 03CFCh ;# ">
+"21778
+[; <" MD1CARL equ 03CFDh ;# ">
+"21870
+[; <" MD1CARH equ 03CFEh ;# ">
+"21962
+[; <" SPI1RXB equ 03D10h ;# ">
+"22032
+[; <" SPI1TXB equ 03D11h ;# ">
+"22102
+[; <" SPI1TCNT equ 03D12h ;# ">
+"22109
+[; <" SPI1TCNTL equ 03D12h ;# ">
+"22129
+[; <" SPI1TCNTH equ 03D13h ;# ">
+"22149
+[; <" SPI1CON0 equ 03D14h ;# ">
+"22215
+[; <" SPI1CON1 equ 03D15h ;# ">
+"22317
+[; <" SPI1CON2 equ 03D16h ;# ">
+"22395
+[; <" SPI1STATUS equ 03D17h ;# ">
+"22477
+[; <" SPI1TWIDTH equ 03D18h ;# ">
+"22517
+[; <" SPI1BAUD equ 03D19h ;# ">
+"22587
+[; <" SPI1INTF equ 03D1Ah ;# ">
+"22679
+[; <" SPI1INTE equ 03D1Bh ;# ">
+"22771
+[; <" SPI1CLK equ 03D1Ch ;# ">
+"22851
+[; <" I2C2RXB equ 03D54h ;# ">
+"22871
+[; <" I2C2TXB equ 03D55h ;# ">
+"22891
+[; <" I2C2CNT equ 03D56h ;# ">
+"22961
+[; <" I2C2ADB0 equ 03D57h ;# ">
+"22981
+[; <" I2C2ADB1 equ 03D58h ;# ">
+"23001
+[; <" I2C2ADR0 equ 03D59h ;# ">
+"23021
+[; <" I2C2ADR1 equ 03D5Ah ;# ">
+"23042
+[; <" I2C2ADR2 equ 03D5Bh ;# ">
+"23062
+[; <" I2C2ADR3 equ 03D5Ch ;# ">
+"23083
+[; <" I2C2CON0 equ 03D5Dh ;# ">
+"23160
+[; <" I2C2CON1 equ 03D5Eh ;# ">
+"23217
+[; <" I2C2CON2 equ 03D5Fh ;# ">
+"23293
+[; <" I2C2ERR equ 03D60h ;# ">
+"23383
+[; <" I2C2STAT0 equ 03D61h ;# ">
+"23473
+[; <" I2C2STAT1 equ 03D62h ;# ">
+"23520
+[; <" I2C2PIR equ 03D63h ;# ">
+"23622
+[; <" I2C2PIE equ 03D64h ;# ">
+"23724
+[; <" I2C2CLK equ 03D65h ;# ">
+"23804
+[; <" I2C2BTO equ 03D66h ;# ">
+"23872
+[; <" I2C1RXB equ 03D6Ah ;# ">
+"23892
+[; <" I2C1TXB equ 03D6Bh ;# ">
+"23912
+[; <" I2C1CNT equ 03D6Ch ;# ">
+"23982
+[; <" I2C1ADB0 equ 03D6Dh ;# ">
+"24002
+[; <" I2C1ADB1 equ 03D6Eh ;# ">
+"24022
+[; <" I2C1ADR0 equ 03D6Fh ;# ">
+"24042
+[; <" I2C1ADR1 equ 03D70h ;# ">
+"24063
+[; <" I2C1ADR2 equ 03D71h ;# ">
+"24083
+[; <" I2C1ADR3 equ 03D72h ;# ">
+"24104
+[; <" I2C1CON0 equ 03D73h ;# ">
+"24181
+[; <" I2C1CON1 equ 03D74h ;# ">
+"24238
+[; <" I2C1CON2 equ 03D75h ;# ">
+"24314
+[; <" I2C1ERR equ 03D76h ;# ">
+"24404
+[; <" I2C1STAT0 equ 03D77h ;# ">
+"24494
+[; <" I2C1STAT1 equ 03D78h ;# ">
+"24541
+[; <" I2C1PIR equ 03D79h ;# ">
+"24643
+[; <" I2C1PIE equ 03D7Ah ;# ">
+"24745
+[; <" I2C1CLK equ 03D7Bh ;# ">
+"24825
+[; <" I2C1BTO equ 03D7Ch ;# ">
+"24893
+[; <" U2RXB equ 03DD0h ;# ">
+"24898
+[; <" U2RXBL equ 03DD0h ;# ">
+"24931
+[; <" U2TXB equ 03DD2h ;# ">
+"24936
+[; <" U2TXBL equ 03DD2h ;# ">
+"24969
+[; <" U2P1 equ 03DD4h ;# ">
+"24976
+[; <" U2P1L equ 03DD4h ;# ">
+"24996
+[; <" U2P2 equ 03DD6h ;# ">
+"25003
+[; <" U2P2L equ 03DD6h ;# ">
+"25023
+[; <" U2P3 equ 03DD8h ;# ">
+"25030
+[; <" U2P3L equ 03DD8h ;# ">
+"25050
+[; <" U2CON0 equ 03DDAh ;# ">
+"25166
+[; <" U2CON1 equ 03DDBh ;# ">
+"25246
+[; <" U2CON2 equ 03DDCh ;# ">
+"25378
+[; <" U2BRG equ 03DDDh ;# ">
+"25385
+[; <" U2BRGL equ 03DDDh ;# ">
+"25405
+[; <" U2BRGH equ 03DDEh ;# ">
+"25425
+[; <" U2FIFO equ 03DDFh ;# ">
+"25555
+[; <" U2UIR equ 03DE0h ;# ">
+"25611
+[; <" U2ERRIR equ 03DE1h ;# ">
+"25723
+[; <" U2ERRIE equ 03DE2h ;# ">
+"25835
+[; <" U1RXB equ 03DE8h ;# ">
+"25840
+[; <" U1RXBL equ 03DE8h ;# ">
+"25873
+[; <" U1RXCHK equ 03DE9h ;# ">
+"25893
+[; <" U1TXB equ 03DEAh ;# ">
+"25898
+[; <" U1TXBL equ 03DEAh ;# ">
+"25931
+[; <" U1TXCHK equ 03DEBh ;# ">
+"25951
+[; <" U1P1 equ 03DECh ;# ">
+"25958
+[; <" U1P1L equ 03DECh ;# ">
+"25978
+[; <" U1P1H equ 03DEDh ;# ">
+"25998
+[; <" U1P2 equ 03DEEh ;# ">
+"26005
+[; <" U1P2L equ 03DEEh ;# ">
+"26025
+[; <" U1P2H equ 03DEFh ;# ">
+"26045
+[; <" U1P3 equ 03DF0h ;# ">
+"26052
+[; <" U1P3L equ 03DF0h ;# ">
+"26072
+[; <" U1P3H equ 03DF1h ;# ">
+"26092
+[; <" U1CON0 equ 03DF2h ;# ">
+"26220
+[; <" U1CON1 equ 03DF3h ;# ">
+"26300
+[; <" U1CON2 equ 03DF4h ;# ">
+"26442
+[; <" U1BRG equ 03DF5h ;# ">
+"26449
+[; <" U1BRGL equ 03DF5h ;# ">
+"26469
+[; <" U1BRGH equ 03DF6h ;# ">
+"26489
+[; <" U1FIFO equ 03DF7h ;# ">
+"26619
+[; <" U1UIR equ 03DF8h ;# ">
+"26675
+[; <" U1ERRIR equ 03DF9h ;# ">
+"26787
+[; <" U1ERRIE equ 03DFAh ;# ">
+"26899
+[; <" DAC1CON1 equ 03E9Ch ;# ">
+"26959
+[; <" DAC1CON0 equ 03E9Eh ;# ">
+"27060
+[; <" CM2CON0 equ 03EB8h ;# ">
+"27140
+[; <" CM2CON1 equ 03EB9h ;# ">
+"27180
+[; <" CM2NCH equ 03EBAh ;# ">
+"27240
+[; <" CM2PCH equ 03EBBh ;# ">
+"27300
+[; <" CM1CON0 equ 03EBCh ;# ">
+"27380
+[; <" CM1CON1 equ 03EBDh ;# ">
+"27420
+[; <" CM1NCH equ 03EBEh ;# ">
+"27480
+[; <" CM1PCH equ 03EBFh ;# ">
+"27540
+[; <" CMOUT equ 03EC0h ;# ">
+"27566
+[; <" FVRCON equ 03EC1h ;# ">
+"27655
+[; <" ZCDCON equ 03EC3h ;# ">
+"27735
+[; <" HLVDCON0 equ 03EC9h ;# ">
+"27815
+[; <" HLVDCON1 equ 03ECAh ;# ">
+"27887
+[; <" ADCP equ 03ED7h ;# ">
+"27938
+[; <" ADLTH equ 03EDEh ;# ">
+"27945
+[; <" ADLTHL equ 03EDEh ;# ">
+"28073
+[; <" ADLTHH equ 03EDFh ;# ">
+"28201
+[; <" ADUTH equ 03EE0h ;# ">
+"28208
+[; <" ADUTHL equ 03EE0h ;# ">
+"28336
+[; <" ADUTHH equ 03EE1h ;# ">
+"28464
+[; <" ADERR equ 03EE2h ;# ">
+"28471
+[; <" ADERRL equ 03EE2h ;# ">
+"28599
+[; <" ADERRH equ 03EE3h ;# ">
+"28727
+[; <" ADSTPT equ 03EE4h ;# ">
+"28734
+[; <" ADSTPTL equ 03EE4h ;# ">
+"28862
+[; <" ADSTPTH equ 03EE5h ;# ">
+"28990
+[; <" ADFLTR equ 03EE6h ;# ">
+"28997
+[; <" ADFLTRL equ 03EE6h ;# ">
+"29125
+[; <" ADFLTRH equ 03EE7h ;# ">
+"29255
+[; <" ADACC equ 03EE8h ;# ">
+"29262
+[; <" ADACCL equ 03EE8h ;# ">
+"29390
+[; <" ADACCH equ 03EE9h ;# ">
+"29518
+[; <" ADACCU equ 03EEAh ;# ">
+"29646
+[; <" ADCNT equ 03EEBh ;# ">
+"29774
+[; <" ADRPT equ 03EECh ;# ">
+"29902
+[; <" ADPREV equ 03EEDh ;# ">
+"29909
+[; <" ADPREVL equ 03EEDh ;# ">
+"30037
+[; <" ADPREVH equ 03EEEh ;# ">
+"30165
+[; <" ADRES equ 03EEFh ;# ">
+"30172
+[; <" ADRESL equ 03EEFh ;# ">
+"30300
+[; <" ADRESH equ 03EF0h ;# ">
+"30420
+[; <" ADPCH equ 03EF1h ;# ">
+"30524
+[; <" ADACQ equ 03EF3h ;# ">
+"30531
+[; <" ADACQL equ 03EF3h ;# ">
+"30659
+[; <" ADACQH equ 03EF4h ;# ">
+"30751
+[; <" ADCAP equ 03EF5h ;# ">
+"30843
+[; <" ADPRE equ 03EF6h ;# ">
+"30850
+[; <" ADPREL equ 03EF6h ;# ">
+"30978
+[; <" ADPREH equ 03EF7h ;# ">
+"31070
+[; <" ADCON0 equ 03EF8h ;# ">
+"31188
+[; <" ADCON1 equ 03EF9h ;# ">
+"31254
+[; <" ADCON2 equ 03EFAh ;# ">
+"31432
+[; <" ADCON3 equ 03EFBh ;# ">
+"31562
+[; <" ADSTAT equ 03EFCh ;# ">
+"31687
+[; <" ADREF equ 03EFDh ;# ">
+"31769
+[; <" ADACT equ 03EFEh ;# ">
+"31861
+[; <" ADCLK equ 03EFFh ;# ">
+"31967
+[; <" SMT1TMR equ 03F12h ;# ">
+"31974
+[; <" SMT1TMRL equ 03F12h ;# ">
+"32102
+[; <" SMT1TMRH equ 03F13h ;# ">
+"32230
+[; <" SMT1TMRU equ 03F14h ;# ">
+"32360
+[; <" SMT1CPR equ 03F15h ;# ">
+"32367
+[; <" SMT1CPRL equ 03F15h ;# ">
+"32495
+[; <" SMT1CPRH equ 03F16h ;# ">
+"32623
+[; <" SMT1CPRU equ 03F17h ;# ">
+"32753
+[; <" SMT1CPW equ 03F18h ;# ">
+"32760
+[; <" SMT1CPWL equ 03F18h ;# ">
+"32888
+[; <" SMT1CPWH equ 03F19h ;# ">
+"33016
+[; <" SMT1CPWU equ 03F1Ah ;# ">
+"33146
+[; <" SMT1PR equ 03F1Bh ;# ">
+"33153
+[; <" SMT1PRL equ 03F1Bh ;# ">
+"33281
+[; <" SMT1PRH equ 03F1Ch ;# ">
+"33409
+[; <" SMT1PRU equ 03F1Dh ;# ">
+"33537
+[; <" SMT1CON0 equ 03F1Eh ;# ">
+"33655
+[; <" SMT1CON1 equ 03F1Fh ;# ">
+"33735
+[; <" SMT1STAT equ 03F20h ;# ">
+"33834
+[; <" SMT1CLK equ 03F21h ;# ">
+"33902
+[; <" SMT1SIG equ 03F22h ;# ">
+"33994
+[; <" SMT1WIN equ 03F23h ;# ">
+"34088
+[; <" NCO1ACC equ 03F38h ;# ">
+"34095
+[; <" NCO1ACCL equ 03F38h ;# ">
+"34223
+[; <" NCO1ACCH equ 03F39h ;# ">
+"34351
+[; <" NCO1ACCU equ 03F3Ah ;# ">
+"34433
+[; <" NCO1INC equ 03F3Bh ;# ">
+"34440
+[; <" NCO1INCL equ 03F3Bh ;# ">
+"34568
+[; <" NCO1INCH equ 03F3Ch ;# ">
+"34696
+[; <" NCO1INCU equ 03F3Dh ;# ">
+"34776
+[; <" NCO1CON equ 03F3Eh ;# ">
+"34844
+[; <" NCO1CLK equ 03F3Fh ;# ">
+"34976
+[; <" CWG3CLK equ 03F40h ;# ">
+"34981
+[; <" CWG3CLKCON equ 03F40h ;# ">
+"35030
+[; <" CWG3ISM equ 03F41h ;# ">
+"35035
+[; <" CWG3DAT equ 03F41h ;# ">
+"35148
+[; <" CWG3DBR equ 03F42h ;# ">
+"35252
+[; <" CWG3DBF equ 03F43h ;# ">
+"35356
+[; <" CWG3CON0 equ 03F44h ;# ">
+"35457
+[; <" CWG3CON1 equ 03F45h ;# ">
+"35535
+[; <" CWG3AS0 equ 03F46h ;# ">
+"35697
+[; <" CWG3AS1 equ 03F47h ;# ">
+"35753
+[; <" CWG3STR equ 03F48h ;# ">
+"35865
+[; <" CWG2CLK equ 03F49h ;# ">
+"35870
+[; <" CWG2CLKCON equ 03F49h ;# ">
+"35919
+[; <" CWG2ISM equ 03F4Ah ;# ">
+"35924
+[; <" CWG2DAT equ 03F4Ah ;# ">
+"36037
+[; <" CWG2DBR equ 03F4Bh ;# ">
+"36141
+[; <" CWG2DBF equ 03F4Ch ;# ">
+"36245
+[; <" CWG2CON0 equ 03F4Dh ;# ">
+"36346
+[; <" CWG2CON1 equ 03F4Eh ;# ">
+"36424
+[; <" CWG2AS0 equ 03F4Fh ;# ">
+"36586
+[; <" CWG2AS1 equ 03F50h ;# ">
+"36642
+[; <" CWG2STR equ 03F51h ;# ">
+"36754
+[; <" CWG1CLK equ 03F52h ;# ">
+"36759
+[; <" CWG1CLKCON equ 03F52h ;# ">
+"36808
+[; <" CWG1ISM equ 03F53h ;# ">
+"36813
+[; <" CWG1DAT equ 03F53h ;# ">
+"36926
+[; <" CWG1DBR equ 03F54h ;# ">
+"37030
+[; <" CWG1DBF equ 03F55h ;# ">
+"37134
+[; <" CWG1CON0 equ 03F56h ;# ">
+"37235
+[; <" CWG1CON1 equ 03F57h ;# ">
+"37313
+[; <" CWG1AS0 equ 03F58h ;# ">
+"37475
+[; <" CWG1AS1 equ 03F59h ;# ">
+"37531
+[; <" CWG1STR equ 03F5Ah ;# ">
+"37643
+[; <" CCPTMRS0 equ 03F5Eh ;# ">
+"37731
+[; <" CCPTMRS1 equ 03F5Fh ;# ">
+"37819
+[; <" PWM8DC equ 03F60h ;# ">
+"37826
+[; <" PWM8DCL equ 03F60h ;# ">
+"37892
+[; <" PWM8DCH equ 03F61h ;# ">
+"38062
+[; <" PWM8CON equ 03F62h ;# ">
+"38118
+[; <" PWM7DC equ 03F64h ;# ">
+"38125
+[; <" PWM7DCL equ 03F64h ;# ">
+"38191
+[; <" PWM7DCH equ 03F65h ;# ">
+"38361
+[; <" PWM7CON equ 03F66h ;# ">
+"38417
+[; <" PWM6DC equ 03F68h ;# ">
+"38424
+[; <" PWM6DCL equ 03F68h ;# ">
+"38490
+[; <" PWM6DCH equ 03F69h ;# ">
+"38660
+[; <" PWM6CON equ 03F6Ah ;# ">
+"38716
+[; <" PWM5DC equ 03F6Ch ;# ">
+"38723
+[; <" PWM5DCL equ 03F6Ch ;# ">
+"38789
+[; <" PWM5DCH equ 03F6Dh ;# ">
+"38959
+[; <" PWM5CON equ 03F6Eh ;# ">
+"39015
+[; <" CCPR4 equ 03F70h ;# ">
+"39022
+[; <" CCPR4L equ 03F70h ;# ">
+"39042
+[; <" CCPR4H equ 03F71h ;# ">
+"39062
+[; <" CCP4CON equ 03F72h ;# ">
+"39180
+[; <" CCP4CAP equ 03F73h ;# ">
+"39248
+[; <" CCPR3 equ 03F74h ;# ">
+"39255
+[; <" CCPR3L equ 03F74h ;# ">
+"39275
+[; <" CCPR3H equ 03F75h ;# ">
+"39295
+[; <" CCP3CON equ 03F76h ;# ">
+"39413
+[; <" CCP3CAP equ 03F77h ;# ">
+"39481
+[; <" CCPR2 equ 03F78h ;# ">
+"39488
+[; <" CCPR2L equ 03F78h ;# ">
+"39508
+[; <" CCPR2H equ 03F79h ;# ">
+"39528
+[; <" CCP2CON equ 03F7Ah ;# ">
+"39646
+[; <" CCP2CAP equ 03F7Bh ;# ">
+"39714
+[; <" CCPR1 equ 03F7Ch ;# ">
+"39721
+[; <" CCPR1L equ 03F7Ch ;# ">
+"39741
+[; <" CCPR1H equ 03F7Dh ;# ">
+"39761
+[; <" CCP1CON equ 03F7Eh ;# ">
+"39879
+[; <" CCP1CAP equ 03F7Fh ;# ">
+"39947
+[; <" T6TMR equ 03F92h ;# ">
+"39952
+[; <" TMR6 equ 03F92h ;# ">
+"39985
+[; <" T6PR equ 03F93h ;# ">
+"39990
+[; <" PR6 equ 03F93h ;# ">
+"40023
+[; <" T6CON equ 03F94h ;# ">
+"40169
+[; <" T6HLT equ 03F95h ;# ">
+"40297
+[; <" T6CLKCON equ 03F96h ;# ">
+"40302
+[; <" T6CLK equ 03F96h ;# ">
+"40455
+[; <" T6RST equ 03F97h ;# ">
+"40547
+[; <" TMR5 equ 03F98h ;# ">
+"40554
+[; <" TMR5L equ 03F98h ;# ">
+"40674
+[; <" TMR5H equ 03F99h ;# ">
+"40794
+[; <" T5CON equ 03F9Ah ;# ">
+"40799
+[; <" TMR5CON equ 03F9Ah ;# ">
+"41016
+[; <" T5GCON equ 03F9Bh ;# ">
+"41021
+[; <" TMR5GCON equ 03F9Bh ;# ">
+"41302
+[; <" T5GATE equ 03F9Ch ;# ">
+"41307
+[; <" TMR5GATE equ 03F9Ch ;# ">
+"41468
+[; <" T5CLK equ 03F9Dh ;# ">
+"41473
+[; <" TMR5CLK equ 03F9Dh ;# ">
+"41477
+[; <" PR5 equ 03F9Dh ;# ">
+"41714
+[; <" T4TMR equ 03F9Eh ;# ">
+"41719
+[; <" TMR4 equ 03F9Eh ;# ">
+"41752
+[; <" T4PR equ 03F9Fh ;# ">
+"41757
+[; <" PR4 equ 03F9Fh ;# ">
+"41790
+[; <" T4CON equ 03FA0h ;# ">
+"41936
+[; <" T4HLT equ 03FA1h ;# ">
+"42064
+[; <" T4CLKCON equ 03FA2h ;# ">
+"42069
+[; <" T4CLK equ 03FA2h ;# ">
+"42222
+[; <" T4RST equ 03FA3h ;# ">
+"42314
+[; <" TMR3 equ 03FA4h ;# ">
+"42321
+[; <" TMR3L equ 03FA4h ;# ">
+"42441
+[; <" TMR3H equ 03FA5h ;# ">
+"42561
+[; <" T3CON equ 03FA6h ;# ">
+"42566
+[; <" TMR3CON equ 03FA6h ;# ">
+"42783
+[; <" T3GCON equ 03FA7h ;# ">
+"42788
+[; <" TMR3GCON equ 03FA7h ;# ">
+"43069
+[; <" T3GATE equ 03FA8h ;# ">
+"43074
+[; <" TMR3GATE equ 03FA8h ;# ">
+"43235
+[; <" T3CLK equ 03FA9h ;# ">
+"43240
+[; <" TMR3CLK equ 03FA9h ;# ">
+"43244
+[; <" PR3 equ 03FA9h ;# ">
+"43481
+[; <" T2TMR equ 03FAAh ;# ">
+"43486
+[; <" TMR2 equ 03FAAh ;# ">
+"43519
+[; <" T2PR equ 03FABh ;# ">
+"43524
+[; <" PR2 equ 03FABh ;# ">
+"43557
+[; <" T2CON equ 03FACh ;# ">
+"43703
+[; <" T2HLT equ 03FADh ;# ">
+"43831
+[; <" T2CLKCON equ 03FAEh ;# ">
+"43836
+[; <" T2CLK equ 03FAEh ;# ">
+"43989
+[; <" T2RST equ 03FAFh ;# ">
+"44081
+[; <" TMR1 equ 03FB0h ;# ">
+"44088
+[; <" TMR1L equ 03FB0h ;# ">
+"44208
+[; <" TMR1H equ 03FB1h ;# ">
+"44328
+[; <" T1CON equ 03FB2h ;# ">
+"44333
+[; <" TMR1CON equ 03FB2h ;# ">
+"44550
+[; <" T1GCON equ 03FB3h ;# ">
+"44555
+[; <" TMR1GCON equ 03FB3h ;# ">
+"44836
+[; <" T1GATE equ 03FB4h ;# ">
+"44841
+[; <" TMR1GATE equ 03FB4h ;# ">
+"45002
+[; <" T1CLK equ 03FB5h ;# ">
+"45007
+[; <" TMR1CLK equ 03FB5h ;# ">
+"45011
+[; <" PR1 equ 03FB5h ;# ">
+"45248
+[; <" TMR0L equ 03FB6h ;# ">
+"45253
+[; <" TMR0 equ 03FB6h ;# ">
+"45386
+[; <" TMR0H equ 03FB7h ;# ">
+"45391
+[; <" PR0 equ 03FB7h ;# ">
+"45640
+[; <" T0CON0 equ 03FB8h ;# ">
+"45764
+[; <" T0CON1 equ 03FB9h ;# ">
+"45906
+[; <" LATA equ 03FBAh ;# ">
+"46018
+[; <" LATB equ 03FBBh ;# ">
+"46130
+[; <" LATC equ 03FBCh ;# ">
+"46242
+[; <" LATD equ 03FBDh ;# ">
+"46354
+[; <" LATE equ 03FBEh ;# ">
+"46406
+[; <" TRISA equ 03FC2h ;# ">
+"46468
+[; <" TRISB equ 03FC3h ;# ">
+"46530
+[; <" TRISC equ 03FC4h ;# ">
+"46592
+[; <" TRISD equ 03FC5h ;# ">
+"46654
+[; <" TRISE equ 03FC6h ;# ">
+"46686
+[; <" PORTA equ 03FCAh ;# ">
+"46748
+[; <" PORTB equ 03FCBh ;# ">
+"46810
+[; <" PORTC equ 03FCCh ;# ">
+"46872
+[; <" PORTD equ 03FCDh ;# ">
+"46934
+[; <" PORTE equ 03FCEh ;# ">
+"46972
+[; <" INTCON0 equ 03FD2h ;# ">
+"47032
+[; <" INTCON1 equ 03FD3h ;# ">
+"47068
+[; <" IVTLOCK equ 03FD4h ;# ">
+"47090
+[; <" IVTBASE equ 03FD5h ;# ">
+"47097
+[; <" IVTBASEL equ 03FD5h ;# ">
+"47159
+[; <" IVTBASEH equ 03FD6h ;# ">
+"47221
+[; <" IVTBASEU equ 03FD7h ;# ">
+"47265
+[; <" STATUS equ 03FD8h ;# ">
+"47381
+[; <" FSR2 equ 03FD9h ;# ">
+"47388
+[; <" FSR2L equ 03FD9h ;# ">
+"47408
+[; <" FSR2H equ 03FDAh ;# ">
+"47428
+[; <" PLUSW2 equ 03FDBh ;# ">
+"47448
+[; <" PREINC2 equ 03FDCh ;# ">
+"47468
+[; <" POSTDEC2 equ 03FDDh ;# ">
+"47488
+[; <" POSTINC2 equ 03FDEh ;# ">
+"47508
+[; <" INDF2 equ 03FDFh ;# ">
+"47528
+[; <" BSR equ 03FE0h ;# ">
+"47548
+[; <" FSR1 equ 03FE1h ;# ">
+"47555
+[; <" FSR1L equ 03FE1h ;# ">
+"47575
+[; <" FSR1H equ 03FE2h ;# ">
+"47595
+[; <" PLUSW1 equ 03FE3h ;# ">
+"47615
+[; <" PREINC1 equ 03FE4h ;# ">
+"47635
+[; <" POSTDEC1 equ 03FE5h ;# ">
+"47655
+[; <" POSTINC1 equ 03FE6h ;# ">
+"47675
+[; <" INDF1 equ 03FE7h ;# ">
+"47695
+[; <" WREG equ 03FE8h ;# ">
+"47733
+[; <" FSR0 equ 03FE9h ;# ">
+"47740
+[; <" FSR0L equ 03FE9h ;# ">
+"47760
+[; <" FSR0H equ 03FEAh ;# ">
+"47780
+[; <" PLUSW0 equ 03FEBh ;# ">
+"47800
+[; <" PREINC0 equ 03FECh ;# ">
+"47820
+[; <" POSTDEC0 equ 03FEDh ;# ">
+"47840
+[; <" POSTINC0 equ 03FEEh ;# ">
+"47860
+[; <" INDF0 equ 03FEFh ;# ">
+"47880
+[; <" PCON0 equ 03FF0h ;# ">
+"48033
+[; <" PCON1 equ 03FF1h ;# ">
+"48072
+[; <" PROD equ 03FF3h ;# ">
+"48079
+[; <" PRODL equ 03FF3h ;# ">
+"48099
+[; <" PRODH equ 03FF4h ;# ">
+"48119
+[; <" TABLAT equ 03FF5h ;# ">
+"48141
+[; <" TBLPTR equ 03FF6h ;# ">
+"48148
+[; <" TBLPTRL equ 03FF6h ;# ">
+"48168
+[; <" TBLPTRH equ 03FF7h ;# ">
+"48188
+[; <" TBLPTRU equ 03FF8h ;# ">
+"48210
+[; <" PCLAT equ 03FF9h ;# ">
+"48217
+[; <" PCL equ 03FF9h ;# ">
+"48237
+[; <" PCLATH equ 03FFAh ;# ">
+"48257
+[; <" PCLATU equ 03FFBh ;# ">
+"48277
+[; <" STKPTR equ 03FFCh ;# ">
+"48363
+[; <" TOS equ 03FFDh ;# ">
+"48370
+[; <" TOSL equ 03FFDh ;# ">
+"48390
+[; <" TOSH equ 03FFEh ;# ">
+"48410
+[; <" TOSU equ 03FFFh ;# ">
+"70 C:\Users\John Christie\MPLABProjects\maple_w5500_test\config.mcc\main.c
+[v _soc_from_mv `(uc ~T0 @X0 1 sf2`us`uc ]
+"71
+{
+[e :U _soc_from_mv ]
+"70
+[v _v `us ~T0 @X0 1 r1 ]
+[v _on_charger `uc ~T0 @X0 1 r2 ]
+"71
+[f ]
+"72
+[v F16803 `Cus ~T0 @X0 -> 5 `i s rest_mv ]
+[i F16803
+:U ..
+-> -> 11900 `ui `us
+-> -> 12100 `ui `us
+-> -> 12300 `ui `us
+-> -> 12600 `ui `us
+-> -> 12900 `ui `us
+..
+]
+"73
+[v F16804 `Cus ~T0 @X0 -> 5 `i s charge_mv ]
+[i F16804
+:U ..
+-> -> 12900 `ui `us
+-> -> 13125 `ui `us
+-> -> 13350 `ui `us
+-> -> 13575 `ui `us
+-> -> 13800 `ui `us
+..
+]
+"74
+[v F16805 `Cuc ~T0 @X0 -> 5 `i s pt_pc ]
+[i F16805
+:U ..
+-> -> 0 `ui `uc
+-> -> 25 `ui `uc
+-> -> 50 `ui `uc
+-> -> 75 `ui `uc
+-> -> 100 `ui `uc
+..
+]
+"75
+[v _pt_mv `*Cus ~T0 @X0 1 a ]
+[e = _pt_mv ? != -> _on_charger `i -> 0 `i : &U F16804 &U F16803 ]
+"76
+[v _i `uc ~T0 @X0 1 a ]
+"78
+[e $ ! <= -> _v `ui -> *U + _pt_mv * -> -> 0 `i `x -> -> # *U _pt_mv `i `x `ui 2268  ]
+[e ) -> -> 0 `i `uc ]
+[e $UE 2267  ]
+[e :U 2268 ]
+"79
+[e $ ! >= -> _v `ui -> *U + _pt_mv * -> -> 4 `i `x -> -> # *U _pt_mv `i `x `ui 2269  ]
+[e ) -> -> 100 `i `uc ]
+[e $UE 2267  ]
+[e :U 2269 ]
+"80
+{
+[e = _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 5 `i 2270  ]
+[e $U 2271  ]
+[e :U 2270 ]
+{
+"81
+[e $ ! <= -> _v `ui -> *U + _pt_mv * -> _i `ux -> -> # *U _pt_mv `ui `ux `ui 2273  ]
+{
+"82
+[v _span_mv `us ~T0 @X0 1 a ]
+[e = _span_mv -> - -> *U + _pt_mv * -> _i `ux -> -> # *U _pt_mv `ui `ux `ui -> *U + _pt_mv * -> - -> _i `i -> 1 `i `x -> -> # *U _pt_mv `i `x `ui `us ]
+"83
+[v _span_pc `us ~T0 @X0 1 a ]
+[e = _span_pc -> - -> *U + &U F16805 * -> _i `ux -> -> # *U &U F16805 `ui `ux `i -> *U + &U F16805 * -> -> - -> _i `i -> 1 `i `ui `ux -> -> # *U &U F16805 `ui `ux `i `us ]
+"84
+[e ) -> + -> *U + &U F16805 * -> -> - -> _i `i -> 1 `i `ui `ux -> -> # *U &U F16805 `ui `ux `ul / * -> - -> _v `ui -> *U + _pt_mv * -> - -> _i `i -> 1 `i `x -> -> # *U _pt_mv `i `x `ui `ul -> _span_pc `ul -> _span_mv `ul `uc ]
+[e $UE 2267  ]
+"86
+}
+[e :U 2273 ]
+"87
+}
+[e =+ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 5 `i 2270  ]
+[e :U 2271 ]
+}
+"88
+[e ) -> -> 100 `i `uc ]
+[e $UE 2267  ]
+"89
+[e :UE 2267 ]
+}
+"91
+[v _adc_get_average `(us ~T0 @X0 1 sf ]
+"92
+{
+[e :U _adc_get_average ]
+[f ]
+"93
+[v _sum `ul ~T0 @X0 1 a ]
+[e = _sum -> -> -> 0 `i `l `ul ]
+"94
+[v _i `uc ~T0 @X0 1 a ]
+"95
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `ui -> 64 `ui 2275  ]
+[e $U 2276  ]
+[e :U 2275 ]
+{
+"96
+[e ( _ADC_ChannelSelect (1 . `E16571 5 ]
+"97
+[e ( _ADC_ConversionStart ..  ]
+"98
+[e $U 2278  ]
+[e :U 2279 ]
+{
+}
+[e :U 2278 ]
+[e $ ! != -> ( _ADC_IsConversionDone ..  `i -> 0 `i 2279  ]
+[e :U 2280 ]
+"99
+[e =+ _sum -> -> ( _ADC_ConversionResultGet ..  `us `ul ]
+"100
+}
+[e =+ _i -> -> 1 `i `uc ]
+[e $ < -> _i `ui -> 64 `ui 2275  ]
+[e :U 2276 ]
+}
+"101
+[e ) -> / _sum -> -> 64 `ui `ul `us ]
+[e $UE 2274  ]
+"102
+[e :UE 2274 ]
+}
+"105
+[v _Leds_Set `(v ~T0 @X0 1 sf2`uc`uc ]
+"106
+{
+[e :U _Leds_Set ]
+"105
+[v _a1 `uc ~T0 @X0 1 r1 ]
+[v _a2 `uc ~T0 @X0 1 r2 ]
+"106
+[f ]
+"107
+[v _bits `uc ~T0 @X0 1 a ]
+[e = _bits -> | ? != -> _a1 `i -> 0 `i : -> 2 `ui -> 0 `ui ? != -> _a2 `i -> 0 `i : -> 4 `ui -> 0 `ui `uc ]
+"109
+[e = _LATA -> | & -> _LATA `ui -> 1 `ui -> _bits `ui `uc ]
+"113
+[e :UE 2281 ]
+}
+"161
+[v _cfg_mac `Cuc ~T0 @X0 -> 6 `i s ]
+[i _cfg_mac
+:U ..
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+..
+]
+"162
+[v _cfg_ip `Cuc ~T0 @X0 -> 4 `i s ]
+[i _cfg_ip
+:U ..
+-> -> 10 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 60 `i `uc
+..
+]
+"163
+[v _cfg_sub `Cuc ~T0 @X0 -> 4 `i s ]
+[i _cfg_sub
+:U ..
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 255 `i `uc
+-> -> 0 `i `uc
+..
+]
+"164
+[v _cfg_gw `Cuc ~T0 @X0 -> 4 `i s ]
+[i _cfg_gw
+:U ..
+-> -> 10 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+..
+]
+"166
+[v _w5500_version `Vuc ~T0 @X0 1 e ]
+[i _w5500_version
+-> -> 0 `i `uc
+]
+"167
+[v _w5500_ok `Va ~T0 @X0 1 e ]
+[i _w5500_ok
+-> -> 0 `i `a
+]
+"168
+[v _cfg_ok `Va ~T0 @X0 1 e ]
+[i _cfg_ok
+-> -> 0 `i `a
+]
+"169
+[v _phycfgr `Vuc ~T0 @X0 1 e ]
+[i _phycfgr
+-> -> 0 `i `uc
+]
+"170
+[v _link_up `Va ~T0 @X0 1 e ]
+[i _link_up
+-> -> 0 `i `a
+]
+"171
+[v _socket_status `Vuc ~T0 @X0 1 e ]
+[i _socket_status
+-> -> 0 `i `uc
+]
+"172
+[v _server_ready `Va ~T0 @X0 1 e ]
+[i _server_ready
+-> -> 0 `i `a
+]
+"173
+[v _http_request_seen `Va ~T0 @X0 1 e ]
+[i _http_request_seen
+-> -> 0 `i `a
+]
+"174
+[v _send_ok `Va ~T0 @X0 1 e ]
+[i _send_ok
+-> -> 0 `i `a
+]
+"175
+[v _http_response_sent `Va ~T0 @X0 1 e ]
+[i _http_response_sent
+-> -> 0 `i `a
+]
+"176
+[v _read_ip `Vuc ~T0 @X0 -> 4 `i e ]
+[i _read_ip
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+"177
+[v _received_size `Vus ~T0 @X0 1 e ]
+[i _received_size
+-> -> 0 `i `us
+]
+"178
+[v _last_response_length `Vus ~T0 @X0 1 e ]
+[i _last_response_length
+-> -> 0 `i `us
+]
+"179
+[v _last_tx_free `Vus ~T0 @X0 1 e ]
+[i _last_tx_free
+-> -> 0 `i `us
+]
+"180
+[v _send_stage `Vuc ~T0 @X0 1 e ]
+[i _send_stage
+-> -> 0 `i `uc
+]
+"182
+[v _diagnostic `uc ~T0 @X0 -> 112 `i s ]
+"184
+[v _UART2_Print `(v ~T0 @X0 1 sf1`*Cuc ]
+"185
+{
+[e :U _UART2_Print ]
+"184
+[v _text `*Cuc ~T0 @X0 1 r1 ]
+"185
+[f ]
+"186
+[e $U 2283  ]
+[e :U 2284 ]
+{
+"187
+[e $U 2286  ]
+[e :U 2287 ]
+{
+}
+[e :U 2286 ]
+[e $ ! != -> ( _UART2_IsTxReady ..  `i -> 0 `i 2287  ]
+[e :U 2288 ]
+"188
+[e ( _UART2_Write (1 -> *U ++ _text * -> -> 1 `i `x -> -> # *U _text `i `x `uc ]
+"189
+}
+[e :U 2283 ]
+"186
+[e $ != -> *U _text `ui -> 0 `ui 2284  ]
+[e :U 2285 ]
+"190
+[e :UE 2282 ]
+}
+"193
+[v _web_vbat_mv `Vus ~T0 @X0 1 s ]
+[i _web_vbat_mv
+-> -> 0 `i `us
+]
+"194
+[v _web_soc `Vuc ~T0 @X0 1 s ]
+[i _web_soc
+-> -> 0 `i `uc
+]
+"195
+[v _web_charging `Vuc ~T0 @X0 1 s ]
+[i _web_charging
+-> -> 0 `i `uc
+]
+"196
+[v _web_full `Vuc ~T0 @X0 1 s ]
+[i _web_full
+-> -> 0 `i `uc
+]
+"197
+[v _web_fault `Vuc ~T0 @X0 1 s ]
+[i _web_fault
+-> -> 0 `i `uc
+]
+"198
+[v _web_no_charger `Vuc ~T0 @X0 1 s ]
+[i _web_no_charger
+-> -> 0 `i `uc
+]
+"199
+[v _web_led1 `Vuc ~T0 @X0 1 s ]
+[i _web_led1
+-> -> 0 `i `uc
+]
+"200
+[v _web_led2 `Vuc ~T0 @X0 1 s ]
+[i _web_led2
+-> -> 0 `i `uc
+]
+"201
+[v _web_state `uc ~T0 @X0 -> 24 `i s ]
+[i _web_state
+:U ..
+-> 83 `c
+-> 84 `c
+-> 65 `c
+-> 82 `c
+-> 84 `c
+-> 73 `c
+-> 78 `c
+-> 71 `c
+-> 0 `c
+..
+]
+"202
+[v _web_chg `uc ~T0 @X0 -> 32 `i s ]
+[i _web_chg
+:U ..
+-> 87 `c
+-> 65 `c
+-> 73 `c
+-> 84 `c
+-> 0 `c
+..
+]
+"203
+[v _web_trend `uc ~T0 @X0 -> 8 `i s ]
+[i _web_trend
+:U ..
+-> 83 `c
+-> 84 `c
+-> 69 `c
+-> 65 `c
+-> 68 `c
+-> 89 `c
+-> 0 `c
+..
+]
+"206
+[v _hist `us ~T0 @X0 -> 120 `i s ]
+"207
+[v _hist_head `uc ~T0 @X0 1 s ]
+[i _hist_head
+-> -> 0 `i `uc
+]
+"208
+[v _hist_count `uc ~T0 @X0 1 s ]
+[i _hist_count
+-> -> 0 `i `uc
+]
+"211
+[v _tx_ptr `us ~T0 @X0 1 s ]
+[i _tx_ptr
+-> -> 0 `i `us
+]
+"212
+[v _tx_len `us ~T0 @X0 1 s ]
+[i _tx_len
+-> -> 0 `i `us
+]
+"213
+[v _page_buf `uc ~T0 @X0 -> 700 `i s ]
+"215
+[v _CopyText `(v ~T0 @X0 1 sf3`*uc`uc`*Cuc ]
+"216
+{
+[e :U _CopyText ]
+"215
+[v _dst `*uc ~T0 @X0 1 r1 ]
+[v _dst_size `uc ~T0 @X0 1 r2 ]
+[v _src `*Cuc ~T0 @X0 1 r3 ]
+"216
+[f ]
+"217
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+"218
+[e $ ! == -> _dst_size `i -> 0 `i 2290  ]
+[e $UE 2289  ]
+[e :U 2290 ]
+"219
+[e $U 2291  ]
+[e :U 2292 ]
+{
+"220
+[e = *U + _dst * -> _i `ux -> -> # *U _dst `ui `ux *U + _src * -> _i `ux -> -> # *U _src `ui `ux ]
+"221
+[e =+ _i -> -> 1 `i `uc ]
+"222
+}
+[e :U 2291 ]
+"219
+[e $ && < -> _i `i -> -> - -> _dst_size `ui -> 1 `ui `uc `i != -> *U + _src * -> _i `ux -> -> # *U _src `ui `ux `ui -> 0 `ui 2292  ]
+[e :U 2293 ]
+"223
+[e = *U + _dst * -> _i `ux -> -> # *U _dst `ui `ux -> -> 0 `ui `uc ]
+"224
+[e :UE 2289 ]
+}
+"226
+[v _W5500_Write `(v ~T0 @X0 1 sf4`us`uc`*Cuc`us ]
+"228
+{
+[e :U _W5500_Write ]
+"226
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+"227
+[v _data `*Cuc ~T0 @X0 1 r3 ]
+[v _len `us ~T0 @X0 1 r4 ]
+"228
+[f ]
+"229
+[v _i `us ~T0 @X0 1 a ]
+"230
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"231
+[e ( _SPI1_ByteExchange (1 -> >> -> _addr `ui -> 8 `i `uc ]
+"232
+[e ( _SPI1_ByteExchange (1 -> & -> _addr `ui -> -> 255 `i `ui `uc ]
+"233
+[e ( _SPI1_ByteExchange (1 -> | << -> _bsb `i -> 3 `i -> 4 `i `uc ]
+"234
+{
+[e = _i -> -> 0 `i `us ]
+[e $U 2298  ]
+[e :U 2295 ]
+[e ( _SPI1_ByteExchange (1 *U + _data * -> _i `ux -> -> # *U _data `ui `ux ]
+[e ++ _i -> -> 1 `i `us ]
+[e :U 2298 ]
+[e $ < -> _i `ui -> _len `ui 2295  ]
+[e :U 2296 ]
+}
+"235
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"236
+[e :UE 2294 ]
+}
+"238
+[v _W5500_Read `(v ~T0 @X0 1 sf4`us`uc`*uc`us ]
+"240
+{
+[e :U _W5500_Read ]
+"238
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+"239
+[v _data `*uc ~T0 @X0 1 r3 ]
+[v _len `us ~T0 @X0 1 r4 ]
+"240
+[f ]
+"241
+[v _i `us ~T0 @X0 1 a ]
+"242
+[e = . . _LATDbits 0 4 -> -> 0 `i `uc ]
+"243
+[e ( _SPI1_ByteExchange (1 -> >> -> _addr `ui -> 8 `i `uc ]
+"244
+[e ( _SPI1_ByteExchange (1 -> & -> _addr `ui -> -> 255 `i `ui `uc ]
+"245
+[e ( _SPI1_ByteExchange (1 -> << -> _bsb `i -> 3 `i `uc ]
+"246
+{
+[e = _i -> -> 0 `i `us ]
+[e $U 2303  ]
+[e :U 2300 ]
+[e = *U + _data * -> _i `ux -> -> # *U _data `ui `ux ( _SPI1_ByteExchange (1 -> -> 0 `i `uc ]
+[e ++ _i -> -> 1 `i `us ]
+[e :U 2303 ]
+[e $ < -> _i `ui -> _len `ui 2300  ]
+[e :U 2301 ]
+}
+"247
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"248
+[e :UE 2299 ]
+}
+"250
+[v _W5500_Write8 `(v ~T0 @X0 1 sf3`us`uc`uc ]
+"251
+{
+[e :U _W5500_Write8 ]
+"250
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+[v _value `uc ~T0 @X0 1 r3 ]
+"251
+[f ]
+"252
+[e ( _W5500_Write (4 , , , _addr _bsb -> &U _value `*Cuc -> -> 1 `i `us ]
+"253
+[e :UE 2304 ]
+}
+"255
+[v _W5500_Read8 `(uc ~T0 @X0 1 sf2`us`uc ]
+"256
+{
+[e :U _W5500_Read8 ]
+"255
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+"256
+[f ]
+"257
+[v _value `uc ~T0 @X0 1 a ]
+[e = _value -> -> 0 `i `uc ]
+"258
+[e ( _W5500_Read (4 , , , _addr _bsb &U _value -> -> 1 `i `us ]
+"259
+[e ) _value ]
+[e $UE 2305  ]
+"260
+[e :UE 2305 ]
+}
+"262
+[v _W5500_Write16 `(v ~T0 @X0 1 sf3`us`uc`us ]
+"263
+{
+[e :U _W5500_Write16 ]
+"262
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+[v _value `us ~T0 @X0 1 r3 ]
+"263
+[f ]
+"264
+[v _data `uc ~T0 @X0 -> 2 `i a ]
+"265
+[e = *U + &U _data * -> -> -> 0 `i `ui `ux -> -> # *U &U _data `ui `ux -> >> -> _value `ui -> 8 `i `uc ]
+"266
+[e = *U + &U _data * -> -> -> 1 `i `ui `ux -> -> # *U &U _data `ui `ux -> _value `uc ]
+"267
+[e ( _W5500_Write (4 , , , _addr _bsb -> &U _data `*Cuc -> -> 2 `i `us ]
+"268
+[e :UE 2306 ]
+}
+"270
+[v _W5500_Read16 `(us ~T0 @X0 1 sf2`us`uc ]
+"271
+{
+[e :U _W5500_Read16 ]
+"270
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+"271
+[f ]
+"272
+[v _data `uc ~T0 @X0 -> 2 `i a ]
+"273
+[e ( _W5500_Read (4 , , , _addr _bsb &U _data -> -> 2 `i `us ]
+"274
+[e ) -> | << -> -> *U + &U _data * -> -> -> 0 `i `ui `ux -> -> # *U &U _data `ui `ux `us `ui -> 8 `i -> *U + &U _data * -> -> -> 1 `i `ui `ux -> -> # *U &U _data `ui `ux `ui `us ]
+[e $UE 2307  ]
+"275
+[e :UE 2307 ]
+}
+"277
+[v _W5500_Read16Stable `(us ~T0 @X0 1 sf2`us`uc ]
+"278
+{
+[e :U _W5500_Read16Stable ]
+"277
+[v _addr `us ~T0 @X0 1 r1 ]
+[v _bsb `uc ~T0 @X0 1 r2 ]
+"278
+[f ]
+"279
+[v _first `us ~T0 @X0 1 a ]
+[e = _first -> -> 0 `i `us ]
+[v _second `us ~T0 @X0 1 a ]
+[e = _second -> -> 0 `i `us ]
+"280
+[v _tries `uc ~T0 @X0 1 a ]
+"281
+{
+[e = _tries -> -> 0 `i `uc ]
+[e $ < -> _tries `i -> 8 `i 2309  ]
+[e $U 2310  ]
+[e :U 2309 ]
+{
+"282
+[e = _first ( _W5500_Read16 (2 , _addr _bsb ]
+"283
+[e = _second ( _W5500_Read16 (2 , _addr _bsb ]
+"284
+[e $ ! == -> _first `ui -> _second `ui 2312  ]
+[e ) _second ]
+[e $UE 2308  ]
+[e :U 2312 ]
+"285
+}
+[e ++ _tries -> -> 1 `i `uc ]
+[e $ < -> _tries `i -> 8 `i 2309  ]
+[e :U 2310 ]
+}
+"286
+[e ) _second ]
+[e $UE 2308  ]
+"287
+[e :UE 2308 ]
+}
+"289
+[v _W5500_Command `(a ~T0 @X0 1 sf1`uc ]
+"290
+{
+[e :U _W5500_Command ]
+"289
+[v _command `uc ~T0 @X0 1 r1 ]
+"290
+[f ]
+"291
+[v _timeout `ul ~T0 @X0 1 a ]
+"292
+[e ( _W5500_Write8 (3 , , -> -> 1 `i `us -> -> 1 `i `uc _command ]
+"293
+{
+[e = _timeout -> -> -> 0 `i `l `ul ]
+[e $ < _timeout -> 100000 `ul 2314  ]
+[e $U 2315  ]
+[e :U 2314 ]
+{
+"294
+[e $ ! == -> ( _W5500_Read8 (2 , -> -> 1 `i `us -> -> 1 `i `uc `i -> 0 `i 2317  ]
+[e ) -> -> 1 `i `a ]
+[e $UE 2313  ]
+[e :U 2317 ]
+"295
+}
+[e ++ _timeout -> -> -> 1 `i `l `ul ]
+[e $ < _timeout -> 100000 `ul 2314  ]
+[e :U 2315 ]
+}
+"296
+[e ) -> -> 0 `i `a ]
+[e $UE 2313  ]
+"297
+[e :UE 2313 ]
+}
+"299
+[v _W5500_Compare `(a ~T0 @X0 1 sf3`*Cuc`*Cuc`uc ]
+"300
+{
+[e :U _W5500_Compare ]
+"299
+[v _a `*Cuc ~T0 @X0 1 r1 ]
+[v _b `*Cuc ~T0 @X0 1 r2 ]
+[v _len `uc ~T0 @X0 1 r3 ]
+"300
+[f ]
+"301
+[v _i `uc ~T0 @X0 1 a ]
+"302
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 2322  ]
+[e :U 2319 ]
+[e $ ! != -> *U + _a * -> _i `ux -> -> # *U _a `ui `ux `i -> *U + _b * -> _i `ux -> -> # *U _b `ui `ux `i 2323  ]
+[e ) -> -> 0 `i `a ]
+[e $UE 2318  ]
+[e :U 2323 ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 2322 ]
+[e $ < -> _i `i -> _len `i 2319  ]
+[e :U 2320 ]
+}
+"303
+[e ) -> -> 1 `i `a ]
+[e $UE 2318  ]
+"304
+[e :UE 2318 ]
+}
+"306
+[v _W5500_StartHttpServer `(a ~T0 @X0 1 sf ]
+"307
+{
+[e :U _W5500_StartHttpServer ]
+[f ]
+[v F16905 `uc ~T0 @X0 -> 2 `i s ]
+[i F16905
+:U ..
+"308
+-> -> 0 `i `uc
+-> -> 80 `i `uc
+..
+]
+[v _port `uc ~T0 @X0 -> 2 `i a ]
+[e = _port F16905 ]
+"309
+[v _timeout `ul ~T0 @X0 1 a ]
+"310
+[e = _server_ready -> -> 0 `i `a ]
+"312
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+"313
+[e ( _W5500_Write8 (3 , , -> -> 0 `i `us -> -> 1 `i `uc -> -> 1 `i `uc ]
+"314
+[e ( _W5500_Write (4 , , , -> -> 4 `i `us -> -> 1 `i `uc -> &U _port `*Cuc -> -> 2 `i `us ]
+"315
+[e ( _W5500_Write8 (3 , , -> -> 2 `i `us -> -> 1 `i `uc -> -> 255 `i `uc ]
+"317
+[e $ ! ! != -> ( _W5500_Command (1 -> -> 1 `i `uc `i -> 0 `i 2325  ]
+[e ) -> -> 0 `i `a ]
+[e $UE 2324  ]
+[e :U 2325 ]
+"318
+{
+[e = _timeout -> -> -> 0 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2326  ]
+[e $U 2327  ]
+[e :U 2326 ]
+{
+"319
+[e $ ! == -> ( _W5500_Read8 (2 , -> -> 3 `i `us -> -> 1 `i `uc `i -> 19 `i 2329  ]
+[e $U 2327  ]
+[e :U 2329 ]
+"320
+}
+[e ++ _timeout -> -> -> 1 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2326  ]
+[e :U 2327 ]
+}
+"321
+[e $ ! != -> ( _W5500_Read8 (2 , -> -> 3 `i `us -> -> 1 `i `uc `i -> 19 `i 2330  ]
+{
+"322
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+"323
+[e ) -> -> 0 `i `a ]
+[e $UE 2324  ]
+"324
+}
+[e :U 2330 ]
+"325
+[e $ ! ! != -> ( _W5500_Command (1 -> -> 2 `i `uc `i -> 0 `i 2331  ]
+{
+"326
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+"327
+[e ) -> -> 0 `i `a ]
+[e $UE 2324  ]
+"328
+}
+[e :U 2331 ]
+"329
+{
+[e = _timeout -> -> -> 0 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2332  ]
+[e $U 2333  ]
+[e :U 2332 ]
+{
+"330
+[e $ ! == -> ( _W5500_Read8 (2 , -> -> 3 `i `us -> -> 1 `i `uc `i -> 20 `i 2335  ]
+{
+"331
+[e = _server_ready -> -> 1 `i `a ]
+"332
+[e ) -> -> 1 `i `a ]
+[e $UE 2324  ]
+"333
+}
+[e :U 2335 ]
+"334
+}
+[e ++ _timeout -> -> -> 1 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2332  ]
+[e :U 2333 ]
+}
+"335
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+"336
+[e ) -> -> 0 `i `a ]
+[e $UE 2324  ]
+"337
+[e :UE 2324 ]
+}
+"340
+[v _TxAppend `(v ~T0 @X0 1 sf2`*Cuc`us ]
+"341
+{
+[e :U _TxAppend ]
+"340
+[v _data `*Cuc ~T0 @X0 1 r1 ]
+[v _len `us ~T0 @X0 1 r2 ]
+"341
+[f ]
+"342
+[e ( _W5500_Write (4 , , , _tx_ptr -> -> 2 `i `uc _data _len ]
+"343
+[e = _tx_ptr -> + -> _tx_ptr `ui -> _len `ui `us ]
+"344
+[e = _tx_len -> + -> _tx_len `ui -> _len `ui `us ]
+"345
+[e :UE 2336 ]
+}
+"347
+[v _TxPrint `(v ~T0 @X0 1 sf1`*Cuc ]
+"348
+{
+[e :U _TxPrint ]
+"347
+[v _s `*Cuc ~T0 @X0 1 r1 ]
+"348
+[f ]
+"349
+[v _n `us ~T0 @X0 1 a ]
+[e = _n -> -> 0 `i `us ]
+"350
+[e $U 2338  ]
+[e :U 2339 ]
+[e ++ _n -> -> 1 `i `us ]
+[e :U 2338 ]
+[e $ != -> *U + _s * -> _n `ux -> -> # *U _s `ui `ux `ui -> 0 `ui 2339  ]
+[e :U 2340 ]
+"351
+[e ( _TxAppend (2 , -> _s `*Cuc _n ]
+"352
+[e :UE 2337 ]
+}
+"355
+[v _P_HEAD `Cuc ~T0 @X0 -> 1674 `i s ]
+[i _P_HEAD
+:U ..
+-> 72 `c
+-> 84 `c
+-> 84 `c
+-> 80 `c
+-> 47 `c
+-> 49 `c
+-> 46 `c
+-> 49 `c
+-> 32 `c
+-> 50 `c
+-> 48 `c
+-> 48 `c
+-> 32 `c
+-> 79 `c
+-> 75 `c
+-> 13 `c
+-> 10 `c
+-> 67 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 84 `c
+-> 121 `c
+-> 112 `c
+-> 101 `c
+-> 58 `c
+-> 32 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 47 `c
+-> 104 `c
+-> 116 `c
+-> 109 `c
+-> 108 `c
+-> 59 `c
+-> 32 `c
+-> 99 `c
+-> 104 `c
+-> 97 `c
+-> 114 `c
+-> 115 `c
+-> 101 `c
+-> 116 `c
+-> 61 `c
+-> 117 `c
+-> 116 `c
+-> 102 `c
+-> 45 `c
+-> 56 `c
+-> 13 `c
+-> 10 `c
+-> 67 `c
+-> 111 `c
+-> 110 `c
+-> 110 `c
+-> 101 `c
+-> 99 `c
+-> 116 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 58 `c
+-> 32 `c
+-> 99 `c
+-> 108 `c
+-> 111 `c
+-> 115 `c
+-> 101 `c
+-> 13 `c
+-> 10 `c
+-> 67 `c
+-> 97 `c
+-> 99 `c
+-> 104 `c
+-> 101 `c
+-> 45 `c
+-> 67 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 108 `c
+-> 58 `c
+-> 32 `c
+-> 110 `c
+-> 111 `c
+-> 45 `c
+-> 115 `c
+-> 116 `c
+-> 111 `c
+-> 114 `c
+-> 101 `c
+-> 13 `c
+-> 10 `c
+-> 13 `c
+-> 10 `c
+-> 60 `c
+-> 33 `c
+-> 100 `c
+-> 111 `c
+-> 99 `c
+-> 116 `c
+-> 121 `c
+-> 112 `c
+-> 101 `c
+-> 32 `c
+-> 104 `c
+-> 116 `c
+-> 109 `c
+-> 108 `c
+-> 62 `c
+-> 60 `c
+-> 104 `c
+-> 116 `c
+-> 109 `c
+-> 108 `c
+-> 62 `c
+-> 60 `c
+-> 104 `c
+-> 101 `c
+-> 97 `c
+-> 100 `c
+-> 62 `c
+-> 60 `c
+-> 109 `c
+-> 101 `c
+-> 116 `c
+-> 97 `c
+-> 32 `c
+-> 99 `c
+-> 104 `c
+-> 97 `c
+-> 114 `c
+-> 115 `c
+-> 101 `c
+-> 116 `c
+-> 61 `c
+-> 39 `c
+-> 117 `c
+-> 116 `c
+-> 102 `c
+-> 45 `c
+-> 56 `c
+-> 39 `c
+-> 62 `c
+-> 60 `c
+-> 109 `c
+-> 101 `c
+-> 116 `c
+-> 97 `c
+-> 32 `c
+-> 110 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 118 `c
+-> 105 `c
+-> 101 `c
+-> 119 `c
+-> 112 `c
+-> 111 `c
+-> 114 `c
+-> 116 `c
+-> 39 `c
+-> 32 `c
+-> 99 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 61 `c
+-> 39 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 61 `c
+-> 100 `c
+-> 101 `c
+-> 118 `c
+-> 105 `c
+-> 99 `c
+-> 101 `c
+-> 45 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 44 `c
+-> 105 `c
+-> 110 `c
+-> 105 `c
+-> 116 `c
+-> 105 `c
+-> 97 `c
+-> 108 `c
+-> 45 `c
+-> 115 `c
+-> 99 `c
+-> 97 `c
+-> 108 `c
+-> 101 `c
+-> 61 `c
+-> 49 `c
+-> 39 `c
+-> 62 `c
+-> 60 `c
+-> 109 `c
+-> 101 `c
+-> 116 `c
+-> 97 `c
+-> 32 `c
+-> 104 `c
+-> 116 `c
+-> 116 `c
+-> 112 `c
+-> 45 `c
+-> 101 `c
+-> 113 `c
+-> 117 `c
+-> 105 `c
+-> 118 `c
+-> 61 `c
+-> 39 `c
+-> 114 `c
+-> 101 `c
+-> 102 `c
+-> 114 `c
+-> 101 `c
+-> 115 `c
+-> 104 `c
+-> 39 `c
+-> 32 `c
+-> 99 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 39 `c
+-> 62 `c
+-> 60 `c
+-> 116 `c
+-> 105 `c
+-> 116 `c
+-> 108 `c
+-> 101 `c
+-> 62 `c
+-> 66 `c
+-> 97 `c
+-> 116 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 121 `c
+-> 60 `c
+-> 47 `c
+-> 116 `c
+-> 105 `c
+-> 116 `c
+-> 108 `c
+-> 101 `c
+-> 62 `c
+-> 60 `c
+-> 115 `c
+-> 116 `c
+-> 121 `c
+-> 108 `c
+-> 101 `c
+-> 62 `c
+-> 42 `c
+-> 123 `c
+-> 98 `c
+-> 111 `c
+-> 120 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 98 `c
+-> 111 `c
+-> 120 `c
+-> 125 `c
+-> 98 `c
+-> 111 `c
+-> 100 `c
+-> 121 `c
+-> 123 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 58 `c
+-> 48 `c
+-> 59 `c
+-> 112 `c
+-> 97 `c
+-> 100 `c
+-> 100 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 49 `c
+-> 52 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 58 `c
+-> 49 `c
+-> 53 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 115 `c
+-> 121 `c
+-> 115 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 45 `c
+-> 117 `c
+-> 105 `c
+-> 44 `c
+-> 65 `c
+-> 114 `c
+-> 105 `c
+-> 97 `c
+-> 108 `c
+-> 44 `c
+-> 115 `c
+-> 97 `c
+-> 110 `c
+-> 115 `c
+-> 45 `c
+-> 115 `c
+-> 101 `c
+-> 114 `c
+-> 105 `c
+-> 102 `c
+-> 59 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 111 `c
+-> 114 `c
+-> 58 `c
+-> 35 `c
+-> 101 `c
+-> 101 `c
+-> 102 `c
+-> 51 `c
+-> 102 `c
+-> 102 `c
+-> 59 `c
+-> 98 `c
+-> 97 `c
+-> 99 `c
+-> 107 `c
+-> 103 `c
+-> 114 `c
+-> 111 `c
+-> 117 `c
+-> 110 `c
+-> 100 `c
+-> 58 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 97 `c
+-> 108 `c
+-> 45 `c
+-> 103 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 40 `c
+-> 99 `c
+-> 105 `c
+-> 114 `c
+-> 99 `c
+-> 108 `c
+-> 101 `c
+-> 32 `c
+-> 97 `c
+-> 116 `c
+-> 32 `c
+-> 50 `c
+-> 48 `c
+-> 37 `c
+-> 32 `c
+-> 48 `c
+-> 44 `c
+-> 35 `c
+-> 50 `c
+-> 97 `c
+-> 52 `c
+-> 97 `c
+-> 56 `c
+-> 97 `c
+-> 44 `c
+-> 35 `c
+-> 48 `c
+-> 101 `c
+-> 49 `c
+-> 55 `c
+-> 51 `c
+-> 48 `c
+-> 32 `c
+-> 55 `c
+-> 48 `c
+-> 37 `c
+-> 41 `c
+-> 32 `c
+-> 102 `c
+-> 105 `c
+-> 120 `c
+-> 101 `c
+-> 100 `c
+-> 59 `c
+-> 109 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 104 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 118 `c
+-> 104 `c
+-> 125 `c
+-> 109 `c
+-> 97 `c
+-> 105 `c
+-> 110 `c
+-> 123 `c
+-> 109 `c
+-> 97 `c
+-> 120 `c
+-> 45 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 58 `c
+-> 54 `c
+-> 52 `c
+-> 48 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 58 `c
+-> 97 `c
+-> 117 `c
+-> 116 `c
+-> 111 `c
+-> 125 `c
+-> 104 `c
+-> 49 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 50 `c
+-> 48 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 58 `c
+-> 48 `c
+-> 32 `c
+-> 48 `c
+-> 32 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 100 `c
+-> 105 `c
+-> 115 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 102 `c
+-> 108 `c
+-> 101 `c
+-> 120 `c
+-> 59 `c
+-> 106 `c
+-> 117 `c
+-> 115 `c
+-> 116 `c
+-> 105 `c
+-> 102 `c
+-> 121 `c
+-> 45 `c
+-> 99 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 58 `c
+-> 115 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 101 `c
+-> 45 `c
+-> 98 `c
+-> 101 `c
+-> 116 `c
+-> 119 `c
+-> 101 `c
+-> 101 `c
+-> 110 `c
+-> 59 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 103 `c
+-> 110 `c
+-> 45 `c
+-> 105 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 115 `c
+-> 58 `c
+-> 99 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 125 `c
+-> 46 `c
+-> 98 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 112 `c
+-> 97 `c
+-> 100 `c
+-> 100 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 53 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 49 `c
+-> 49 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 117 `c
+-> 115 `c
+-> 58 `c
+-> 57 `c
+-> 57 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 111 `c
+-> 114 `c
+-> 58 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 59 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 119 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 55 `c
+-> 48 `c
+-> 48 `c
+-> 125 `c
+-> 46 `c
+-> 104 `c
+-> 101 `c
+-> 114 `c
+-> 111 `c
+-> 123 `c
+-> 100 `c
+-> 105 `c
+-> 115 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 102 `c
+-> 108 `c
+-> 101 `c
+-> 120 `c
+-> 59 `c
+-> 103 `c
+-> 97 `c
+-> 112 `c
+-> 58 `c
+-> 49 `c
+-> 54 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 103 `c
+-> 110 `c
+-> 45 `c
+-> 105 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 115 `c
+-> 58 `c
+-> 99 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 59 `c
+-> 112 `c
+-> 97 `c
+-> 100 `c
+-> 100 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 49 `c
+-> 52 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 117 `c
+-> 115 `c
+-> 58 `c
+-> 49 `c
+-> 56 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 97 `c
+-> 99 `c
+-> 107 `c
+-> 103 `c
+-> 114 `c
+-> 111 `c
+-> 117 `c
+-> 110 `c
+-> 100 `c
+-> 58 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 49 `c
+-> 52 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 58 `c
+-> 49 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 115 `c
+-> 111 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 50 `c
+-> 50 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 98 `c
+-> 111 `c
+-> 116 `c
+-> 116 `c
+-> 111 `c
+-> 109 `c
+-> 58 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 125 `c
+-> 46 `c
+-> 98 `c
+-> 105 `c
+-> 103 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 52 `c
+-> 54 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 119 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 56 `c
+-> 48 `c
+-> 48 `c
+-> 59 `c
+-> 108 `c
+-> 105 `c
+-> 110 `c
+-> 101 `c
+-> 45 `c
+-> 104 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 49 `c
+-> 125 `c
+-> 46 `c
+-> 117 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 49 `c
+-> 56 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 111 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 116 `c
+-> 121 `c
+-> 58 `c
+-> 46 `c
+-> 55 `c
+-> 125 `c
+-> 46 `c
+-> 115 `c
+-> 117 `c
+-> 98 `c
+-> 123 `c
+-> 111 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 116 `c
+-> 121 `c
+-> 58 `c
+-> 46 `c
+-> 56 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 116 `c
+-> 111 `c
+-> 112 `c
+-> 58 `c
+-> 56 `c
+-> 112 `c
+-> 120 `c
+-> 125 `c
+-> 46 `c
+-> 103 `c
+-> 123 `c
+-> 100 `c
+-> 105 `c
+-> 115 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 103 `c
+-> 114 `c
+-> 105 `c
+-> 100 `c
+-> 59 `c
+-> 103 `c
+-> 114 `c
+-> 105 `c
+-> 100 `c
+-> 45 `c
+-> 116 `c
+-> 101 `c
+-> 109 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 116 `c
+-> 101 `c
+-> 45 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 117 `c
+-> 109 `c
+-> 110 `c
+-> 115 `c
+-> 58 `c
+-> 49 `c
+-> 102 `c
+-> 114 `c
+-> 32 `c
+-> 49 `c
+-> 102 `c
+-> 114 `c
+-> 59 `c
+-> 103 `c
+-> 97 `c
+-> 112 `c
+-> 58 `c
+-> 49 `c
+-> 48 `c
+-> 112 `c
+-> 120 `c
+-> 125 `c
+-> 46 `c
+-> 99 `c
+-> 123 `c
+-> 112 `c
+-> 97 `c
+-> 100 `c
+-> 100 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 117 `c
+-> 115 `c
+-> 58 `c
+-> 49 `c
+-> 52 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 97 `c
+-> 99 `c
+-> 107 `c
+-> 103 `c
+-> 114 `c
+-> 111 `c
+-> 117 `c
+-> 110 `c
+-> 100 `c
+-> 58 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 49 `c
+-> 50 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 58 `c
+-> 49 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 115 `c
+-> 111 `c
+-> 108 `c
+-> 105 `c
+-> 100 `c
+-> 32 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 102 `c
+-> 49 `c
+-> 99 `c
+-> 59 `c
+-> 109 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 58 `c
+-> 48 `c
+-> 125 `c
+-> 46 `c
+-> 108 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 49 `c
+-> 49 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 108 `c
+-> 101 `c
+-> 116 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 115 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 58 `c
+-> 46 `c
+-> 48 `c
+-> 56 `c
+-> 101 `c
+-> 109 `c
+-> 59 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 111 `c
+-> 114 `c
+-> 58 `c
+-> 35 `c
+-> 97 `c
+-> 57 `c
+-> 98 `c
+-> 98 `c
+-> 101 `c
+-> 54 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 98 `c
+-> 111 `c
+-> 116 `c
+-> 116 `c
+-> 111 `c
+-> 109 `c
+-> 58 `c
+-> 53 `c
+-> 112 `c
+-> 120 `c
+-> 125 `c
+-> 46 `c
+-> 118 `c
+-> 123 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 49 `c
+-> 55 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 119 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 55 `c
+-> 48 `c
+-> 48 `c
+-> 59 `c
+-> 111 `c
+-> 118 `c
+-> 101 `c
+-> 114 `c
+-> 102 `c
+-> 108 `c
+-> 111 `c
+-> 119 `c
+-> 45 `c
+-> 119 `c
+-> 114 `c
+-> 97 `c
+-> 112 `c
+-> 58 `c
+-> 97 `c
+-> 110 `c
+-> 121 `c
+-> 119 `c
+-> 104 `c
+-> 101 `c
+-> 114 `c
+-> 101 `c
+-> 125 `c
+-> 46 `c
+-> 119 `c
+-> 123 `c
+-> 103 `c
+-> 114 `c
+-> 105 `c
+-> 100 `c
+-> 45 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 117 `c
+-> 109 `c
+-> 110 `c
+-> 58 `c
+-> 49 `c
+-> 47 `c
+-> 51 `c
+-> 125 `c
+-> 46 `c
+-> 108 `c
+-> 101 `c
+-> 100 `c
+-> 123 `c
+-> 100 `c
+-> 105 `c
+-> 115 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 105 `c
+-> 110 `c
+-> 108 `c
+-> 105 `c
+-> 110 `c
+-> 101 `c
+-> 45 `c
+-> 98 `c
+-> 108 `c
+-> 111 `c
+-> 99 `c
+-> 107 `c
+-> 59 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 58 `c
+-> 49 `c
+-> 54 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 104 `c
+-> 101 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 49 `c
+-> 54 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 114 `c
+-> 100 `c
+-> 101 `c
+-> 114 `c
+-> 45 `c
+-> 114 `c
+-> 97 `c
+-> 100 `c
+-> 105 `c
+-> 117 `c
+-> 115 `c
+-> 58 `c
+-> 53 `c
+-> 48 `c
+-> 37 `c
+-> 59 `c
+-> 98 `c
+-> 97 `c
+-> 99 `c
+-> 107 `c
+-> 103 `c
+-> 114 `c
+-> 111 `c
+-> 117 `c
+-> 110 `c
+-> 100 `c
+-> 58 `c
+-> 35 `c
+-> 51 `c
+-> 52 `c
+-> 52 `c
+-> 54 `c
+-> 54 `c
+-> 98 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 45 `c
+-> 114 `c
+-> 105 `c
+-> 103 `c
+-> 104 `c
+-> 116 `c
+-> 58 `c
+-> 56 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 118 `c
+-> 101 `c
+-> 114 `c
+-> 116 `c
+-> 105 `c
+-> 99 `c
+-> 97 `c
+-> 108 `c
+-> 45 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 103 `c
+-> 110 `c
+-> 58 `c
+-> 109 `c
+-> 105 `c
+-> 100 `c
+-> 100 `c
+-> 108 `c
+-> 101 `c
+-> 125 `c
+-> 46 `c
+-> 111 `c
+-> 110 `c
+-> 123 `c
+-> 98 `c
+-> 97 `c
+-> 99 `c
+-> 107 `c
+-> 103 `c
+-> 114 `c
+-> 111 `c
+-> 117 `c
+-> 110 `c
+-> 100 `c
+-> 58 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 100 `c
+-> 52 `c
+-> 51 `c
+-> 98 `c
+-> 59 `c
+-> 98 `c
+-> 111 `c
+-> 120 `c
+-> 45 `c
+-> 115 `c
+-> 104 `c
+-> 97 `c
+-> 100 `c
+-> 111 `c
+-> 119 `c
+-> 58 `c
+-> 48 `c
+-> 32 `c
+-> 48 `c
+-> 32 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 35 `c
+-> 102 `c
+-> 102 `c
+-> 100 `c
+-> 52 `c
+-> 51 `c
+-> 98 `c
+-> 125 `c
+-> 46 `c
+-> 102 `c
+-> 123 `c
+-> 97 `c
+-> 110 `c
+-> 105 `c
+-> 109 `c
+-> 97 `c
+-> 116 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 58 `c
+-> 107 `c
+-> 32 `c
+-> 46 `c
+-> 52 `c
+-> 53 `c
+-> 115 `c
+-> 32 `c
+-> 105 `c
+-> 110 `c
+-> 102 `c
+-> 105 `c
+-> 110 `c
+-> 105 `c
+-> 116 `c
+-> 101 `c
+-> 125 `c
+-> 46 `c
+-> 115 `c
+-> 123 `c
+-> 97 `c
+-> 110 `c
+-> 105 `c
+-> 109 `c
+-> 97 `c
+-> 116 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 58 `c
+-> 107 `c
+-> 32 `c
+-> 49 `c
+-> 46 `c
+-> 56 `c
+-> 115 `c
+-> 32 `c
+-> 105 `c
+-> 110 `c
+-> 102 `c
+-> 105 `c
+-> 110 `c
+-> 105 `c
+-> 116 `c
+-> 101 `c
+-> 125 `c
+-> 46 `c
+-> 100 `c
+-> 123 `c
+-> 97 `c
+-> 110 `c
+-> 105 `c
+-> 109 `c
+-> 97 `c
+-> 116 `c
+-> 105 `c
+-> 111 `c
+-> 110 `c
+-> 45 `c
+-> 100 `c
+-> 101 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 46 `c
+-> 57 `c
+-> 115 `c
+-> 125 `c
+-> 64 `c
+-> 107 `c
+-> 101 `c
+-> 121 `c
+-> 102 `c
+-> 114 `c
+-> 97 `c
+-> 109 `c
+-> 101 `c
+-> 115 `c
+-> 32 `c
+-> 107 `c
+-> 123 `c
+-> 48 `c
+-> 37 `c
+-> 44 `c
+-> 52 `c
+-> 57 `c
+-> 37 `c
+-> 123 `c
+-> 111 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 116 `c
+-> 121 `c
+-> 58 `c
+-> 49 `c
+-> 125 `c
+-> 53 `c
+-> 48 `c
+-> 37 `c
+-> 44 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 37 `c
+-> 123 `c
+-> 111 `c
+-> 112 `c
+-> 97 `c
+-> 99 `c
+-> 105 `c
+-> 116 `c
+-> 121 `c
+-> 58 `c
+-> 46 `c
+-> 49 `c
+-> 50 `c
+-> 125 `c
+-> 125 `c
+-> 115 `c
+-> 118 `c
+-> 103 `c
+-> 123 `c
+-> 100 `c
+-> 105 `c
+-> 115 `c
+-> 112 `c
+-> 108 `c
+-> 97 `c
+-> 121 `c
+-> 58 `c
+-> 98 `c
+-> 108 `c
+-> 111 `c
+-> 99 `c
+-> 107 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 120 `c
+-> 45 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 58 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 37 `c
+-> 125 `c
+-> 46 `c
+-> 102 `c
+-> 116 `c
+-> 123 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 45 `c
+-> 97 `c
+-> 108 `c
+-> 105 `c
+-> 103 `c
+-> 110 `c
+-> 58 `c
+-> 99 `c
+-> 101 `c
+-> 110 `c
+-> 116 `c
+-> 101 `c
+-> 114 `c
+-> 59 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 58 `c
+-> 49 `c
+-> 50 `c
+-> 112 `c
+-> 120 `c
+-> 59 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 111 `c
+-> 114 `c
+-> 58 `c
+-> 35 `c
+-> 56 `c
+-> 101 `c
+-> 97 `c
+-> 50 `c
+-> 100 `c
+-> 49 `c
+-> 59 `c
+-> 109 `c
+-> 97 `c
+-> 114 `c
+-> 103 `c
+-> 105 `c
+-> 110 `c
+-> 58 `c
+-> 49 `c
+-> 52 `c
+-> 112 `c
+-> 120 `c
+-> 32 `c
+-> 48 `c
+-> 125 `c
+-> 60 `c
+-> 47 `c
+-> 115 `c
+-> 116 `c
+-> 121 `c
+-> 108 `c
+-> 101 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 104 `c
+-> 101 `c
+-> 97 `c
+-> 100 `c
+-> 62 `c
+-> 60 `c
+-> 98 `c
+-> 111 `c
+-> 100 `c
+-> 121 `c
+-> 62 `c
+-> 60 `c
+-> 109 `c
+-> 97 `c
+-> 105 `c
+-> 110 `c
+-> 62 `c
+-> 0 `c
+..
+]
+"373
+[v _P_CHART `Cuc ~T0 @X0 -> 395 `i s ]
+[i _P_CHART
+:U ..
+-> 60 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 32 `c
+-> 99 `c
+-> 108 `c
+-> 97 `c
+-> 115 `c
+-> 115 `c
+-> 61 `c
+-> 39 `c
+-> 99 `c
+-> 32 `c
+-> 119 `c
+-> 39 `c
+-> 62 `c
+-> 60 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 32 `c
+-> 99 `c
+-> 108 `c
+-> 97 `c
+-> 115 `c
+-> 115 `c
+-> 61 `c
+-> 39 `c
+-> 108 `c
+-> 39 `c
+-> 62 `c
+-> 66 `c
+-> 65 `c
+-> 84 `c
+-> 84 `c
+-> 69 `c
+-> 82 `c
+-> 89 `c
+-> 32 `c
+-> 86 `c
+-> 79 `c
+-> 76 `c
+-> 84 `c
+-> 65 `c
+-> 71 `c
+-> 69 `c
+-> 32 `c
+-> 45 `c
+-> 32 `c
+-> 76 `c
+-> 65 `c
+-> 83 `c
+-> 84 `c
+-> 32 `c
+-> 72 `c
+-> 79 `c
+-> 85 `c
+-> 82 `c
+-> 60 `c
+-> 47 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 62 `c
+-> 60 `c
+-> 115 `c
+-> 118 `c
+-> 103 `c
+-> 32 `c
+-> 118 `c
+-> 105 `c
+-> 101 `c
+-> 119 `c
+-> 66 `c
+-> 111 `c
+-> 120 `c
+-> 61 `c
+-> 39 `c
+-> 48 `c
+-> 32 `c
+-> 48 `c
+-> 32 `c
+-> 51 `c
+-> 48 `c
+-> 48 `c
+-> 32 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 119 `c
+-> 105 `c
+-> 100 `c
+-> 116 `c
+-> 104 `c
+-> 61 `c
+-> 39 `c
+-> 49 `c
+-> 48 `c
+-> 48 `c
+-> 37 `c
+-> 39 `c
+-> 62 `c
+-> 60 `c
+-> 108 `c
+-> 105 `c
+-> 110 `c
+-> 101 `c
+-> 32 `c
+-> 120 `c
+-> 49 `c
+-> 61 `c
+-> 39 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 120 `c
+-> 50 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 48 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 49 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 52 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 50 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 52 `c
+-> 39 `c
+-> 32 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 107 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 35 `c
+-> 50 `c
+-> 101 `c
+-> 99 `c
+-> 99 `c
+-> 55 `c
+-> 49 `c
+-> 39 `c
+-> 32 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 107 `c
+-> 101 `c
+-> 45 `c
+-> 100 `c
+-> 97 `c
+-> 115 `c
+-> 104 `c
+-> 97 `c
+-> 114 `c
+-> 114 `c
+-> 97 `c
+-> 121 `c
+-> 61 `c
+-> 39 `c
+-> 52 `c
+-> 32 `c
+-> 52 `c
+-> 39 `c
+-> 47 `c
+-> 62 `c
+-> 60 `c
+-> 108 `c
+-> 105 `c
+-> 110 `c
+-> 101 `c
+-> 32 `c
+-> 120 `c
+-> 49 `c
+-> 61 `c
+-> 39 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 120 `c
+-> 50 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 48 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 49 `c
+-> 61 `c
+-> 39 `c
+-> 50 `c
+-> 51 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 50 `c
+-> 61 `c
+-> 39 `c
+-> 50 `c
+-> 51 `c
+-> 39 `c
+-> 32 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 107 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 35 `c
+-> 101 `c
+-> 55 `c
+-> 52 `c
+-> 99 `c
+-> 51 `c
+-> 99 `c
+-> 39 `c
+-> 32 `c
+-> 115 `c
+-> 116 `c
+-> 114 `c
+-> 111 `c
+-> 107 `c
+-> 101 `c
+-> 45 `c
+-> 100 `c
+-> 97 `c
+-> 115 `c
+-> 104 `c
+-> 97 `c
+-> 114 `c
+-> 114 `c
+-> 97 `c
+-> 121 `c
+-> 61 `c
+-> 39 `c
+-> 52 `c
+-> 32 `c
+-> 52 `c
+-> 39 `c
+-> 47 `c
+-> 62 `c
+-> 60 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 32 `c
+-> 120 `c
+-> 61 `c
+-> 39 `c
+-> 50 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 61 `c
+-> 39 `c
+-> 51 `c
+-> 49 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 57 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 105 `c
+-> 108 `c
+-> 108 `c
+-> 61 `c
+-> 39 `c
+-> 35 `c
+-> 50 `c
+-> 101 `c
+-> 99 `c
+-> 99 `c
+-> 55 `c
+-> 49 `c
+-> 39 `c
+-> 62 `c
+-> 49 `c
+-> 51 `c
+-> 46 `c
+-> 56 `c
+-> 86 `c
+-> 32 `c
+-> 102 `c
+-> 108 `c
+-> 111 `c
+-> 97 `c
+-> 116 `c
+-> 60 `c
+-> 47 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 62 `c
+-> 60 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 32 `c
+-> 120 `c
+-> 61 `c
+-> 39 `c
+-> 50 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 61 `c
+-> 39 `c
+-> 50 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 57 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 105 `c
+-> 108 `c
+-> 108 `c
+-> 61 `c
+-> 39 `c
+-> 35 `c
+-> 101 `c
+-> 55 `c
+-> 52 `c
+-> 99 `c
+-> 51 `c
+-> 99 `c
+-> 39 `c
+-> 62 `c
+-> 49 `c
+-> 52 `c
+-> 46 `c
+-> 50 `c
+-> 86 `c
+-> 32 `c
+-> 116 `c
+-> 114 `c
+-> 105 `c
+-> 112 `c
+-> 60 `c
+-> 47 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 62 `c
+-> 0 `c
+..
+]
+"381
+[v _P_NODATA `Cuc ~T0 @X0 -> 98 `i s ]
+[i _P_NODATA
+:U ..
+-> 60 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 32 `c
+-> 120 `c
+-> 61 `c
+-> 39 `c
+-> 49 `c
+-> 53 `c
+-> 48 `c
+-> 39 `c
+-> 32 `c
+-> 121 `c
+-> 61 `c
+-> 39 `c
+-> 54 `c
+-> 53 `c
+-> 39 `c
+-> 32 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 45 `c
+-> 97 `c
+-> 110 `c
+-> 99 `c
+-> 104 `c
+-> 111 `c
+-> 114 `c
+-> 61 `c
+-> 39 `c
+-> 109 `c
+-> 105 `c
+-> 100 `c
+-> 100 `c
+-> 108 `c
+-> 101 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 111 `c
+-> 110 `c
+-> 116 `c
+-> 45 `c
+-> 115 `c
+-> 105 `c
+-> 122 `c
+-> 101 `c
+-> 61 `c
+-> 39 `c
+-> 49 `c
+-> 49 `c
+-> 39 `c
+-> 32 `c
+-> 102 `c
+-> 105 `c
+-> 108 `c
+-> 108 `c
+-> 61 `c
+-> 39 `c
+-> 35 `c
+-> 97 `c
+-> 57 `c
+-> 98 `c
+-> 98 `c
+-> 101 `c
+-> 54 `c
+-> 39 `c
+-> 62 `c
+-> 99 `c
+-> 111 `c
+-> 108 `c
+-> 108 `c
+-> 101 `c
+-> 99 `c
+-> 116 `c
+-> 105 `c
+-> 110 `c
+-> 103 `c
+-> 32 `c
+-> 100 `c
+-> 97 `c
+-> 116 `c
+-> 97 `c
+-> 46 `c
+-> 46 `c
+-> 46 `c
+-> 60 `c
+-> 47 `c
+-> 116 `c
+-> 101 `c
+-> 120 `c
+-> 116 `c
+-> 62 `c
+-> 0 `c
+..
+]
+"384
+[v _P_TAIL `Cuc ~T0 @X0 -> 81 `i s ]
+[i _P_TAIL
+:U ..
+-> 60 `c
+-> 47 `c
+-> 115 `c
+-> 118 `c
+-> 103 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 62 `c
+-> 60 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 32 `c
+-> 99 `c
+-> 108 `c
+-> 97 `c
+-> 115 `c
+-> 115 `c
+-> 61 `c
+-> 39 `c
+-> 102 `c
+-> 116 `c
+-> 39 `c
+-> 62 `c
+-> 114 `c
+-> 101 `c
+-> 102 `c
+-> 114 `c
+-> 101 `c
+-> 115 `c
+-> 104 `c
+-> 101 `c
+-> 115 `c
+-> 32 `c
+-> 101 `c
+-> 118 `c
+-> 101 `c
+-> 114 `c
+-> 121 `c
+-> 32 `c
+-> 51 `c
+-> 32 `c
+-> 115 `c
+-> 60 `c
+-> 47 `c
+-> 100 `c
+-> 105 `c
+-> 118 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 109 `c
+-> 97 `c
+-> 105 `c
+-> 110 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 98 `c
+-> 111 `c
+-> 100 `c
+-> 121 `c
+-> 62 `c
+-> 60 `c
+-> 47 `c
+-> 104 `c
+-> 116 `c
+-> 109 `c
+-> 108 `c
+-> 62 `c
+-> 0 `c
+..
+]
+"388
+[v _BuildPage `(v ~T0 @X0 1 sf ]
+"389
+{
+[e :U _BuildPage ]
+[f ]
+"390
+[v _ring `*Cuc ~T0 @X0 1 a ]
+[v _badge `*Cuc ~T0 @X0 1 a ]
+[v _arrow `*Cuc ~T0 @X0 1 a ]
+[v _safe_col `*Cuc ~T0 @X0 1 a ]
+[v _safe_txt `*Cuc ~T0 @X0 1 a ]
+"391
+[v _r1cls `*Cuc ~T0 @X0 1 a ]
+[v _r1txt `*Cuc ~T0 @X0 1 a ]
+[v _r2cls `*Cuc ~T0 @X0 1 a ]
+[v _r2txt `*Cuc ~T0 @X0 1 a ]
+"392
+[v _soc `ui ~T0 @X0 1 a ]
+[e = _soc -> _web_soc `ui ]
+"393
+[v _b10 `us ~T0 @X0 1 a ]
+[e = _b10 -> / + -> _web_vbat_mv `ui -> 5 `ui -> 10 `ui `us ]
+"394
+[v _dash `us ~T0 @X0 1 a ]
+[e = _dash -> / * -> _soc `ul -> -> 327 `ui `ul -> -> 100 `ui `ul `us ]
+"395
+[v _i `uc ~T0 @X0 1 a ]
+[v _idx `uc ~T0 @X0 1 a ]
+"396
+[v _n `i ~T0 @X0 1 a ]
+"398
+[e = _ring -> ? >= _soc -> 60 `ui : :s 1C ? >= _soc -> 30 `ui : :s 2C :s 3C `*Cuc ]
+"400
+[e $ ! != -> _web_fault `i -> 0 `i 2342  ]
+[e = _badge :s 4C ]
+[e $U 2343  ]
+"401
+[e :U 2342 ]
+[e $ ! != -> _web_no_charger `i -> 0 `i 2344  ]
+[e = _badge :s 5C ]
+[e $U 2345  ]
+"402
+[e :U 2344 ]
+[e $ ! && && == -> *U + &U _web_chg * -> -> -> 0 `i `ui `ux -> -> # *U &U _web_chg `ui `ux `ui -> 67 `ui == -> *U + &U _web_chg * -> -> -> 1 `i `ui `ux -> -> # *U &U _web_chg `ui `ux `ui -> 72 `ui == -> *U + &U _web_chg * -> -> -> 2 `i `ui `ux -> -> # *U &U _web_chg `ui `ux `ui -> 69 `ui 2346  ]
+[e = _badge :s 6C ]
+[e $U 2347  ]
+"403
+[e :U 2346 ]
+[e $ ! && != -> _web_charging `i -> 0 `i != -> _web_full `i -> 0 `i 2348  ]
+[e = _badge :s 7C ]
+[e $U 2349  ]
+"404
+[e :U 2348 ]
+[e $ ! != -> _web_charging `i -> 0 `i 2350  ]
+[e = _badge :s 8C ]
+[e $U 2351  ]
+"405
+[e :U 2350 ]
+[e = _badge :s 9C ]
+[e :U 2351 ]
+[e :U 2349 ]
+[e :U 2347 ]
+[e :U 2345 ]
+[e :U 2343 ]
+"407
+[e $ ! == -> *U + &U _web_trend * -> -> -> 0 `i `ui `ux -> -> # *U &U _web_trend `ui `ux `ui -> 85 `ui 2352  ]
+[e = _arrow :s 10C ]
+[e $U 2353  ]
+"408
+[e :U 2352 ]
+[e $ ! == -> *U + &U _web_trend * -> -> -> 0 `i `ui `ux -> -> # *U &U _web_trend `ui `ux `ui -> 68 `ui 2354  ]
+[e = _arrow :s 11C ]
+[e $U 2355  ]
+"409
+[e :U 2354 ]
+[e = _arrow :s 12C ]
+[e :U 2355 ]
+[e :U 2353 ]
+"411
+[e = _safe_col -> ? != -> _web_fault `i -> 0 `i : :s 13C :s 14C `*Cuc ]
+"412
+[e = _safe_txt -> ? != -> _web_fault `i -> 0 `i : :s 15C :s 16C `*Cuc ]
+"414
+[e $U 2357  ]
+{
+"415
+[e :U 2358 ]
+[e = _r1cls :s 17C ]
+[e = _r1txt :s 18C ]
+[e $U 2356  ]
+"416
+[e :U 2359 ]
+[e = _r1cls :s 19C ]
+[e = _r1txt :s 20C ]
+[e $U 2356  ]
+"417
+[e :U 2360 ]
+[e = _r1cls :s 21C ]
+[e = _r1txt :s 22C ]
+[e $U 2356  ]
+"418
+[e :U 2361 ]
+[e = _r1cls :s 23C ]
+[e = _r1txt :s 24C ]
+[e $U 2356  ]
+"419
+[e :U 2362 ]
+[e = _r1cls :s 25C ]
+[e = _r1txt :s 26C ]
+[e $U 2356  ]
+"420
+}
+[e $U 2356  ]
+[e :U 2357 ]
+[e [\ _web_led1 , $ -> 1 `i 2358
+ , $ -> 2 `i 2359
+ , $ -> 3 `i 2360
+ , $ -> 4 `i 2361
+ 2362 ]
+[e :U 2356 ]
+"421
+[e $U 2364  ]
+{
+"422
+[e :U 2365 ]
+[e = _r2cls :s 27C ]
+[e = _r2txt :s 28C ]
+[e $U 2363  ]
+"423
+[e :U 2366 ]
+[e = _r2cls :s 29C ]
+[e = _r2txt :s 30C ]
+[e $U 2363  ]
+"424
+[e :U 2367 ]
+[e = _r2cls :s 31C ]
+[e = _r2txt :s 32C ]
+[e $U 2363  ]
+"425
+[e :U 2368 ]
+[e = _r2cls :s 33C ]
+[e = _r2txt :s 34C ]
+[e $U 2363  ]
+"426
+}
+[e $U 2363  ]
+[e :U 2364 ]
+[e [\ _web_led2 , $ -> 1 `i 2365
+ , $ -> 3 `i 2366
+ , $ -> 5 `i 2367
+ 2368 ]
+[e :U 2363 ]
+"428
+[e ( _TxPrint (1 &U _P_HEAD ]
+"430
+[e = _n ( _sprintf (1 , , (. , &U _page_buf :s 35C _badge &U _web_chg ]
+"433
+[e ( _TxAppend (2 , -> &U _page_buf `*Cuc -> _n `us ]
+"435
+[e = _n ( _sprintf (1 , , , , , , , (. , &U _page_buf :s 36C _ring -> _dash `ui _soc / -> _b10 `ui -> 100 `ui % -> _b10 `ui -> 100 `ui _arrow &U _web_state ]
+"445
+[e ( _TxAppend (2 , -> &U _page_buf `*Cuc -> _n `us ]
+"447
+[e = _n ( _sprintf (1 , , , , , (. , &U _page_buf :s 37C &U _web_state ? != -> _web_charging `i -> 0 `i : :s 38C :s 39C ? != -> _web_full `i -> 0 `i : :s 40C :s 41C _safe_col _safe_txt ]
+"457
+[e ( _TxAppend (2 , -> &U _page_buf `*Cuc -> _n `us ]
+"459
+[e = _n ( _sprintf (1 , , , , (. , &U _page_buf :s 42C _r1cls _r1txt _r2cls _r2txt ]
+"464
+[e ( _TxAppend (2 , -> &U _page_buf `*Cuc -> _n `us ]
+"466
+[e ( _TxPrint (1 &U _P_CHART ]
+"467
+[e $ ! < -> _hist_count `ui -> 2 `ui 2369  ]
+{
+"468
+[e ( _TxPrint (1 &U _P_NODATA ]
+"469
+}
+[e $U 2370  ]
+[e :U 2369 ]
+{
+"470
+[e ( _TxPrint (1 :s 43C ]
+"471
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 2374  ]
+[e :U 2371 ]
+{
+"472
+[v _y `l ~T0 @X0 1 a ]
+"473
+[v _x `us ~T0 @X0 1 a ]
+"474
+[e = _idx -> % + - + -> _hist_head `ui -> 120 `ui -> _hist_count `ui -> _i `ui -> 120 `ui `uc ]
+"475
+[e = _y - -> -> 100 `i `l / * - -> *U + &U _hist * -> _idx `ux -> -> # *U &U _hist `ui `ux `l -> 11500 `l -> 100 `l -> 3500 `l ]
+"476
+[e $ ! < _y -> -> 0 `i `l 2375  ]
+[e = _y -> -> 0 `i `l ]
+[e :U 2375 ]
+"477
+[e $ ! > _y -> -> 100 `i `l 2376  ]
+[e = _y -> -> 100 `i `l ]
+[e :U 2376 ]
+"478
+[e = _x -> / * -> _i `ul -> -> 299 `ui `ul -> - -> _hist_count `ui -> 1 `ui `ul `us ]
+"479
+[e = _n ( _sprintf (1 , , (. , &U _page_buf :s 44C -> _x `ui -> _y `ui ]
+"480
+[e ( _TxAppend (2 , -> &U _page_buf `*Cuc -> _n `us ]
+"481
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 2374 ]
+[e $ < -> _i `i -> _hist_count `i 2371  ]
+[e :U 2372 ]
+}
+"482
+[e ( _TxPrint (1 :s 45C ]
+"483
+}
+[e :U 2370 ]
+"484
+[e ( _TxPrint (1 &U _P_TAIL ]
+"485
+[e :UE 2341 ]
+}
+"487
+[v _W5500_SendPage `(a ~T0 @X0 1 sf ]
+"488
+{
+[e :U _W5500_SendPage ]
+[f ]
+"489
+[v _tx_free `us ~T0 @X0 1 a ]
+[e = _tx_free -> -> 0 `i `us ]
+"490
+[v _timeout `ul ~T0 @X0 1 a ]
+"491
+[v _interrupt_status `uc ~T0 @X0 1 a ]
+"493
+[e = _send_stage -> -> 1 `i `uc ]
+"494
+{
+[e = _timeout -> -> -> 0 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2378  ]
+[e $U 2379  ]
+[e :U 2378 ]
+{
+"495
+[e = _tx_free ( _W5500_Read16Stable (2 , -> -> 32 `i `us -> -> 1 `i `uc ]
+"496
+[e = _last_tx_free _tx_free ]
+"497
+[e $ ! >= -> _tx_free `ui -> 6000 `ui 2381  ]
+[e $U 2379  ]
+[e :U 2381 ]
+"498
+}
+[e ++ _timeout -> -> -> 1 `i `l `ul ]
+[e $ < _timeout -> 50000 `ul 2378  ]
+[e :U 2379 ]
+}
+"499
+[e $ ! < -> _tx_free `ui -> 6000 `ui 2382  ]
+{
+"500
+[e = _send_stage -> -> 2 `i `uc ]
+"501
+[e ) -> -> 0 `i `a ]
+[e $UE 2377  ]
+"502
+}
+[e :U 2382 ]
+"504
+[e = _send_stage -> -> 3 `i `uc ]
+"505
+[e = _tx_ptr ( _W5500_Read16 (2 , -> -> 36 `i `us -> -> 1 `i `uc ]
+"506
+[e = _tx_len -> -> 0 `i `us ]
+"507
+[e ( _BuildPage ..  ]
+"508
+[e = _last_response_length _tx_len ]
+"509
+[e $ ! > -> _tx_len `ui -> _tx_free `ui 2383  ]
+{
+"510
+[e = _send_stage -> -> 9 `i `uc ]
+"511
+[e ) -> -> 0 `i `a ]
+[e $UE 2377  ]
+"512
+}
+[e :U 2383 ]
+"513
+[e ( _W5500_Write16 (3 , , -> -> 36 `i `us -> -> 1 `i `uc _tx_ptr ]
+"514
+[e ( _W5500_Write8 (3 , , -> -> 2 `i `us -> -> 1 `i `uc -> -> 255 `i `uc ]
+"515
+[e $ ! ! != -> ( _W5500_Command (1 -> -> 32 `i `uc `i -> 0 `i 2384  ]
+{
+"516
+[e = _send_stage -> -> 4 `i `uc ]
+"517
+[e ) -> -> 0 `i `a ]
+[e $UE 2377  ]
+"518
+}
+[e :U 2384 ]
+"520
+[e = _send_stage -> -> 5 `i `uc ]
+"521
+{
+[e = _timeout -> -> -> 0 `i `l `ul ]
+[e $ < _timeout -> 100000 `ul 2385  ]
+[e $U 2386  ]
+[e :U 2385 ]
+{
+"522
+[e = _interrupt_status ( _W5500_Read8 (2 , -> -> 2 `i `us -> -> 1 `i `uc ]
+"523
+[e $ ! != & -> _interrupt_status `i -> 8 `i -> 0 `i 2388  ]
+{
+"524
+[e ( _W5500_Write8 (3 , , -> -> 2 `i `us -> -> 1 `i `uc -> -> 8 `i `uc ]
+"525
+[e = _send_stage -> -> 6 `i `uc ]
+"526
+[e ) -> -> 0 `i `a ]
+[e $UE 2377  ]
+"527
+}
+[e :U 2388 ]
+"528
+[e $ ! != & -> _interrupt_status `i -> 16 `i -> 0 `i 2389  ]
+{
+"529
+[e ( _W5500_Write8 (3 , , -> -> 2 `i `us -> -> 1 `i `uc -> -> 16 `i `uc ]
+"530
+[e = _send_stage -> -> 7 `i `uc ]
+"531
+[e ) -> -> 1 `i `a ]
+[e $UE 2377  ]
+"532
+}
+[e :U 2389 ]
+"533
+}
+[e ++ _timeout -> -> -> 1 `i `l `ul ]
+[e $ < _timeout -> 100000 `ul 2385  ]
+[e :U 2386 ]
+}
+"534
+[e = _send_stage -> -> 8 `i `uc ]
+"535
+[e ) -> -> 0 `i `a ]
+[e $UE 2377  ]
+"536
+[e :UE 2377 ]
+}
+"540
+[v _W5500_HardReset `(a ~T0 @X0 1 sf1`uc ]
+"541
+{
+[e :U _W5500_HardReset ]
+"540
+[v _tries `uc ~T0 @X0 1 r1 ]
+"541
+[f ]
+"542
+[v F16942 `a ~T0 @X0 1 s spi_open ]
+[i F16942
+-> -> 0 `i `a
+]
+"543
+[v _v `uc ~T0 @X0 1 a ]
+[e = _v -> -> 0 `i `uc ]
+"544
+[v _t `uc ~T0 @X0 1 a ]
+"546
+[e $ ! ! != -> F16942 `i -> 0 `i 2391  ]
+{
+"547
+[e ( _SPI1_Open (1 -> -> 0 `i `uc ]
+"548
+[e = F16942 -> -> 1 `i `a ]
+"549
+}
+[e :U 2391 ]
+"550
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"552
+{
+[e = _t -> -> 0 `i `uc ]
+[e $U 2395  ]
+[e :U 2392 ]
+{
+"553
+[e = . . _LATDbits 0 5 -> -> 0 `i `uc ]
+"554
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"555
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"556
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"557
+[e ( _W5500_Read (4 , , , -> -> 57 `i `us -> -> 0 `i `uc &U _v -> -> 1 `i `us ]
+"558
+[e = _w5500_version _v ]
+"559
+[e $ ! == -> _v `i -> 4 `i 2396  ]
+[e ) -> -> 1 `i `a ]
+[e $UE 2390  ]
+[e :U 2396 ]
+"560
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"561
+}
+[e ++ _t -> -> 1 `i `uc ]
+[e :U 2395 ]
+[e $ < -> _t `i -> _tries `i 2392  ]
+[e :U 2393 ]
+}
+"562
+[e ) -> -> 0 `i `a ]
+[e $UE 2390  ]
+"563
+[e :UE 2390 ]
+}
+"565
+[v _W5500_InitializeAndConfigure `(v ~T0 @X0 1 sf1`uc ]
+"566
+{
+[e :U _W5500_InitializeAndConfigure ]
+"565
+[v _tries `uc ~T0 @X0 1 r1 ]
+"566
+[f ]
+"567
+[v _rb `uc ~T0 @X0 -> 6 `i a ]
+"568
+[v _ok `a ~T0 @X0 1 a ]
+"569
+[v _n `uc ~T0 @X0 1 a ]
+"571
+[e = _w5500_ok ( _W5500_HardReset (1 _tries ]
+"572
+[e = _cfg_ok -> -> 0 `i `a ]
+"573
+[e = _server_ready -> -> 0 `i `a ]
+"574
+[e $ ! ! != -> _w5500_ok `i -> 0 `i 2398  ]
+{
+"575
+[e ( _UART2_Print (1 :s 46C ]
+"576
+[e $UE 2397  ]
+"577
+}
+[e :U 2398 ]
+"581
+{
+[e = _n -> -> 1 `i `uc ]
+[e $ <= -> _n `i -> 7 `i 2399  ]
+[e $U 2400  ]
+[e :U 2399 ]
+{
+"582
+[v _bsb `uc ~T0 @X0 1 a ]
+[e = _bsb -> + -> 1 `ui * -> 4 `ui -> _n `ui `uc ]
+"583
+[e ( _W5500_Write8 (3 , , -> -> 30 `i `us _bsb -> -> 0 `i `uc ]
+"584
+[e ( _W5500_Write8 (3 , , -> -> 31 `i `us _bsb -> -> 0 `i `uc ]
+"585
+}
+[e ++ _n -> -> 1 `i `uc ]
+[e $ <= -> _n `i -> 7 `i 2399  ]
+[e :U 2400 ]
+}
+"586
+[e ( _W5500_Write8 (3 , , -> -> 30 `i `us -> -> 1 `i `uc -> -> 2 `i `uc ]
+"587
+[e ( _W5500_Write8 (3 , , -> -> 31 `i `us -> -> 1 `i `uc -> -> 16 `i `uc ]
+"589
+[e ( _W5500_Write (4 , , , -> -> 9 `i `us -> -> 0 `i `uc &U _cfg_mac -> -> 6 `i `us ]
+"590
+[e ( _W5500_Write (4 , , , -> -> 15 `i `us -> -> 0 `i `uc &U _cfg_ip -> -> 4 `i `us ]
+"591
+[e ( _W5500_Write (4 , , , -> -> 5 `i `us -> -> 0 `i `uc &U _cfg_sub -> -> 4 `i `us ]
+"592
+[e ( _W5500_Write (4 , , , -> -> 1 `i `us -> -> 0 `i `uc &U _cfg_gw -> -> 4 `i `us ]
+"594
+[e = _ok -> -> 1 `i `a ]
+"595
+[e ( _W5500_Read (4 , , , -> -> 9 `i `us -> -> 0 `i `uc &U _rb -> -> 6 `i `us ]
+"596
+[e = _ok -> -> && != -> _ok `i -> 0 `i != -> ( _W5500_Compare (3 , , -> &U _rb `*Cuc &U _cfg_mac -> -> 6 `i `uc `i -> 0 `i `i `a ]
+"597
+[e ( _W5500_Read (4 , , , -> -> 15 `i `us -> -> 0 `i `uc &U _rb -> -> 4 `i `us ]
+"598
+[e = _ok -> -> && != -> _ok `i -> 0 `i != -> ( _W5500_Compare (3 , , -> &U _rb `*Cuc &U _cfg_ip -> -> 4 `i `uc `i -> 0 `i `i `a ]
+"599
+[e = *U + &U _read_ip * -> -> -> 0 `i `ui `ux -> -> # *U &U _read_ip `ui `ux *U + &U _rb * -> -> -> 0 `i `ui `ux -> -> # *U &U _rb `ui `ux ]
+[e = *U + &U _read_ip * -> -> -> 1 `i `ui `ux -> -> # *U &U _read_ip `ui `ux *U + &U _rb * -> -> -> 1 `i `ui `ux -> -> # *U &U _rb `ui `ux ]
+"600
+[e = *U + &U _read_ip * -> -> -> 2 `i `ui `ux -> -> # *U &U _read_ip `ui `ux *U + &U _rb * -> -> -> 2 `i `ui `ux -> -> # *U &U _rb `ui `ux ]
+[e = *U + &U _read_ip * -> -> -> 3 `i `ui `ux -> -> # *U &U _read_ip `ui `ux *U + &U _rb * -> -> -> 3 `i `ui `ux -> -> # *U &U _rb `ui `ux ]
+"601
+[e ( _W5500_Read (4 , , , -> -> 5 `i `us -> -> 0 `i `uc &U _rb -> -> 4 `i `us ]
+"602
+[e = _ok -> -> && != -> _ok `i -> 0 `i != -> ( _W5500_Compare (3 , , -> &U _rb `*Cuc &U _cfg_sub -> -> 4 `i `uc `i -> 0 `i `i `a ]
+"603
+[e ( _W5500_Read (4 , , , -> -> 1 `i `us -> -> 0 `i `uc &U _rb -> -> 4 `i `us ]
+"604
+[e = _ok -> -> && != -> _ok `i -> 0 `i != -> ( _W5500_Compare (3 , , -> &U _rb `*Cuc &U _cfg_gw -> -> 4 `i `uc `i -> 0 `i `i `a ]
+"605
+[e = _cfg_ok _ok ]
+"606
+[e :UE 2397 ]
+}
+"609
+[v _W5500_WebServerTask `(v ~T0 @X0 1 sf ]
+"610
+{
+[e :U _W5500_WebServerTask ]
+[f ]
+"611
+[v _rb `uc ~T0 @X0 -> -> 1 `i `ux a ]
+"612
+[v _rx_size `us ~T0 @X0 1 a ]
+[v _rx_rd `us ~T0 @X0 1 a ]
+"613
+[v _status `uc ~T0 @X0 1 a ]
+"615
+[e ( _W5500_Read (4 , , , -> -> 46 `i `us -> -> 0 `i `uc &U _rb -> -> 1 `i `us ]
+"616
+[e = _phycfgr *U + &U _rb * -> -> -> 0 `i `ui `ux -> -> # *U &U _rb `ui `ux ]
+"617
+[e = _link_up -> -> != & -> *U + &U _rb * -> -> -> 0 `i `ui `ux -> -> # *U &U _rb `ui `ux `ui -> 1 `ui -> 0 `ui `i `a ]
+"621
+{
+"622
+[v _ip `uc ~T0 @X0 -> 4 `i a ]
+"623
+[e ( _W5500_Read (4 , , , -> -> 15 `i `us -> -> 0 `i `uc &U _ip -> -> 4 `i `us ]
+"624
+[e $ ! ! != -> ( _W5500_Compare (3 , , -> &U _ip `*Cuc &U _cfg_ip -> -> 4 `i `uc `i -> 0 `i 2403  ]
+{
+"625
+[e = _w5500_ok -> -> 0 `i `a ]
+"626
+[e = _server_ready -> -> 0 `i `a ]
+"627
+[e $UE 2402  ]
+"628
+}
+[e :U 2403 ]
+"629
+}
+"631
+[e = _status ( _W5500_Read8 (2 , -> -> 3 `i `us -> -> 1 `i `uc ]
+"632
+[e = _socket_status _status ]
+"634
+[e $ ! ! != -> _link_up `i -> 0 `i 2404  ]
+{
+"635
+[e = _server_ready -> -> 0 `i `a ]
+"636
+[e $UE 2402  ]
+"637
+}
+[e :U 2404 ]
+"639
+[e $ ! == -> _status `i -> 0 `i 2405  ]
+{
+"640
+[e = _server_ready ( _W5500_StartHttpServer ..  ]
+"641
+[e = _socket_status ( _W5500_Read8 (2 , -> -> 3 `i `us -> -> 1 `i `uc ]
+"642
+[e $UE 2402  ]
+"643
+}
+[e :U 2405 ]
+"645
+[e $ ! == -> _status `i -> 20 `i 2406  ]
+{
+"646
+[e = _server_ready -> -> 1 `i `a ]
+"647
+[e $UE 2402  ]
+"648
+}
+[e :U 2406 ]
+"650
+[e $ ! || == -> _status `i -> 23 `i == -> _status `i -> 28 `i 2407  ]
+{
+"651
+[e = _rx_size ( _W5500_Read16Stable (2 , -> -> 38 `i `us -> -> 1 `i `uc ]
+"652
+[e = _received_size _rx_size ]
+"654
+[e $ ! > -> _rx_size `ui -> 0 `ui 2408  ]
+{
+"655
+[e = _rx_rd ( _W5500_Read16 (2 , -> -> 40 `i `us -> -> 1 `i `uc ]
+"656
+[e ( _W5500_Write16 (3 , , -> -> 40 `i `us -> -> 1 `i `uc -> + -> _rx_rd `ui -> _rx_size `ui `us ]
+"657
+[e ( _W5500_Command (1 -> -> 64 `i `uc ]
+"658
+[e = _http_request_seen -> -> 1 `i `a ]
+"660
+[e = _send_ok -> -> 0 `i `a ]
+"661
+[e = _send_stage -> -> 0 `i `uc ]
+"662
+[e = _send_ok ( _W5500_SendPage ..  ]
+"663
+[e = _http_response_sent _send_ok ]
+"665
+[e ( _sprintf (1 , , , , , (. , &U _diagnostic :s 47C -> _rx_size `ui -> _last_response_length `ui -> _last_tx_free `ui -> _send_ok `ui -> _send_stage `ui ]
+"672
+[e ( _UART2_Print (1 -> &U _diagnostic `*Cuc ]
+"674
+[e $ ! != -> _send_ok `i -> 0 `i 2409  ]
+[e ( _W5500_Command (1 -> -> 8 `i `uc ]
+[e $U 2410  ]
+"675
+[e :U 2409 ]
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+[e :U 2410 ]
+"676
+[e = _server_ready -> -> 0 `i `a ]
+"677
+}
+[e $U 2411  ]
+[e :U 2408 ]
+[e $ ! == -> _status `i -> 28 `i 2412  ]
+{
+"678
+[e ( _W5500_Command (1 -> -> 16 `i `uc ]
+"679
+[e = _server_ready -> -> 0 `i `a ]
+"680
+}
+[e :U 2412 ]
+[e :U 2411 ]
+"681
+}
+[e :U 2407 ]
+"682
+[e :UE 2402 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"685
+[v _main `(v ~T0 @X0 1 ef ]
+"686
+{
+[e :U _main ]
+[f ]
+"687
+[v _chg `uc ~T0 @X0 -> 32 `i a ]
+"692
+[v _filt `ul ~T0 @X0 1 a ]
+[e = _filt -> -> -> 0 `i `l `ul ]
+"693
+[v _primed `uc ~T0 @X0 1 a ]
+[e = _primed -> -> 0 `i `uc ]
+"694
+[v _shown `us ~T0 @X0 1 a ]
+[e = _shown -> -> 0 `i `us ]
+"696
+[v _charging `uc ~T0 @X0 1 a ]
+[e = _charging -> -> 0 `i `uc ]
+"697
+[v _full `uc ~T0 @X0 1 a ]
+[e = _full -> -> 0 `i `uc ]
+"698
+[v _startup `us ~T0 @X0 1 a ]
+[e = _startup -> * -> 10 `ui -> 10 `ui `us ]
+"699
+[v _off_hold `us ~T0 @X0 1 a ]
+[e = _off_hold -> -> 0 `i `us ]
+"700
+[v _ov_count `uc ~T0 @X0 1 a ]
+[e = _ov_count -> -> 0 `i `uc ]
+"701
+[v _ov_latched `uc ~T0 @X0 1 a ]
+[e = _ov_latched -> -> 0 `i `uc ]
+"702
+[v _nofull_latched `uc ~T0 @X0 1 a ]
+[e = _nofull_latched -> -> 0 `i `uc ]
+"703
+[v _charge_ticks `ul ~T0 @X0 1 a ]
+[e = _charge_ticks -> -> -> 0 `i `l `ul ]
+"704
+[v _on_ticks `us ~T0 @X0 1 a ]
+[e = _on_ticks -> -> 0 `i `us ]
+"705
+[v _no_charger `uc ~T0 @X0 1 a ]
+[e = _no_charger -> -> 0 `i `uc ]
+"707
+[v _trend_timer `us ~T0 @X0 1 a ]
+[e = _trend_timer -> -> 0 `i `us ]
+"708
+[v _trend_ref `us ~T0 @X0 1 a ]
+[e = _trend_ref -> -> 0 `i `us ]
+"709
+[v _trend_init `uc ~T0 @X0 1 a ]
+[e = _trend_init -> -> 0 `i `uc ]
+"710
+[v _full_windows `uc ~T0 @X0 1 a ]
+[e = _full_windows -> -> 0 `i `uc ]
+"711
+[v _fall_windows `uc ~T0 @X0 1 a ]
+[e = _fall_windows -> -> 0 `i `uc ]
+"712
+[v _trend `c ~T0 @X0 1 a ]
+[e = _trend -> -> 0 `i `c ]
+"713
+[v _blink `uc ~T0 @X0 1 a ]
+[e = _blink -> -> 0 `i `uc ]
+"714
+[v _hist_timer `us ~T0 @X0 1 a ]
+[e = _hist_timer -> - * -> 30 `ui -> 10 `ui -> 1 `ui `us ]
+"715
+[v _w5500_retry `uc ~T0 @X0 1 a ]
+[e = _w5500_retry -> -> 0 `i `uc ]
+"717
+[e ( _SYSTEM_Initialize ..  ]
+"720
+[e = _ANSELA -> -> 1 `i `uc ]
+"721
+[e = _TRISA -> -> 1 `i `uc ]
+"722
+[e = _LATA -> -> 0 `i `uc ]
+"723
+[e = . . _ANSELBbits 0 0 -> -> 0 `i `uc ]
+"724
+[e = . . _TRISBbits 0 0 -> -> 0 `i `uc ]
+"725
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"726
+[e ( _Leds_Set (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"729
+[e = . . _ANSELDbits 0 4 -> -> 0 `i `uc ]
+"730
+[e = . . _ANSELDbits 0 5 -> -> 0 `i `uc ]
+"731
+[e = . . _TRISDbits 0 4 -> -> 0 `i `uc ]
+"732
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
+"733
+[e = . . _LATDbits 0 4 -> -> 1 `i `uc ]
+"734
+[e = . . _LATDbits 0 5 -> -> 1 `i `uc ]
+"737
+[e ( _UART2_Print (1 :s 48C ]
+"738
+[e ( _Leds_Set (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"739
+[e ( _Leds_Set (2 , -> -> 0 `i `uc -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"740
+[e ( _Leds_Set (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 400 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"741
+[e ( _Leds_Set (2 , -> -> 0 `i `uc -> -> 0 `i `uc ]
+"744
+[e ( _W5500_InitializeAndConfigure (1 -> -> 10 `i `uc ]
+"745
+[e ( _sprintf (1 , , , (. , &U _diagnostic :s 49C -> _w5500_version `ui -> _w5500_ok `ui -> _cfg_ok `ui ]
+"747
+[e ( _UART2_Print (1 -> &U _diagnostic `*Cuc ]
+"748
+[e ( _UART2_Print (1 :s 50C ]
+"750
+[e :U 2415 ]
+{
+"751
+[v _raw `us ~T0 @X0 1 a ]
+[e = _raw ( _adc_get_average ..  ]
+"752
+[v _fres `us ~T0 @X0 1 a ]
+[v _diff `us ~T0 @X0 1 a ]
+[v _result `us ~T0 @X0 1 a ]
+"753
+[v _pin_mv `ul ~T0 @X0 1 a ]
+"754
+[v _v_mv `l ~T0 @X0 1 a ]
+"755
+[v _vbat `us ~T0 @X0 1 a ]
+"756
+[v _nosense `uc ~T0 @X0 1 a ]
+"757
+[v _allowed `uc ~T0 @X0 1 a ]
+"758
+[v _on_charger `uc ~T0 @X0 1 a ]
+"759
+[v _soc `uc ~T0 @X0 1 a ]
+"760
+[v _state `*Cuc ~T0 @X0 1 a ]
+"761
+[v _trend_txt `*Cuc ~T0 @X0 1 a ]
+"762
+[v _ra1 `uc ~T0 @X0 1 a ]
+[e = _ra1 -> -> 0 `i `uc ]
+[v _ra2 `uc ~T0 @X0 1 a ]
+[e = _ra2 -> -> 0 `i `uc ]
+"763
+[v _led1_mode `uc ~T0 @X0 1 a ]
+[e = _led1_mode -> -> 0 `i `uc ]
+[v _led2_mode `uc ~T0 @X0 1 a ]
+[e = _led2_mode -> -> 0 `i `uc ]
+"766
+[e $ ! ! != -> _primed `i -> 0 `i 2417  ]
+{
+"767
+[e = _filt << -> _raw `ul -> 4 `i ]
+"768
+[e = _shown _raw ]
+"769
+[e = _primed -> -> 1 `i `uc ]
+"770
+}
+[e $U 2418  ]
+[e :U 2417 ]
+{
+"771
+[e = _filt + - _filt >> _filt -> 3 `i << -> _raw `ul -> 1 `i ]
+"772
+}
+[e :U 2418 ]
+"773
+[e = _fres -> >> _filt -> 4 `i `us ]
+"774
+[e = _diff -> ? > -> _fres `ui -> _shown `ui : -> -> - -> _fres `ui -> _shown `ui `us `ui -> -> - -> _shown `ui -> _fres `ui `us `ui `us ]
+"775
+[e $ ! > -> _diff `ui -> 3 `ui 2419  ]
+[e = _shown _fres ]
+[e :U 2419 ]
+"776
+[e = _result _shown ]
+"777
+[e $ ! > -> _result `ui -> 4095 `ui 2420  ]
+[e = _result -> -> 4095 `ui `us ]
+[e :U 2420 ]
+"779
+[e = _pin_mv / * -> _result `ul -> -> 3308 `ui `ul -> -> 4095 `ui `ul ]
+"780
+[e = _v_mv + -> / * / * _pin_mv -> + -> 19950 `ui -> 5620 `ui `ul -> -> 5620 `ui `ul -> -> 1000 `ui `ul -> -> 1000 `ui `ul `l -> -> 0 `i `l ]
+"782
+[e $ ! < _v_mv -> -> 0 `i `l 2421  ]
+[e = _v_mv -> -> 0 `i `l ]
+[e :U 2421 ]
+"783
+[e = _vbat -> _v_mv `us ]
+"784
+[e = _nosense -> -> < -> _vbat `ui -> 6000 `ui `i `uc ]
+"787
+[e $ ! > -> _vbat `ui -> 14900 `ui 2422  ]
+[e = _ov_latched -> -> 1 `i `uc ]
+[e :U 2422 ]
+"788
+[e $ ! > -> _vbat `ui -> 14200 `ui 2423  ]
+{
+"789
+[e $ ! < -> _ov_count `ui -> 255 `ui 2424  ]
+[e ++ _ov_count -> -> 1 `i `uc ]
+[e :U 2424 ]
+"790
+[e $ ! >= -> _ov_count `ui * -> 3 `ui -> 10 `ui 2425  ]
+[e = _ov_latched -> -> 1 `i `uc ]
+[e :U 2425 ]
+"791
+}
+[e $U 2426  ]
+[e :U 2423 ]
+{
+"792
+[e = _ov_count -> -> 0 `i `uc ]
+"793
+}
+[e :U 2426 ]
+"795
+[e $ ! && && != -> _charging `i -> 0 `i ! != -> _full `i -> 0 `i ! != -> _no_charger `i -> 0 `i 2427  ]
+{
+"796
+[e $ ! < _charge_ticks * * -> 24 `ul -> 3600 `ul -> -> 10 `ui `ul 2428  ]
+[e ++ _charge_ticks -> -> -> 1 `i `l `ul ]
+[e $U 2429  ]
+"797
+[e :U 2428 ]
+[e = _nofull_latched -> -> 1 `i `uc ]
+[e :U 2429 ]
+"798
+}
+[e $U 2430  ]
+[e :U 2427 ]
+[e $ ! != -> _full `i -> 0 `i 2431  ]
+{
+"799
+[e = _charge_ticks -> -> -> 0 `i `l `ul ]
+"800
+}
+[e :U 2431 ]
+[e :U 2430 ]
+"803
+[e = _allowed -> -> && && ! != -> _nosense `i -> 0 `i ! != -> _ov_latched `i -> 0 `i ! != -> _nofull_latched `i -> 0 `i `i `uc ]
+"804
+[e $ ! != -> _startup `ui -> -> 0 `i `ui 2432  ]
+[e -- _startup -> -> 1 `i `us ]
+[e :U 2432 ]
+"805
+[e $ ! ! != -> _allowed `i -> 0 `i 2433  ]
+{
+"806
+[e = _charging -> -> 0 `i `uc ]
+"807
+[e = _off_hold -> * -> 30 `ui -> 10 `ui `us ]
+"808
+}
+[e $U 2434  ]
+[e :U 2433 ]
+[e $ ! != -> _startup `ui -> -> 0 `i `ui 2435  ]
+{
+"809
+[e = _charging -> -> 0 `i `uc ]
+"810
+}
+[e $U 2436  ]
+[e :U 2435 ]
+[e $ ! != -> _off_hold `ui -> -> 0 `i `ui 2437  ]
+{
+"811
+[e -- _off_hold -> -> 1 `i `us ]
+"812
+[e = _charging -> -> 0 `i `uc ]
+"813
+}
+[e $U 2438  ]
+[e :U 2437 ]
+{
+"814
+[e = _charging -> -> 1 `i `uc ]
+"815
+}
+[e :U 2438 ]
+[e :U 2436 ]
+[e :U 2434 ]
+"816
+[e $ ! != -> _charging `i -> 0 `i 2439  ]
+[e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
+[e $U 2440  ]
+[e :U 2439 ]
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+[e :U 2440 ]
+"819
+[e $ ! ! != -> _trend_init `i -> 0 `i 2441  ]
+{
+"820
+[e = _trend_ref _vbat ]
+"821
+[e = _trend_init -> -> 1 `i `uc ]
+"822
+}
+[e :U 2441 ]
+"823
+[e $ ! >= -> =+ _trend_timer -> -> 1 `i `us `ui * -> 20 `ui -> 10 `ui 2442  ]
+{
+"824
+[v _d `s ~T0 @X0 1 a ]
+"825
+[e = _trend_timer -> -> 0 `i `us ]
+"826
+[e = _d -> - -> -> _vbat `s `i -> -> _trend_ref `s `i `s ]
+"827
+[e $ ! >= -> _d `i -> -> -> 15 `ui `s `i 2443  ]
+[e = _trend -> -> 1 `i `c ]
+[e $U 2444  ]
+"828
+[e :U 2443 ]
+[e $ ! <= -> _d `i -U -> -> -> 15 `ui `s `i 2445  ]
+[e = _trend -> -U -> 1 `i `c ]
+[e $U 2446  ]
+"829
+[e :U 2445 ]
+[e = _trend -> -> 0 `i `c ]
+[e :U 2446 ]
+[e :U 2444 ]
+"830
+[e = _trend_ref _vbat ]
+"831
+[e $ ! && != -> _charging `i -> 0 `i < -> _trend `i -> 0 `i 2447  ]
+{
+"832
+[e $ ! < -> _fall_windows `ui -> 255 `ui 2448  ]
+[e ++ _fall_windows -> -> 1 `i `uc ]
+[e :U 2448 ]
+"833
+}
+[e $U 2449  ]
+[e :U 2447 ]
+{
+"834
+[e = _fall_windows -> -> 0 `i `uc ]
+"835
+}
+[e :U 2449 ]
+"836
+[e $ ! && && != -> _charging `i -> 0 `i >= -> _vbat `ui -> 13600 `ui <= -> _trend `i -> 0 `i 2450  ]
+{
+"837
+[e $ ! < -> _full_windows `ui -> 2 `ui 2451  ]
+[e ++ _full_windows -> -> 1 `i `uc ]
+[e :U 2451 ]
+"838
+[e $ ! >= -> _full_windows `ui -> 2 `ui 2452  ]
+[e = _full -> -> 1 `i `uc ]
+[e :U 2452 ]
+"839
+}
+[e $U 2453  ]
+[e :U 2450 ]
+{
+"840
+[e = _full_windows -> -> 0 `i `uc ]
+"841
+}
+[e :U 2453 ]
+"842
+}
+[e :U 2442 ]
+"843
+[e $ ! || ! != -> _charging `i -> 0 `i < -> _vbat `ui -> 13400 `ui 2454  ]
+{
+"844
+[e = _full -> -> 0 `i `uc ]
+"845
+[e = _full_windows -> -> 0 `i `uc ]
+"846
+}
+[e :U 2454 ]
+"848
+[e $ ! != -> _charging `i -> 0 `i 2455  ]
+{
+"849
+[e $ ! < -> _on_ticks `ui -> 65535 `ui 2456  ]
+[e ++ _on_ticks -> -> 1 `i `us ]
+[e :U 2456 ]
+"850
+}
+[e $U 2457  ]
+[e :U 2455 ]
+{
+"851
+[e = _on_ticks -> -> 0 `i `us ]
+"852
+}
+[e :U 2457 ]
+"856
+[e = _no_charger -> -> && != -> _charging `i -> 0 `i || && && >= -> _on_ticks `ui * -> 60 `ui -> 10 `ui < -> _vbat `ui -> 13000 `ui <= -> _trend `i -> 0 `i >= -> _fall_windows `ui -> 2 `ui `i `uc ]
+"859
+[e $ ! != -> _no_charger `i -> 0 `i 2458  ]
+{
+"860
+[e = _full -> -> 0 `i `uc ]
+"861
+[e = _full_windows -> -> 0 `i `uc ]
+"862
+}
+[e :U 2458 ]
+"865
+[e = _on_charger -> -> && != -> _charging `i -> 0 `i ! != -> _no_charger `i -> 0 `i `i `uc ]
+"866
+[e = _soc ( _soc_from_mv (2 , _vbat _on_charger ]
+"867
+[e = _soc -> * / + -> _soc `ui -> 2 `ui -> 5 `ui -> 5 `ui `uc ]
+"870
+[e $ ! >= -> =+ _hist_timer -> -> 1 `i `us `ui * -> 30 `ui -> 10 `ui 2459  ]
+{
+"871
+[e = _hist_timer -> -> 0 `i `us ]
+"872
+[e = *U + &U _hist * -> _hist_head `ux -> -> # *U &U _hist `ui `ux _vbat ]
+"873
+[e = _hist_head -> % + -> _hist_head `ui -> 1 `ui -> 120 `ui `uc ]
+"874
+[e $ ! < -> _hist_count `ui -> 120 `ui 2460  ]
+[e ++ _hist_count -> -> 1 `i `uc ]
+[e :U 2460 ]
+"875
+}
+[e :U 2459 ]
+"878
+[e ++ _blink -> -> 1 `i `uc ]
+"879
+[e $ ! || || != -> _ov_latched `i -> 0 `i != -> _nofull_latched `i -> 0 `i != -> _nosense `i -> 0 `i 2461  ]
+{
+"880
+[e = _ra1 = _ra2 -> ? != & -> _blink `ui -> 2 `ui -> -> 0 `i `ui : -> 1 `ui -> 0 `ui `uc ]
+"881
+[e = _led1_mode -> -> 3 `i `uc ]
+"882
+[e = _led2_mode -> -> 3 `i `uc ]
+"883
+}
+[e $U 2462  ]
+[e :U 2461 ]
+[e $ ! != -> _no_charger `i -> 0 `i 2463  ]
+{
+"884
+[e = _ra1 -> ? != & -> _blink `ui -> 8 `ui -> -> 0 `i `ui : -> 1 `ui -> 0 `ui `uc ]
+"885
+[e = _ra2 -> ? != & -> _blink `ui -> 8 `ui -> -> 0 `i `ui : -> 0 `ui -> 1 `ui `uc ]
+"886
+[e = _led1_mode -> -> 4 `i `uc ]
+"887
+[e = _led2_mode -> -> 5 `i `uc ]
+"888
+}
+[e $U 2464  ]
+[e :U 2463 ]
+{
+"889
+[e $ ! > -> _trend `i -> 0 `i 2465  ]
+{
+"890
+[e = _ra1 -> ? != & -> _blink `ui -> 2 `ui -> -> 0 `i `ui : -> 1 `ui -> 0 `ui `uc ]
+"891
+[e = _led1_mode -> -> 1 `i `uc ]
+"892
+}
+[e $U 2466  ]
+[e :U 2465 ]
+[e $ ! < -> _trend `i -> 0 `i 2467  ]
+{
+"893
+[e = _ra1 -> ? != & -> _blink `ui -> 8 `ui -> -> 0 `i `ui : -> 1 `ui -> 0 `ui `uc ]
+"894
+[e = _led1_mode -> -> 2 `i `uc ]
+"895
+}
+[e :U 2467 ]
+[e :U 2466 ]
+"896
+[e $ ! || != -> _full `i -> 0 `i && ! != -> _charging `i -> 0 `i >= -> _soc `ui -> 100 `ui 2468  ]
+{
+"897
+[e = _ra2 -> -> 1 `ui `uc ]
+"898
+[e = _led2_mode -> -> 1 `i `uc ]
+"899
+}
+[e :U 2468 ]
+"900
+}
+[e :U 2464 ]
+[e :U 2462 ]
+"901
+[e ( _Leds_Set (2 , _ra1 _ra2 ]
+"904
+[e $ ! != -> _nosense `i -> 0 `i 2469  ]
+[e = _state :s 51C ]
+[e $U 2470  ]
+"905
+[e :U 2469 ]
+[e $ ! < -> _vbat `ui -> 10500 `ui 2471  ]
+[e = _state :s 52C ]
+[e $U 2472  ]
+"906
+[e :U 2471 ]
+[e $ ! < -> _vbat `ui -> 11800 `ui 2473  ]
+[e = _state :s 53C ]
+[e $U 2474  ]
+"907
+[e :U 2473 ]
+[e $ ! <= -> _vbat `ui -> 13200 `ui 2475  ]
+[e = _state :s 54C ]
+[e $U 2476  ]
+"908
+[e :U 2475 ]
+[e $ ! <= -> _vbat `ui -> 14200 `ui 2477  ]
+[e = _state -> ? && != -> _charging `i -> 0 `i ! != -> _no_charger `i -> 0 `i : :s 55C :s 56C `*Cuc ]
+[e $U 2478  ]
+"909
+[e :U 2477 ]
+[e = _state :s 57C ]
+[e :U 2478 ]
+[e :U 2476 ]
+[e :U 2474 ]
+[e :U 2472 ]
+[e :U 2470 ]
+"911
+[e $ ! != -> _nosense `i -> 0 `i 2479  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 58C ]
+[e $U 2480  ]
+"912
+[e :U 2479 ]
+[e $ ! != -> _ov_latched `i -> 0 `i 2481  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 59C ]
+[e $U 2482  ]
+"913
+[e :U 2481 ]
+[e $ ! != -> _nofull_latched `i -> 0 `i 2483  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 60C ]
+[e $U 2484  ]
+"914
+[e :U 2483 ]
+[e $ ! ! != -> _charging `i -> 0 `i 2485  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 61C ]
+[e $U 2486  ]
+"915
+[e :U 2485 ]
+[e $ ! != -> _no_charger `i -> 0 `i 2487  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 62C ]
+[e $U 2488  ]
+"916
+[e :U 2487 ]
+[e $ ! != -> _full `i -> 0 `i 2489  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 63C ]
+[e $U 2490  ]
+"917
+[e :U 2489 ]
+[e $ ! || > -> _trend `i -> 0 `i >= -> _vbat `ui -> 13000 `ui 2491  ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 64C ]
+[e $U 2492  ]
+"918
+[e :U 2491 ]
+[e ( _CopyText (3 , , &U _chg -> -> # _chg `ui `uc :s 65C ]
+[e :U 2492 ]
+[e :U 2490 ]
+[e :U 2488 ]
+[e :U 2486 ]
+[e :U 2484 ]
+[e :U 2482 ]
+[e :U 2480 ]
+"920
+[e = _trend_txt -> ? > -> _trend `i -> 0 `i : :s 66C ? < -> _trend `i -> 0 `i : :s 67C :s 68C `*Cuc ]
+"923
+[e = _web_vbat_mv _vbat ]
+"924
+[e = _web_soc _soc ]
+"925
+[e = _web_charging _charging ]
+"926
+[e = _web_full _full ]
+"927
+[e = _web_fault -> -> || || != -> _nosense `i -> 0 `i != -> _ov_latched `i -> 0 `i != -> _nofull_latched `i -> 0 `i `i `uc ]
+"928
+[e = _web_no_charger _no_charger ]
+"929
+[e = _web_led1 _led1_mode ]
+"930
+[e = _web_led2 _led2_mode ]
+"931
+[e ( _CopyText (3 , , &U _web_state -> -> # _web_state `ui `uc _state ]
+"932
+[e ( _CopyText (3 , , &U _web_chg -> -> # _web_chg `ui `uc -> &U _chg `*Cuc ]
+"933
+[e ( _CopyText (3 , , &U _web_trend -> -> # _web_trend `ui `uc _trend_txt ]
+"956
+[e $ ! || ! != -> _w5500_ok `i -> 0 `i ! != -> _cfg_ok `i -> 0 `i 2493  ]
+{
+"957
+[e $ ! >= -> =+ _w5500_retry -> -> 1 `i `uc `ui -> 30 `ui 2494  ]
+{
+"958
+[e = _w5500_retry -> -> 0 `i `uc ]
+"959
+[e ( _W5500_InitializeAndConfigure (1 -> -> 1 `i `uc ]
+"960
+}
+[e :U 2494 ]
+"961
+}
+[e $U 2495  ]
+[e :U 2493 ]
+{
+"962
+[e ( _W5500_WebServerTask ..  ]
+"963
+}
+[e :U 2495 ]
+"965
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 64000000 `ul `d .4000.0 `ul ]
+"966
+}
+[e :U 2414 ]
+[e $U 2415  ]
+[e :U 2416 ]
+"967
+[e :UE 2413 ]
+}
+[p f _sprintf 11830276 ]
+[a 26C 111 102 102 58 32 118 111 108 116 97 103 101 32 115 116 101 97 100 121 0 ]
+[a 12C 38 35 56 53 57 52 59 32 115 116 101 97 100 121 0 ]
+[a 19C 111 110 32 115 0 ]
+[a 23C 111 110 32 115 0 ]
+[a 27C 111 110 0 ]
+[a 18C 102 97 115 116 32 102 108 97 115 104 58 32 118 111 108 116 97 103 101 32 114 105 115 105 110 103 0 ]
+[a 10C 38 35 56 53 57 51 59 32 114 105 115 105 110 103 0 ]
+[a 20C 115 108 111 119 32 102 108 97 115 104 58 32 118 111 108 116 97 103 101 32 102 97 108 108 105 110 103 0 ]
+[a 11C 38 35 56 53 57 53 59 32 102 97 108 108 105 110 103 0 ]
+[a 34C 111 102 102 0 ]
+[a 2C 35 102 49 99 52 48 102 0 ]
+[a 17C 111 110 32 102 0 ]
+[a 21C 111 110 32 102 0 ]
+[a 29C 111 110 32 102 0 ]
+[a 28C 111 110 58 32 102 117 108 108 121 32 99 104 97 114 103 101 100 0 ]
+[a 31C 111 110 32 115 32 100 0 ]
+[a 3C 35 101 55 52 99 51 99 0 ]
+[a 4C 35 101 55 52 99 51 99 0 ]
+[a 8C 35 51 52 57 56 100 98 0 ]
+[a 9C 35 54 56 55 57 57 98 0 ]
+[a 13C 35 102 102 54 98 54 98 0 ]
+[a 68C 83 84 69 65 68 89 0 ]
+[a 53C 76 79 87 0 ]
+[a 22C 102 97 115 116 32 102 108 97 115 104 58 32 70 65 85 76 84 0 ]
+[a 30C 102 97 115 116 32 102 108 97 115 104 58 32 70 65 85 76 84 0 ]
+[a 15C 70 65 85 76 84 0 ]
+[a 61C 87 65 73 84 0 ]
+[a 41C 78 79 84 32 89 69 84 0 ]
+[a 63C 70 76 79 65 84 0 ]
+[a 40C 89 69 83 0 ]
+[a 62C 82 69 76 65 89 32 79 78 45 78 79 32 67 72 65 82 71 69 82 0 ]
+[a 24C 115 108 111 119 44 32 97 108 116 101 114 110 97 116 105 110 103 58 32 78 79 32 67 72 65 82 71 69 82 0 ]
+[a 32C 115 108 111 119 44 32 97 108 116 101 114 110 97 116 105 110 103 58 32 78 79 32 67 72 65 82 71 69 82 0 ]
+[a 65C 67 72 69 67 75 73 78 71 32 67 72 65 82 71 69 82 0 ]
+[a 66C 85 80 0 ]
+[a 67C 68 79 87 78 0 ]
+[a 38C 79 78 0 ]
+[a 16C 78 79 82 77 65 76 0 ]
+[a 54C 82 69 83 84 47 79 75 0 ]
+[a 60C 70 65 85 76 84 45 78 79 84 32 70 85 76 76 32 50 52 72 0 ]
+[a 55C 67 72 65 82 71 73 78 71 0 ]
+[a 64C 67 72 65 82 71 73 78 71 0 ]
+[a 39C 79 70 70 0 ]
+[a 58C 70 65 85 76 84 45 78 79 32 83 69 78 83 69 0 ]
+[a 51C 78 79 32 83 69 78 83 69 0 ]
+[a 52C 68 69 69 80 32 68 73 83 67 72 65 82 71 69 0 ]
+[a 56C 83 85 82 70 65 67 69 32 67 72 65 82 71 69 0 ]
+[a 57C 79 86 69 82 86 79 76 84 65 71 69 0 ]
+[a 59C 70 65 85 76 84 45 79 86 69 82 86 79 76 84 32 76 65 84 67 72 69 68 0 ]
+[a 37C 60 100 105 118 32 99 108 97 115 115 61 39 103 39 62 60 100 105 118 32 99 108 97 115 115 61 39 99 39 62 60 100 105 118 32 99 108 97 115 115 61 39 108 39 62 83 84 65 84 85 83 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 62 37 115 60 47 100 105 118 62 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 99 39 62 60 100 105 118 32 99 108 97 115 115 61 39 108 39 62 82 69 76 65 89 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 62 37 115 60 47 100 105 118 62 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 99 39 62 60 100 105 118 32 99 108 97 115 115 61 39 108 39 62 70 85 76 76 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 62 37 115 60 47 100 105 118 62 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 99 39 62 60 100 105 118 32 99 108 97 115 115 61 39 108 39 62 83 65 70 69 84 89 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 32 115 116 121 108 101 61 39 99 111 108 111 114 58 37 115 39 62 37 115 60 47 100 105 118 62 60 47 100 105 118 62 0 ]
+[a 42C 60 100 105 118 32 99 108 97 115 115 61 39 99 32 119 39 62 60 100 105 118 32 99 108 97 115 115 61 39 108 39 62 76 69 68 83 32 79 78 32 84 72 69 32 66 79 65 82 68 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 62 60 115 112 97 110 32 99 108 97 115 115 61 39 108 101 100 32 37 115 39 62 60 47 115 112 97 110 62 82 65 49 32 38 110 100 97 115 104 59 32 37 115 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 118 39 32 115 116 121 108 101 61 39 109 97 114 103 105 110 45 116 111 112 58 56 112 120 39 62 60 115 112 97 110 32 99 108 97 115 115 61 39 108 101 100 32 37 115 39 62 60 47 115 112 97 110 62 82 65 50 32 38 110 100 97 115 104 59 32 37 115 60 47 100 105 118 62 60 47 100 105 118 62 0 ]
+[a 36C 60 100 105 118 32 99 108 97 115 115 61 39 104 101 114 111 39 62 60 115 118 103 32 119 105 100 116 104 61 39 49 51 48 39 32 104 101 105 103 104 116 61 39 49 51 48 39 32 118 105 101 119 66 111 120 61 39 48 32 48 32 49 50 48 32 49 50 48 39 62 60 99 105 114 99 108 101 32 99 120 61 39 54 48 39 32 99 121 61 39 54 48 39 32 114 61 39 53 50 39 32 102 105 108 108 61 39 110 111 110 101 39 32 115 116 114 111 107 101 61 39 35 102 102 102 102 102 102 50 53 39 32 115 116 114 111 107 101 45 119 105 100 116 104 61 39 49 50 39 47 62 60 99 105 114 99 108 101 32 99 120 61 39 54 48 39 32 99 121 61 39 54 48 39 32 114 61 39 53 50 39 32 102 105 108 108 61 39 110 111 110 101 39 32 115 116 114 111 107 101 61 39 37 115 39 32 115 116 114 111 107 101 45 119 105 100 116 104 61 39 49 50 39 32 115 116 114 111 107 101 45 108 105 110 101 99 97 112 61 39 114 111 117 110 100 39 32 115 116 114 111 107 101 45 100 97 115 104 97 114 114 97 121 61 39 37 117 32 51 50 55 39 32 116 114 97 110 115 102 111 114 109 61 39 114 111 116 97 116 101 40 45 57 48 32 54 48 32 54 48 41 39 47 62 60 116 101 120 116 32 120 61 39 54 48 39 32 121 61 39 54 55 39 32 116 101 120 116 45 97 110 99 104 111 114 61 39 109 105 100 100 108 101 39 32 102 111 110 116 45 115 105 122 101 61 39 50 54 39 32 102 111 110 116 45 119 101 105 103 104 116 61 39 55 48 48 39 32 102 105 108 108 61 39 35 102 102 102 39 62 37 117 37 37 60 47 116 101 120 116 62 60 47 115 118 103 62 60 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 98 105 103 39 62 37 117 46 37 48 50 117 60 115 112 97 110 32 99 108 97 115 115 61 39 117 39 62 32 86 60 47 115 112 97 110 62 60 47 100 105 118 62 60 100 105 118 32 99 108 97 115 115 61 39 115 117 98 39 62 37 115 32 38 109 105 100 100 111 116 59 32 37 115 60 47 100 105 118 62 60 47 100 105 118 62 60 47 100 105 118 62 0 ]
+[a 35C 60 104 49 62 60 115 112 97 110 62 49 50 86 32 66 97 116 116 101 114 121 32 77 111 110 105 116 111 114 60 47 115 112 97 110 62 60 115 112 97 110 32 99 108 97 115 115 61 39 98 39 32 115 116 121 108 101 61 39 98 97 99 107 103 114 111 117 110 100 58 37 115 39 62 37 115 60 47 115 112 97 110 62 60 47 104 49 62 0 ]
+[a 45C 39 47 62 0 ]
+[a 5C 35 101 54 55 101 50 50 0 ]
+[a 6C 35 101 54 55 101 50 50 0 ]
+[a 1C 35 50 101 99 99 55 49 0 ]
+[a 7C 35 50 101 99 99 55 49 0 ]
+[a 14C 35 50 101 99 99 55 49 0 ]
+[a 43C 60 112 111 108 121 108 105 110 101 32 102 105 108 108 61 39 110 111 110 101 39 32 115 116 114 111 107 101 61 39 35 52 100 100 48 101 49 39 32 115 116 114 111 107 101 45 119 105 100 116 104 61 39 50 39 32 112 111 105 110 116 115 61 39 0 ]
+[a 44C 37 117 44 37 117 32 0 ]
+[a 49C 87 53 53 48 48 32 118 101 114 61 48 120 37 48 50 88 32 111 107 61 37 117 32 99 102 103 61 37 117 13 10 0 ]
+[a 47C 72 84 84 80 32 114 120 61 37 117 32 108 101 110 61 37 117 32 116 120 102 114 101 101 61 37 117 32 115 101 110 116 61 37 117 32 115 116 97 103 101 61 37 117 13 10 0 ]
+[a 50C 66 97 116 116 101 114 121 32 109 111 110 105 116 111 114 32 98 111 111 116 13 10 0 ]
+[a 48C 76 69 68 32 116 101 115 116 58 32 82 65 49 44 32 82 65 50 44 32 98 111 116 104 13 10 0 ]
+[a 46C 87 53 53 48 48 32 110 111 116 32 102 111 117 110 100 13 10 0 ]
+[a 25C 0 ]
+[a 33C 0 ]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="C:\Users\John Christie\MPLABProjects\maple_w5500_test\out\maple_w5500_test\default.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>18518</used>
+      <free>112554</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>1503</used>
+      <free>6689</free>
+    </memory>
+  </executable>
+</project>
